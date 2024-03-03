@@ -1,16 +1,22 @@
 ---
-import Footer from '@/components/Footer.astro';
-import Header from '@/components/Header.astro';
+import Footer from '@/sections/Footer.astro';
+import Header from '@/sections/Header.astro';
 
 interface Props {
 	title: string;
 }
 
 const { title } = Astro.props;
+
+import {getI18N} from '@/i18n'
+
+const {currentLocale} = Astro
+
+const i18n = getI18N({currentLocale})
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang={currentLocale}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Desarrollador Web especializado en crear experiencias digitales" />
@@ -31,6 +37,7 @@ const { title } = Astro.props;
 	}
 	html {
 		font-family: system-ui, sans-serif;
-		background: #13151a;
+		background: rgb(221,141,7);
+background: linear-gradient(180deg, rgba(221,141,7,1) 10%, rgba(160,31,242,1) 45%, rgba(3,35,123,1) 100%);
 	}
 </style>

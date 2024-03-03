@@ -1,16 +1,32 @@
+---
+import { Image } from "astro:assets";
+
+import { getI18N } from "@/i18n";
+
+const {currentLocale} = Astro;
+
+const i18n = getI18N({currentLocale})
+---
+
 <section>
   <div class="text-me">
-    <h3>Hi, my name is <strong>Mario Chico</strong></h3>
-    <h1>I'm a web developer</h1>
-    <p>Especialized on digital experiences. Skilled on the front-end and backend (How the website look like and the behaviour of it). Expert on make your dreams come true</p>
-    <button>Let's fucking do it</button>
+    <h3 set:html={i18n.ME_SUBTITLE}/>
+    <h1>{i18n.ME_TITLE}</h1>
+    <p>{i18n.ME_PARAGRAPH}</p>
+    <button>{i18n.ME_BTNTEXT}</button>
   </div>
-  <div class="photo-me"></div>
+  <div class="photo-me">
+    <Image src={"/Mario-2-removebg-preview.png"} alt={"Yo pues quien mas"} width={600} height={800} />
+  </div>
 </section>
 
 <style>
+  section {
+    display: flex;
+    flex-direction: row;
+  }
   .text-me {
-    width: 50%;
+    width: 100%;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -24,24 +40,30 @@
     font-size: 1rem;
     margin-bottom: 0;
     width: 100%;
+    text-align: center;
   }
   h1 {
     text-transform: uppercase;
     text-wrap: balance;
-    width: 100%;
     font-weight: 900;
-    font-size: 4.5rem;
+    font-size: 5.7rem;
     line-height: 1.2;
-    margin-top: 0;
+    margin-block: 10px;
+    text-align: center;
+    width: min-content;
   }
   p {
     text-wrap: pretty;
-    margin-top: 0;
+    width: 32.8rem;
   }
   button {
     background-color: orange;
   }
   button:hover {
     background-color: green;
+  }
+  .photo-me {
+    width: 100%;
+    height: 100vh;
   }
 </style>
