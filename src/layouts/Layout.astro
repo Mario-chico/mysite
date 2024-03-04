@@ -1,6 +1,8 @@
 ---
 import Footer from '@/sections/Footer.astro';
 import Header from '@/sections/Header.astro';
+// Supports weights 100-900
+import '@fontsource-variable/geologica';
 
 interface Props {
 	title: string;
@@ -22,7 +24,6 @@ const i18n = getI18N({currentLocale})
 		<meta name="description" content="Desarrollador Web especializado en crear experiencias digitales" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
 	<body>
@@ -35,9 +36,15 @@ const i18n = getI18N({currentLocale})
 	:root {
 		color-scheme: light dark;
 	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
 	html {
-		font-family: system-ui, sans-serif;
+		font-family: 'Geologica Variable', sans-serif;
 		background: rgb(221,141,7);
-background: linear-gradient(180deg, rgba(221,141,7,1) 10%, rgba(160,31,242,1) 45%, rgba(3,35,123,1) 100%);
+		background: linear-gradient(180deg, rgba(221,141,7,1) 10%, rgba(160,31,242,1) 45%, rgba(3,35,123,1) 100%);
 	}
 </style>
