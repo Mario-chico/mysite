@@ -30,11 +30,14 @@ const i18n = getI18N({currentLocale})
 		<Header />
 		<slot />
 		<Footer />
+		<script>
+			import '@/scripts/menu';
+		</script>
 	</body>
 </html>
 <style is:global>
 	:root {
-		color-scheme: light dark;
+		color-scheme: dark light;
 	}
 	* {
 		margin: 0;
@@ -44,7 +47,23 @@ const i18n = getI18N({currentLocale})
 
 	html {
 		font-family: 'Geologica Variable', sans-serif;
-		background: rgb(221,141,7);
-		background: linear-gradient(180deg, rgba(221,141,7,1) 10%, rgba(160,31,242,1) 45%, rgba(3,35,123,1) 100%);
+		
 	}
+
+	html.dark {
+  background-color: darkslategray;
+  color: #fff;
+}
+
+html.ligth {
+  background-color: yellow;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
+
+
 </style>
