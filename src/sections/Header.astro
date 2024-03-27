@@ -4,7 +4,17 @@ import Navigation from '@/components/Navigation.astro';
 import ThemeIcon from '@/components/ThemeIcon.astro';
 ---
 <header>
+  <ThemeIcon/>
   <Hamburger/>
   <Navigation/>
-  <ThemeIcon/>
 </header>
+
+<style>
+  header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 9px;
+    margin-top: 2px;
+  }
+</style>

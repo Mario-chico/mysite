@@ -8,13 +8,22 @@
   div {
   padding-right: 20px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  
 }
 
 span {
-  display: block;
   width: 40px;
   height: 5px;
-  margin-bottom: 10px;
   background-color: #ff9776;
+
+}
+@media screen and (min-width: 648px) {
+  div {
+    display: none;
+  }
 }
 </style>

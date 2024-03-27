@@ -10,9 +10,6 @@ const i18n = getI18N({currentLocale})
 ---
 
 <section>
-  <div class="photo-me">
-    <Image src={Mario} alt={"Yo pues quien mas"} loading={"eager"}  />
-  </div>
   <div class="cardboard">
     <Image src={Cartulina} height={300} alt={"Cartulina blanca"} loading={"eager"}/>
   </div>
@@ -20,7 +17,55 @@ const i18n = getI18N({currentLocale})
     <h3 set:html={i18n.ME_SUBTITLE}/>
     <h1>{i18n.ME_TITLE}</h1>
     <p set:html={i18n.ME_PARAGRAPH}></p>
-    <button>{i18n.ME_BTNTEXT}</button>
+    <div class="box">
+      <a class="button" href="#popup1">{i18n.ME_BTNTEXT}</a>
+    </div>
+  </div>
+  <div class="photo-me">
+    <Image src={Mario} alt={"Yo pues quien mas"} loading={"eager"}  />
+  </div>
+  <div id="popup1" class="overlay">
+    <div class="popup">
+      <h2>Welcome to CodeConvey!</h2>
+      <a class="close" href="#">&times;</a>
+      <div class="inside">
+        <section class="modal">
+          <h2>Payment information</h2>
+          <p>
+            <label for="card">
+              <span>Card type:</span>
+            </label>
+            <select id="card" name="usercard">
+              <option value="visa">Visa</option>
+              <option value="mc">Mastercard</option>
+              <option value="amex">American Express</option>
+            </select>
+          </p>
+          <p>
+            <label for="number">
+              <span>Card number:</span>
+              <strong><span aria-label="required">*</span></strong>
+            </label>
+            <input type="tel" id="number" name="cardnumber" required />
+          </p>
+          <p>
+            <label for="expiration">
+              <span>Expiration date:</span>
+              <strong><span aria-label="required">*</span></strong>
+            </label>
+            <input
+              type="text"
+              id="expiration"
+              name="expiration"
+              required
+              placeholder="MM/YY"
+              pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$" />
+          </p>
+          <button type="button">Enviar</button>
+        </section>
+        
+      </div>
+    </div>
   </div>
 </section>
 <div class="h-line"></div>
@@ -31,10 +76,13 @@ const i18n = getI18N({currentLocale})
     width: 100%;
     height: 96vh;
   }
+  .modal{
+    height: 40vh;
+  }
   .text-me {
     position: absolute;
     width: 100%;
-    top:49dvh;
+    top:52dvh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -74,12 +122,64 @@ const i18n = getI18N({currentLocale})
     
     max-width: 35ch;
   }
-  button {
-    background-color: orange;
-  }
-  button:hover {
-    background-color: green;
-  }
+  .button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.5s;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 30;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.popup h2 {
+  margin: 10px;
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 16px;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
   .photo-me {
     width: 100%;
     height: 96vh;
@@ -87,6 +187,7 @@ const i18n = getI18N({currentLocale})
     z-index: 0;
     display: flex;
     justify-content: center;
+    margin-top: 6em;
   }
   .photo-me > img {
     width: inherit;
@@ -95,7 +196,7 @@ const i18n = getI18N({currentLocale})
   .cardboard {
     position: absolute;
     width: 100%;
-    top: 50dvh;
+    top: 53dvh;
     z-index: 10;
     display: flex;
     justify-content: center;
@@ -111,33 +212,50 @@ const i18n = getI18N({currentLocale})
     height: 2px;
     background-color: grey;
   }
+  .popup .inside {
+  max-height: 30%;
+  overflow: auto;
+}
 
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
 
+  @media screen and (min-width: 768px) {
+
+  }
   @media screen and (min-width: 1024px) {
     section {
       display: flex;
       flex-direction: row;
     }
     .text-me {
+      position: relative;
       width: 100%;
-      height: 80vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      height: 96vh;
       align-items: center;
       margin-top: 2em;
       padding: 3rem;
+      top:0;
     }
     h1 {
-      font-size: 5.7rem;
+      font-size: 4rem;
       line-height: 1.2;
       margin-block: 10px;
-    }
-    
+    } 
     .photo-me {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .cardboard {
+      display: none;
+    }
   }
 </style>
