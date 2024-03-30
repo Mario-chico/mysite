@@ -25,6 +25,15 @@ const i18n = getI18N({currentLocale})
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
+		<script is:inline>
+			window.getThemePreference = () => {
+				const localItem = typeof localStorage !== 'undefined' && localStorage.getItem('theme') 
+				if(localItem) return localItem
+				return window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light"
+			}
+			const isDark = window.getThemePreference() === "dark";
+			document.documentElement.classList.toggle("dark", isDark);
+		</script>
 	</head>
 	<body>
 		<Header />
@@ -37,33 +46,55 @@ const i18n = getI18N({currentLocale})
 </html>
 <style is:global>
 	:root {
-		color-scheme: dark light;
+		color-scheme: light dark;
+		--color-primary: #ddd;
+		--color-secondary: #333;
+
+		--background-color: #333;
 	}
 	* {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
 	}
+	.dark {
+		color: var(--color-primary);
+		background-color: var(--background-color);
+	}
 
 	html {
 		font-family: 'Geologica Variable', sans-serif;
-		
+		background-color: #bbb;
 	}
 
-	html.dark {
-  background-color: darkslategray;
-  color: #fff;
-}
-
-html.ligth {
-  background-color: yellow;
-  color: #fff;
-}
 
 .dark .nav-links a {
-  color: #fff;
+  color: red;
+	font-weight: bolder;
 }
-
-
+.dark .moon {
+    position: absolute;
+    opacity: 1;
+    transform: rotate(90deg);
+    transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+	color: red;
+  }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* Hiding class, making content visible only to screen readers but not visually */
+	/* "sr" meaning "screen-reader" */
+	.sr-only:not(:focus):not(:active) {
+		clip: rect(0 0 0 0);
+		clip-path: inset(50%);
+		height: 1px;
+		overflow: hidden;
+		position: absolute;
+		white-space: nowrap;
+		width: 1px;
+	}
 
 </style>

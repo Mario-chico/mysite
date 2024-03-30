@@ -10,8 +10,8 @@
   width: 100%;
   top: 5rem;
   left: 48px;
-  display: none;
   margin: 0;
+  opacity: 0;
 }
 
  a {
@@ -26,7 +26,10 @@
 
 
 .expanded{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  opacity: 1;
 }
 
 @media screen and (min-width: 648px) {
@@ -37,6 +40,7 @@
     width: max-content;
     margin-inline: auto;
     gap: 50px;
+    opacity: 1;
   }
   a {
     color: white;
