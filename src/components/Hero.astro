@@ -10,9 +10,6 @@ const i18n = getI18N({currentLocale})
 ---
 
 <section>
-  <div class="cardboard">
-    <Image src={Cartulina} height={300} alt={"Cartulina blanca"} loading={"eager"}/>
-  </div>
   <div class="text-me">
     <h3 set:html={i18n.ME_SUBTITLE}/>
     <h1>{i18n.ME_TITLE}</h1>
@@ -22,7 +19,7 @@ const i18n = getI18N({currentLocale})
     </div>
   </div>
   <div class="photo-me">
-    <Image src={Mario} alt={"Yo pues quien mas"} loading={"eager"}  />
+    <img src="/Mario-2-removebg-preview.png" alt="">
   </div>
   <div id="popup1" class="overlay">
     <div class="popup">
@@ -76,9 +73,6 @@ const i18n = getI18N({currentLocale})
     width: 100%;
     height: 96vh;
   }
-  .modal{
-    height: 40vh;
-  }
   .text-me {
     position: absolute;
     width: 100%;
@@ -89,7 +83,7 @@ const i18n = getI18N({currentLocale})
     justify-content: center;
     align-items: center;
     z-index: 20;
-    color: black;
+    color: var(--color-primary);
     padding: 1em;
   }
   h3 {
@@ -135,6 +129,23 @@ const i18n = getI18N({currentLocale})
 .button:hover {
   background: #06D85F;
 }
+
+.photo-me {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+  }
+
+  .photo-me img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .modal{
+    height: 40vh;
+  }
 .overlay {
   position: fixed;
   top: 0;
@@ -180,33 +191,6 @@ const i18n = getI18N({currentLocale})
 .popup .close:hover {
   color: #06D85F;
 }
-  .photo-me {
-    width: 100%;
-    height: 96vh;
-    position: absolute;
-    z-index: 0;
-    display: flex;
-    justify-content: center;
-    margin-top: 6em;
-  }
-  .photo-me > img {
-    width: inherit;
-    max-width: 408px;
-  }
-  .cardboard {
-    position: absolute;
-    width: 100%;
-    top: 53dvh;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    
-  }
-  .cardboard > img {
-    width: 100vw;
-    max-width: 408px;
-  }
-
   .h-line {
     width: 100%;
     height: 2px;

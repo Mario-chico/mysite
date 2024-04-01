@@ -46,34 +46,37 @@ const i18n = getI18N({currentLocale})
 </html>
 <style is:global>
 	:root {
-		--color-primary: #ddd;
-		--color-secondary: #333;
-
-		--background-color: #333;
+		--title-color: #FDA65D;
+		--tex-color: #FFD07F;
+		--background-color: #E26A2C;
+		--accent-color:#FF8243;
+		color-scheme: dark light;
 	}
+	.dark {
+		--title-color: #6D5D6E;
+		--tex-color: #F4EEE0;
+		--background-color: #393646;
+		--accent-color:#4F4557;
+	} 
 	* {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
 	}
-	.dark {
-		color: var(--color-primary);
-		background-color: var(--background-color);
-	}
-
 	html {
 		font-family: 'Geologica Variable', sans-serif;
-		background-color: #bbb;
+		color: var(--tex-color);
+		background-color: var(--background-color);
+	}
+	h1, h2, h3, h4, h5, h6 {
+		color: var(--title-color);
 	}
 
+	p, a {
+		color: var(--tex-color);
+	}
 
-.dark .nav-links a {
-	font-weight: bolder;
-}
-.dark p{
-	color: white;
-}
-.moon {
+	.moon {
     opacity: 0;
 		position: absolute;
 		transform: rotate(90deg);
@@ -86,7 +89,7 @@ const i18n = getI18N({currentLocale})
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 		transition-duration: 500ms;
 	}
-.dark .moon {
+	.dark .moon {
     position: absolute;
     opacity: 1;
     transform: rotate(0deg);
@@ -98,10 +101,10 @@ const i18n = getI18N({currentLocale})
 		transform: rotate(90deg);
 		opacity: 0;
 	}
-a {
-  text-decoration: none;
-  color: inherit;
-}
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
 /* Hiding class, making content visible only to screen readers but not visually */
 	/* "sr" meaning "screen-reader" */
 	.sr-only:not(:focus):not(:active) {
