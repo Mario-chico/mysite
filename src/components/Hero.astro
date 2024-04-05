@@ -10,16 +10,14 @@ const i18n = getI18N({currentLocale})
 ---
 
 <section>
+    <img src="/Mario-2-removebg-preview.png" alt="">
   <div class="text-me">
     <h3 set:html={i18n.ME_SUBTITLE}/>
-    <h1>{i18n.ME_TITLE}</h1>
+    <h1 class="me-title">{i18n.ME_TITLE}</h1>
     <p set:html={i18n.ME_PARAGRAPH}></p>
     <div class="box">
       <a class="button" href="#popup1">{i18n.ME_BTNTEXT}</a>
     </div>
-  </div>
-  <div class="photo-me">
-    <img src="/Mario-2-removebg-preview.png" alt="">
   </div>
   <div id="popup1" class="overlay">
     <div class="popup">
@@ -70,19 +68,27 @@ const i18n = getI18N({currentLocale})
 <style>
   section {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 96vh;
+    height: 100dvh;
   }
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
   .text-me {
-    position: absolute;
     width: 100%;
-    top:52dvh;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 20;
     color: var(--color-primary);
     padding: 1em;
   }
@@ -93,20 +99,18 @@ const i18n = getI18N({currentLocale})
     text-align: center;
     
   }
-  h1 {
+  .me-title {
     text-transform: uppercase;
     text-wrap: balance;
     font-weight: 900;
     font-size: 2.1rem;
     line-height: 1.2;
-    margin-block: 5px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 15px;
-    background: rgb(221,141,7);
-		background: linear-gradient(90deg, rgba(221,141,7,1) 10%, rgba(160,31,242,1) 45%, rgba(3,35,123,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+		background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   p {
     text-wrap: pretty;
@@ -130,18 +134,6 @@ const i18n = getI18N({currentLocale})
   background: #06D85F;
 }
 
-.photo-me {
-    
-    display: flex;
-    justify-content: center;
-    margin-top: 6em;
-  }
-
-  .photo-me img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }
 
   .modal{
     height: 40vh;

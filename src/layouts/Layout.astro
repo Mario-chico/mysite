@@ -46,17 +46,19 @@ const i18n = getI18N({currentLocale})
 </html>
 <style is:global>
 	:root {
-		--title-color: #FDA65D;
-		--tex-color: #FFD07F;
-		--background-color: #E26A2C;
+		--title-color: #000000;
+		--tex-color: #01014B; 
+		--background-color: #FFD07F;
 		--accent-color:#FF8243;
+		--gradient-color: linear-gradient(90deg, rgb(31, 30, 29) 10%, rgb(124, 48, 179) 45%, rgb(21, 187, 77) 100%);
 		color-scheme: dark light;
 	}
 	.dark {
-		--title-color: #6D5D6E;
-		--tex-color: #F4EEE0;
+		--title-color: #e7ff50;
+		--tex-color: #f2f2f2;
 		--background-color: #393646;
 		--accent-color:#4F4557;
+		--gradient-color: linear-gradient(90deg, rgb(231, 255, 80) 0%, rgb(213, 226, 122) 15%, rgb(242, 242, 242) 100%);
 	} 
 	* {
 		margin: 0;
@@ -116,5 +118,7 @@ const i18n = getI18N({currentLocale})
 		white-space: nowrap;
 		width: 1px;
 	}
+
+	
 
 </style>

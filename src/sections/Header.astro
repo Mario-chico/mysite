@@ -37,6 +37,9 @@ import ThemeIcon from '@/components/ThemeIcon.astro';
 <style>
   #nav-menu {
   border-bottom: 1px solid #eeeeee;
+  position: fixed;
+  width: 100dvw;
+  z-index: 10000;
 }
   .container {
   display: flex;
@@ -45,7 +48,7 @@ import ThemeIcon from '@/components/ThemeIcon.astro';
   max-width: 1600px;
   margin: 0 auto;
   column-gap: 2rem;
-  height: 90px;
+  height: 8dvh;
   padding: 1.2rem 3rem;
 }
 .logo {
@@ -80,8 +83,7 @@ import ThemeIcon from '@/components/ThemeIcon.astro';
   }
 
   .container {
-    padding: 1.2rem;
-    margin-right: 3rem;
+    padding: 0.7rem;
   }
 
   .menu {
