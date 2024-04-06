@@ -1,25 +1,47 @@
-<div class="hamburger">
-  <span ></span>
-  <span ></span>
-  <span ></span>
+<div >
+  <span class="l1 "></span>
+  <span class="l2 "></span>
+  <span class="l3 "></span>
+  <span class="clear"></span>
 </div>
 
 <style>
   div {
-  padding-right: 20px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  height: inherit;
   gap: 5px;
-  z-index: 90;
 }
 
 span {
-  width: 40px;
+  width: 30px;
   height: 3px;
-  background-color: #ff9776;
+  background-color: var(--burger-color);
+  transition: all 400ms cubic-bezier(.84,.06,.52,1.8);
+}
+span:nth-child(1){
+  animation-delay: 100ms;
+  
+}
 
+span:nth-child(3){
+  animation-delay: 100ms;
+}
+.a {
+  transform: translateY(9px) rotate(45deg);
+}
+.b {
+ opacity: 0;
+}
+.c {
+  transform: translateY(-7px) rotate(-45deg);
+}
+.clear {
+  clear: both;
+  display: none;
 }
 @media screen and (min-width: 648px) {
   div {

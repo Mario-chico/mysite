@@ -12,6 +12,16 @@ function toggleHamburger() {
       "aria-expanded",
       hamburgerBtn.getAttribute("aria-expanded") === "false" ? "true" : "false"
   );
+  hamburguerAnimation();
+}
+
+const lineA = document.querySelector('.l1');
+const lineB = document.querySelector('.l2');
+const lineC = document.querySelector('.l3');
+function hamburguerAnimation() {
+  lineA?.classList.toggle("a");
+  lineB?.classList.toggle("b");
+  lineC?.classList.toggle("c");
 }
 
 hamburgerBtn?.addEventListener("click", toggleHamburger)
