@@ -33,6 +33,7 @@ const i18n = getI18N({currentLocale})
 			}
 			const isDark = window.getThemePreference() === "dark";
 			document.documentElement.classList.toggle("dark", isDark);
+			console.log("En el layout");
 		</script>
 	</head>
 	<body>
@@ -90,6 +91,7 @@ const i18n = getI18N({currentLocale})
     transition-property: transform;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 		transition-duration: 500ms;
+		opacity: 1;
 	}
 	.dark .moon {
     position: absolute;
