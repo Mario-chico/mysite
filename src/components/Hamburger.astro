@@ -1,11 +1,21 @@
-<div >
-  <span class="l1 "></span>
-  <span class="l2 "></span>
-  <span class="l3 "></span>
-  <span class="clear"></span>
-</div>
-
+<button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+  <div >
+    <span class="l1 "></span>
+    <span class="l2 "></span>
+    <span class="l3 "></span>
+    <span class="clear"></span>
+  </div>
+</button>
 <style>
+  
+#hamburger {
+  display: block;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  background: transparent;
+  border: none;
+}
   div {
   cursor: pointer;
   display: flex;
@@ -43,9 +53,13 @@ span:nth-child(3){
   clear: both;
   display: none;
 }
-@media screen and (min-width: 648px) {
-  div {
-    display: none;
+
+@media (min-width: 600px) {
+  #hamburger {
+  display: none;
+  padding: 0.1rem;
+  margin-left: 1rem;
+  font-size: 1.9rem;
   }
 }
 

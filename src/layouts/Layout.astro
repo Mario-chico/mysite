@@ -73,12 +73,17 @@ const i18n = getI18N({currentLocale})
 		color: var(--tex-color);
 		background-color: var(--background-color);
 	}
+	body.show{
+		overflow: hidden;
+	}
 	h1, h2, h3, h4, h5, h6 {
 		color: var(--title-color);
 	}
 
 	p, a {
 		color: var(--tex-color);
+		
+		text-decoration: none;
 	}
 
 	.moon {
@@ -106,10 +111,6 @@ const i18n = getI18N({currentLocale})
 	.dark .sun {
 		transform: rotate(90deg);
 		opacity: 0;
-	}
-	a {
-		text-decoration: none;
-		color: inherit;
 	}
 /* Hiding class, making content visible only to screen readers but not visually */
 	/* "sr" meaning "screen-reader" */

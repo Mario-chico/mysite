@@ -5,9 +5,11 @@
 
 const hamburgerBtn = document.getElementById("hamburger");
 const navMenu = document.querySelector(".menu");
+const body = document.getElementsByTagName("body")[0];
 
 function toggleHamburger() {
   navMenu?.classList.toggle("show");
+  body?.classList.toggle("show");
   hamburgerBtn?.setAttribute(
       "aria-expanded",
       hamburgerBtn.getAttribute("aria-expanded") === "false" ? "true" : "false"

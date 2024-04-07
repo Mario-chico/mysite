@@ -20,19 +20,17 @@ import ThemeIcon from '@/components/ThemeIcon.astro';
 
     <div class="nav-end">
        <ThemeIcon />
-        <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
-          <Hamburger />
-        </button>
+        <Hamburger />
     </div>
   </div>
 </header>
 <style>
   #nav-menu {
-  border-bottom: 1px solid #eeeeee;
+  
   position: fixed;
   width: 100dvw;
   height: 8dvh;
-  z-index: 10000;
+  z-index: 100;
 }
 .container {
   display: flex;
@@ -40,20 +38,15 @@ import ThemeIcon from '@/components/ThemeIcon.astro';
   justify-content: space-between;
   height: inherit;
   padding: 0.7rem 1.8rem;
-  
-}
-#hamburger {
-  display: block;
-  position: relative;
-  height: 30px;
-  width: 30px;
-  background: transparent;
-  border: none;
+  border-bottom: 1px solid #eeeeee;
 }
   .nav-start,
   .nav-end {
   display: flex;
   align-items: center;
+  }
+  .nav-start{
+    width: 95%;
   }
   .nav-end{
     gap: 1rem;
@@ -65,16 +58,9 @@ import ThemeIcon from '@/components/ThemeIcon.astro';
 
 @media (min-width: 600px) {
   
-  
-  #hamburger {
-  display: none;
-  padding: 0.1rem;
-  margin-left: 1rem;
-  font-size: 1.9rem;
-  }
   .container { 
     max-width: 1600px;
-    padding: 1.2rem 3rem;
+    padding: 1rem;
   }
 }
 
