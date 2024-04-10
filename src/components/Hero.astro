@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import Cartulina from "@/img/cartulina.webp";
-import Mario from "@/img/Mario-2-removebg-preview.png";
+import Mario from "@/img/light-mario.webp";
 import { getI18N } from "@/i18n";
 
 const {currentLocale} = Astro;
@@ -10,7 +10,8 @@ const i18n = getI18N({currentLocale})
 ---
 
 <section>
-    <img src="/Mario-2-removebg-preview.png" alt="">
+    <!-- <img src="/light-mario.webp" alt=""> -->
+    <Image src={Mario} alt="yo pues" />
   <div class="text-me">
     <h3 set:html={i18n.ME_SUBTITLE}/>
     <h1 class="me-title">{i18n.ME_TITLE}</h1>
@@ -209,27 +210,27 @@ const i18n = getI18N({currentLocale})
     section {
       display: flex;
       flex-direction: row;
+      gap: 1rem;
+    }
+    section img{
+      width: auto;
+      height: auto;
+      border-radius: 0;
+      mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+      filter: drop-shadow(0 0 5px rgba(0, 0, 0, .5));
     }
     .text-me {
       position: relative;
-      width: 100%;
-      height: 96vh;
+      max-width: 500px;
+      height: fit-content;
       align-items: center;
       margin-top: 2em;
-      padding: 3rem;
-      top:0;
     }
     h1 {
       font-size: 4rem;
       line-height: 1.2;
       margin-block: 10px;
     } 
-    .photo-me {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-    }
     .cardboard {
       display: none;
     }
