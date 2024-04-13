@@ -1,0 +1,30 @@
+---
+import TrainingGrid from "@/components/TrainingGrid.astro";
+---
+
+<section>
+<TrainingGrid/>
+<TrainingGrid/>
+<TrainingGrid/>
+<TrainingGrid/>
+<TrainingGrid/>
+<TrainingGrid/>
+<TrainingGrid/>
+<TrainingGrid/>
+</section>
+
+<style>
+  section {
+    display: grid;
+      max-width: 70%;
+      width: 100%;
+      margin: auto;
+      grid-gap: 1rem;
+      grid-auto-rows: 20rem;
+    }
+    @media (min-width: 1000px) {
+      section {
+        grid-template-columns: repeat(9, minmax(0, 1fr));
+      }
+    }
+</style>

@@ -50,7 +50,9 @@ const i18n = getI18N({currentLocale})
 	:root {
 		--title-color: #000000;
 		--tex-color: #01014B; 
-		--background-color: #FFD07F;
+		--background-color: #f1edec;
+		--p: #FFD07F;
+		--p2: #f9f7dc;
 		--accent-color:#FF8243;
 		--burger-color: #000000e8;
 		--gradient-color: linear-gradient(90deg, rgb(31, 30, 29) 10%, rgb(124, 48, 179) 45%, rgb(21, 187, 77) 100%);
@@ -134,7 +136,18 @@ const i18n = getI18N({currentLocale})
 		white-space: nowrap;
 		width: 1px;
 	}
-
+.darkImg {
+	opacity: 0;
+	position: absolute;
+}
+	.dark .darkImg {
+		opacity: 1;
+		position: relative;
+	}
+	.dark .lightImg {
+		opacity: 0;
+		position: absolute;
+	}
 	
 
 </style>
