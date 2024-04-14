@@ -7,30 +7,50 @@ const i18n = getI18N({currentLocale})
 ---
 <section>
   <h2>{i18n.WHY_TITLE}</h2>
-  <p>
-    {i18n.WHY_PARAGRAPH}
-  </p>
-  <p>
-    {i18n.WHY_PARAGRAPH2}
-  </p>
-  <p>
-    {i18n.WHY_PARAGRAPH3}
-  </p>
+  <div>
+    <p>
+      {i18n.WHY_PARAGRAPH}
+    </p>
+    <p>
+      {i18n.WHY_PARAGRAPH2}
+    </p>
+    <p>
+      {i18n.WHY_PARAGRAPH3}
+    </p>
+  </div>
 </section>
 
 <style>
   section {
-    height: 100vh;
+    height: 80dvh;
+    max-width: 70%;
+    margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   h2 {
-    margin-top: ;
+    margin-top: 4rem;
+    letter-spacing: .5rem;
+    font-size: 3rem;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
   }
   p {
-    width: 50%;
+    width: 100%;
     text-wrap: wrap;
-  }
+    font-size: 2rem;
+    padding: 1rem 0;
+    letter-spacing: normal;
+    animation: spacing 2s 1;
+    }
+    @keyframes spacing{
+      50% {letter-spacing: 2px;}
+    }
 </style>

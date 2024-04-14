@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import Cartulina from "@/img/cartulina.webp";
-import LightMario from "@/img/Mario-web-7.jpg";
+import LightMario from "@/img/light-mario.webp";
 import DarkMario from "@/img/dark-mario.webp";
 import { getI18N } from "@/i18n";
 
@@ -215,6 +215,8 @@ const i18n = getI18N({currentLocale})
       display: flex;
       flex-direction: row;
       gap: 1rem;
+      max-width: 70%;
+    margin: 0 auto;
     }
     section img{
       width: auto;
