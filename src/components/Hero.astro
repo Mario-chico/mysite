@@ -12,9 +12,10 @@ const i18n = getI18N({currentLocale})
 
 <section>
     <!-- <img src="/dark-mario.webp" alt=""> -->
-    <Image src={LightMario} class="lightImg" widths={[240, 540, 720, LightMario.width / 2]}
-    sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1000px) 720px, ${LightMario.width}px `}, alt="yo pues" />
-    <Image src={DarkMario} class="darkImg" width={DarkMario.width} densities={[1.5, 2, 3]} alt="yo pues" />
+    <Image src={LightMario} class="lightImg" widths={[ 300, LightMario.width]}
+    sizes={`(max-width: 720px) 300px, (max-width: 1000px) ${LightMario.width}px `} alt="yo pues" />
+    <Image  class="darkImg" widths={[230, DarkMario.width]}
+    sizes={`(max-width: 720px) 230px, (max-width: 1000px) ${DarkMario.width}px `}src={DarkMario} alt="yo pues" />
     
   <div class="text-me">
     <h3 set:html={i18n.ME_SUBTITLE}/>
@@ -82,8 +83,8 @@ const i18n = getI18N({currentLocale})
   }
 
   img {
-    /* width: 100px;
-    height: 100px; */
+    width: 205px;
+    height: 194px;
     border-radius: 50%;
   }
 
@@ -122,7 +123,6 @@ const i18n = getI18N({currentLocale})
     line-height: 1.8;
     font-weight: 500;
     margin-bottom: 30px;
-    
     max-width: 35ch;
   }
   .button {
@@ -138,8 +138,6 @@ const i18n = getI18N({currentLocale})
 .button:hover {
   background: #06D85F;
 }
-
-
   .modal{
     height: 40vh;
   }
@@ -218,11 +216,11 @@ const i18n = getI18N({currentLocale})
       max-width: 70%;
     margin: 0 auto;
     }
-    section img{
+    img{
       width: auto;
-      height: auto;
+      height: 294px;
       border-radius: 0;
-      mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+      mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
       filter: drop-shadow(0 0 5px rgba(0, 0, 0, .5));
     }
     .text-me {

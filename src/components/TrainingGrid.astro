@@ -1,4 +1,17 @@
+---
+interface Props {
+  title?: string;
+  text?: string;
+}
+
+const {title, text} = Astro.props;
+---
 <article>
+  <div>
+    <slot name="svg"/>
+    <h3>{title}</h3>
+    <slot name="content"/>
+  </div>
 
 </article>
 
@@ -7,6 +20,16 @@
   article{
     border: 1px solid #fff;
     grid-column: span 1 / span 1;
+  }
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    justify-content: left;
+    align-items: center;
+  }
+  div:last-child {
+    flex-grow: 4;
   }
   @media (min-width: 1000px) {
     article{

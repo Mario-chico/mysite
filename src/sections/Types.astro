@@ -1,9 +1,13 @@
 ---
 import TrainingGrid from "@/components/TrainingGrid.astro";
+import Endurance from "@/icons/endurance.astro";
 ---
 
 <section>
-<TrainingGrid/>
+<TrainingGrid title="Resistencia">
+  <Endurance slot="svg"/>
+  <p slot="content">La resistencia te hace requete resistente</p>
+</TrainingGrid>
 <TrainingGrid/>
 <TrainingGrid/>
 <TrainingGrid/>
@@ -15,12 +19,15 @@ import TrainingGrid from "@/components/TrainingGrid.astro";
 
 <style>
   section {
-    display: grid;
+      display: grid;
       max-width: 70%;
       width: 100%;
       margin: auto;
       grid-gap: 1rem;
       grid-auto-rows: 20rem;
+    }
+    p{
+      width: 100%;
     }
     @media (min-width: 1000px) {
       section {
