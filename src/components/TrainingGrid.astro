@@ -10,6 +10,8 @@ const {title, text} = Astro.props;
   <div>
     <slot name="svg"/>
     <h3>{title}</h3>
+  </div>
+  <div>
     <slot name="content"/>
   </div>
 
@@ -20,6 +22,15 @@ const {title, text} = Astro.props;
   article{
     border: 1px solid #fff;
     grid-column: span 1 / span 1;
+    padding: 1.5rem;
+  }
+  div:last-child {
+    height: auto;
+    text-align: center;
+  }
+  div:first-child{
+    flex-direction: column;
+    justify-content: center;
   }
   div {
     display: flex;
@@ -27,13 +38,12 @@ const {title, text} = Astro.props;
     gap: 9px;
     justify-content: left;
     align-items: center;
-  }
-  div:last-child {
-    flex-grow: 4;
+    height: 45%;
+    margin-left: 9px;
   }
   @media (min-width: 1000px) {
     article{
-    grid-column: span 3 / span 3;
+    grid-column: span 5 / span 5;
   }
   }
 </style>
