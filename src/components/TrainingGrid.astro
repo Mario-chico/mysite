@@ -23,7 +23,21 @@ const {title, text} = Astro.props;
     border: 1px solid #fff;
     grid-column: span 1 / span 1;
     padding: 1.5rem;
+    border-radius: 10px;
+    position: relative;
   }
+  /* article::after, article::before {
+    content: "";
+    position: absolute;
+  }
+  article::before{
+    box-shadow: 0px 0px 10px 5px blanchedalmond;
+  }
+  article::after {
+    background-color: red;
+    inset: 1rem -.85rem -.85rem 1rem;
+    border-radius: 1rem;
+  } */
   div:last-child {
     height: auto;
     text-align: center;
@@ -41,9 +55,9 @@ const {title, text} = Astro.props;
     height: 45%;
     margin-left: 9px;
   }
-  @media (min-width: 1000px) {
+  @media (min-width: 800px) {
     article{
-    grid-column: span 5 / span 5;
+    grid-column: span 5 ;
   }
   }
 </style>
