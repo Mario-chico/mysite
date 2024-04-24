@@ -1,0 +1,22 @@
+---
+import { Image } from "astro:assets";
+import LightMario from "@/img/light-mario.webp";
+---
+
+<section>
+  <Image src={LightMario} alt="Yo en el about"></Image>
+  <div>
+    <p>Acerca de mi persona y mi personalidad</p>
+    <p>Esto es lo que escribo aqui</p>
+  </div>
+</section>
+
+<style>
+  section {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+</style>

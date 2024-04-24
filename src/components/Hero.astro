@@ -1,6 +1,5 @@
 ---
 import { Image } from "astro:assets";
-import Cartulina from "@/img/cartulina.webp";
 import LightMario from "@/img/light-mario.webp";
 import DarkMario from "@/img/dark-mario.webp";
 import { getI18N } from "@/i18n";
@@ -13,9 +12,9 @@ const i18n = getI18N({currentLocale})
 <section>
     <!-- <img src="/dark-mario.webp" alt=""> -->
     <Image src={LightMario} class="lightImg" widths={[ 300, LightMario.width]}
-    sizes={`(max-width: 720px) 300px, (max-width: 1000px) ${LightMario.width}px `} alt="yo pues" />
+    sizes={`(max-width: 720px) 300px, (max-width: 1000px) ${LightMario.width}px `} alt="yo pues" loading="eager" />
     <Image  class="darkImg" widths={[230, DarkMario.width]}
-    sizes={`(max-width: 720px) 230px, (max-width: 1000px) ${DarkMario.width}px `}src={DarkMario} alt="yo pues" />
+    sizes={`(max-width: 720px) 230px, (max-width: 1000px) ${DarkMario.width}px `}src={DarkMario} alt="yo pues" loading="eager"/>
     
   <div class="text-me">
     <h3 set:html={i18n.ME_SUBTITLE}/>
