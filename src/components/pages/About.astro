@@ -1,11 +1,16 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 import HeroMe from '../HeroMe.astro';
+import { getI18N } from "@/i18n";
+
+const {currentLocale} = Astro;
+
+const i18n = getI18N({currentLocale})
 ---
 
-<Layout title="Mario Chico | Desarrollador Web">
+<Layout title="Mario Chico | Developer Web">
 	<main>
-		<p>es un secretoooo</p>
+		<p>{i18n.ABOUT_TITLE}</p>
 		<HeroMe/>
 	</main>
 </Layout>
