@@ -1,0 +1,41 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import BlogPost from "@/components/BlogPost.astro";
+import { getCollection } from "astro:content";
+const pageTitle = "Blog primeramente en español para mi página web";
+const allBlogs = await getCollection("blog");
+
+
+
+---
+
+<Layout title={pageTitle}>
+  <div>
+
+    <h2>Bienestar y alto rendimiento hasta en la caja de cereal!</h2>
+    <p>
+      El centro de bienestar y alto rendimiento eseta bien perro porque tiene Linux de infraestructura, Astro para su front-end, el backend es posible que igual, usando nodejs o cloudfare y las herramientas estan cabronas
+    </p>
+    <ul>
+      {
+        allBlogs.map((post) => {
+          const [lang, ...slug] = post.slug.split('/');
+          return <BlogPost url={`/${lang}/blog/${slug}`} title={post.data.title} />
+
+          
+        })
+        }
+  </ul>
+</div>
+</Layout>
+
+<style>
+  div {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
