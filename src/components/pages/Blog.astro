@@ -5,7 +5,7 @@ import { getCollection } from "astro:content";
 const pageTitle = "Blog primeramente en español para mi página web";
 const allBlogs = await getCollection("blog");
 import Index from '@/pages/[lang]/blog/index.astro';
-
+const {currentLocale} = Astro
 
 ---
 <!-- <Index/> -->
@@ -20,7 +20,7 @@ import Index from '@/pages/[lang]/blog/index.astro';
       {
         allBlogs.map((post) => {
           const [lang, ...slug] = post.slug.split('/');
-          if(lang === 'es'){
+          if(lang === currentLocale){
 
             return <BlogPost url={`/${lang}/blog/${slug}`} title={post.data.title} />
           }

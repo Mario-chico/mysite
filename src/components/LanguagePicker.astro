@@ -8,7 +8,8 @@ const translatePath = useTranslatedPath(lang);
 <ul>
   {Object.entries(languages).map(([lang, label]) => (
     <li>
-      <a href={translatePath('/', lang)}>{label}</a>
+      <a href={translatePath('/blog', lang)}>{label}</a>
     </li>
   ))}
+  <p>La url de astro `${Astro.url.pathname}`</p>
 </ul>
