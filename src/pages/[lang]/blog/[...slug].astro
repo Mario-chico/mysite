@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import PostLayout from '@/layouts/PostLayout.astro';
 
 export async function getStaticPaths() {
   const pages = await getCollection('blog');
@@ -18,6 +19,9 @@ const page = Astro.props;
 
 const { Content } = await page.render();
 ---
-<h1>{page.data.title}</h1>
-<p>Este es el slug {slug}</p>
-<Content/>
+<PostLayout frontmatter={page.data}>
+
+  <h1>{page.data.title}</h1>
+  <p>Este es el slug {slug}</p>
+  <Content/>
+</PostLayout>

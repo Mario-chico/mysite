@@ -4,12 +4,12 @@ import BlogPost from "@/components/BlogPost.astro";
 import { getCollection } from "astro:content";
 const pageTitle = "Blog primeramente en español para mi página web";
 const allBlogs = await getCollection("blog");
-
+import Index from '@/pages/[lang]/blog/index.astro';
 
 
 ---
-
-<Layout title={pageTitle}>
+<!-- <Index/> -->
+ <Layout title={pageTitle}>
   <div>
 
     <h2>Bienestar y alto rendimiento hasta en la caja de cereal!</h2>
@@ -20,7 +20,11 @@ const allBlogs = await getCollection("blog");
       {
         allBlogs.map((post) => {
           const [lang, ...slug] = post.slug.split('/');
-          return <BlogPost url={`/${lang}/blog/${slug}`} title={post.data.title} />
+          if(lang === 'es'){
+
+            return <BlogPost url={`/${lang}/blog/${slug}`} title={post.data.title} />
+          }
+         
 
           
         })

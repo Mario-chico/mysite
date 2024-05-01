@@ -9,7 +9,6 @@ export const ui = {
   es: {
     'nav.home': 'Casa',
     'nav.about': 'Acerca de',
-    'nav.twitter': 'Twitter',
   },
   en: {
     'nav.home': 'Home',
