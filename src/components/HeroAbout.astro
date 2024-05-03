@@ -1,12 +1,16 @@
 ---
 import { Image } from "astro:assets";
 import LightMario from "@/img/light-mario.webp";
+import { getLangFromUrl, useTranslations, useTranslatedPath } from '@/i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <section>
   <Image src={LightMario} alt="Yo en el about"></Image>
   <div>
-    <p>Acerca de mi persona y mi personalidad</p>
+    <p>{t('about.paragraph')}</p>
     <p>Esto es lo que escribo aqui</p>
   </div>
 </section>
