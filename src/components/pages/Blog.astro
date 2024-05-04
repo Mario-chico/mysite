@@ -10,36 +10,40 @@ const {currentLocale} = Astro
 ---
 <!-- <Index/> -->
  <Layout title={pageTitle}>
-  <div>
+  <main>
 
-    <h2>Bienestar y alto rendimiento hasta en la caja de cereal!</h2>
-    <p>
-      El centro de bienestar y alto rendimiento eseta bien perro porque tiene Linux de infraestructura, Astro para su front-end, el backend es posible que igual, usando nodejs o cloudfare y las herramientas estan cabronas
-    </p>
-    <ul>
-      {
-        allBlogs.map((post) => {
-          const [lang, ...slug] = post.slug.split('/');
-          if(lang === currentLocale){
-
-            return <BlogPost url={`/${lang}/blog/${slug}`} title={post.data.title} />
-          }
-         
-
-          
-        })
+    <div>
+      
+      <h2>Bienestar y alto rendimiento hasta en la caja de cereal!</h2>
+    </div>
+      <p>
+        El centro de bienestar y alto rendimiento eseta bien perro porque tiene Linux de infraestructura, Astro para su front-end, el backend es posible que igual, usando nodejs o cloudfare y las herramientas estan cabronas
+      </p>
+      <ul>
+        {
+          allBlogs.map((post) => {
+            const [lang, ...slug] = post.slug.split('/');
+            if(lang === currentLocale){
+              
+              return <BlogPost url={`/${lang}/blog/${slug}`} title={post.data.title} />
+            }
+          })
         }
   </ul>
-</div>
+</main>
 </Layout>
 
 <style>
-  div {
+  main {
     width: 100dvw;
     height: 100dvh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+  }
+  div {
+    position: relative;
+    margin-top: 100px;
+    padding-block: 2rem;
   }
 </style>
