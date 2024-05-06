@@ -1,14 +1,34 @@
 ---
+import { Image } from "astro:assets";
+import AstroImage from "@/img/astro.webp"
 const { url, title } = Astro.props;
 ---
 
+
 <li>
-  <a href={url}>{title}</a>
+  <article>
+    <a href={url}>
+      <span>fecha</span>     
+      <div>
+        <Image src={AstroImage} alt="una imagen"/>
+      </div>
+      <div>
+        <h3>{title}</h3>
+        <p>Parrafo de cada blog</p>
+      </div>
+    </a>
+  </article>
 </li>
+  
+
 
 
 <style>
   li {
     list-style-type: none;
+  }
+
+  article {
+    width: 100%;
   }
 </style>
