@@ -23,7 +23,7 @@ const {currentLocale} = Astro
           const [lang, ...slug] = post.slug.split('/');
           if(lang === currentLocale){
             
-            return <BlogPost url={`/${lang}/blog/${slug}`} title={post.data.title} />
+            return <BlogPost url={`/${lang}/blog/${slug}`} title={post.data.title} date={post.data.pubDate} description={post.data.description} />
           }
         })
       }
