@@ -81,12 +81,24 @@ const i18n = getI18N({currentLocale})
 	}
 	h1, h2, h3, h4, h5, h6 {
 		color: var(--title-color);
+		text-wrap: balance;
 	}
-
+	h1{
+		font-size: 3.1rem;
+		font-weight: 900;
+	}
+	h2{
+		font-weight: 800;
+	}
+	h3 {
+		font-size: 1.25rem;
+		font-weight: 700;
+	}
 	p, a {
 		color: var(--tex-color);
-		
+		text-wrap: pretty;
 		text-decoration: none;
+		font-weight: 600;
 	}
 	.noise{
 		position:fixed;

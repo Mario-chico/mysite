@@ -16,8 +16,8 @@ const { url, title, description, date } = Astro.props;
       <div>
         <Image src={AstroImage} alt="una imagen"/>
       </div>
-      <div>
-        <h3>{title}</h3>
+      <div class="information">
+        <h2>{title}</h2>
         <p>{description}</p>
       </div>
     </a>
@@ -29,15 +29,27 @@ const { url, title, description, date } = Astro.props;
 
 <style>
   li {
-    background-color: red;
-    list-style-type: none;
+    background-color: red; 
   }
-
   article {
     padding: 1rem;
   }
   img{
     max-width: 100%;
     height: auto;
+  }
+  div{
+    margin-block: 1dvh
+  }
+  
+  .information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  p{
+    max-width: 35ch;
+    opacity: .9;
   }
 </style>

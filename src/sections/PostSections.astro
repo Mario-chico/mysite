@@ -8,10 +8,10 @@ const {currentLocale} = Astro
   <div>
       
     <h2>Bienestar y alto rendimiento hasta en la caja de cereal!</h2>
-  </div>
     <p>
       El centro de bienestar y alto rendimiento eseta bien perro porque tiene Linux de infraestructura, Astro para su front-end, el backend es posible que igual, usando nodejs o cloudfare y las herramientas estan cabronas
     </p>
+  </div>
   <aside>
     
   </aside>
@@ -41,17 +41,20 @@ const {currentLocale} = Astro
   }
   div {
     position: relative;
-    margin-top: 100px;
-    padding-block: 2rem;
+    margin-top: 15dvh;
+    padding-inline: 2rem;
+    max-width: 769px;
   }
   section {
     max-width: 769px;
     width: 100dvw;
     padding-inline: 2rem;
+    margin-block: 3rem;
   }
   ul{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+    list-style-type: none;
   }
 </style>
