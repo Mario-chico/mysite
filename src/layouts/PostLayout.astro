@@ -1,15 +1,31 @@
 ---
 import Layout from "./Layout.astro";
 const { frontmatter } = Astro.props;
+const {currentLocale} = Astro;
+
+let fecha = frontmatter.pubDate;
+
+const bDate = new Intl.DateTimeFormat(currentLocale, {
+  dateStyle: 'long',
+  timeZone: 'UTC'
+}).format(fecha)
 ---
 
 <Layout title={frontmatter.title}>
-  <article>
+  <main>
     
-    <p>Written by {frontmatter.title}</p>
-    <!-- <p>Publish on {frontmatter.pubDate.toLocaleString().slice(0, 9)}</p>
-      <p><em>{frontmatter.description}</em></p>
-      <div class="tags">
+
+    <header class="post-header">
+      <time datetime={fecha}>{bDate}</time>
+      <h2>{frontmatter.title}</h2>
+      <span>Escrito por {frontmatter.author}</span>
+    </header>
+    
+
+    <article>
+      
+      
+      <!--<div class="tags">
         {
           frontmatter.tags.map((tag: any) => (
           <p class="tag">
@@ -20,9 +36,16 @@ const { frontmatter } = Astro.props;
       </div>
       <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} /> -->
       <slot />
-  </article>
+    </article>
+  </main>
 </Layout>
 <style>
+  div {
+  }
+  header {
+    padding-top: 15dvh;
+    text-align: center;
+  }
   article {
     display: flex;
     flex-direction: column;
@@ -45,5 +68,8 @@ const { frontmatter } = Astro.props;
     padding: 0.5em 1em;
     font-size: 1.15em;
     background-color: #f8fcfd;
+  }
+  @media screen and (min-width: 1024px) {
+    
   }
 </style>

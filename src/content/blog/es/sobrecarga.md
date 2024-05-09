@@ -1,8 +1,8 @@
 ---
 title: "Primera ley del entrenamiento"
-pubDate: 2024-05-06
+pubDate: 2024-05-08
 description: "Ley principal del entrenamiento"
-author: "Mario Chico chico.fitness.atlhete"
+author: "chico_atleta"
 tags: ["progresion", "bienestar"]
 ---
 
@@ -12,3 +12,4 @@ tags: ["progresion", "bienestar"]
 O sea que no te pongas pendejx
 
 Aumentas poco a poco pues
+
