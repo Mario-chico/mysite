@@ -13,10 +13,21 @@
     "ENDURANCE": "Resistencia",
     "STRENGTH": "Fuerza",
     "HIPERTROPHY": "Hipertrofia",
+    "WEIGHT_LOSS": "Perdida de peso",
     "POWER": "Potencia",
     "LONGEVITY": "Longevidad",
     "BREATHWORK": "Respiración",
     "MENTALHEALTH": "Salud mental"
+  },
+  "TRAINING_DESCRIPTIONS": {
+    "ENDURANCE": "Comprende los factores individuales que limitan tu capacidad de realizar ejercicio con buena postura por algún tiempo determinado y como usarlos a tu favor.",
+    "STRENGTH": "Entrenamiento de Fuerza",
+    "HIPERTROPHY": "Entrenamiento de Hipertrofia",
+    "WEIGHT_LOSS": "Entrenamiento de Perdida de Peso",
+    "POWER": "Entrenamiento de Potencia",
+    "LONGEVITY": "Entrenamiento de Longevidad",
+    "BREATHWORK": "Entrenamiento de Respiración",
+    "MENTALHEALTH": "Entrenamiento de Salud Mental"
   },
   "ABOUT_TITLE": "es un secretoooo"
 }

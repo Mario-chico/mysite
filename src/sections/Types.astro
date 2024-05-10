@@ -3,6 +3,7 @@ import TrainingGrid from "@/components/TrainingGrid.astro";
 import Endurance from "@/icons/endurance.astro";
 import Strength from "@/icons/strength.astro";
 import Hipertrophy from "@/icons/hipertrophy.astro";
+import Loss from "@/icons/loss.astro";
 import Power from "@/icons/power.astro";
 import Longevity from "@/icons/longevity.astro";
 import Breath from "@/icons/breathwork.astro";
@@ -20,7 +21,7 @@ const i18n = getI18N({currentLocale})
 
     <TrainingGrid title={i18n.TRAINING_TITLES.ENDURANCE}>
       <Endurance slot="svg"/>
-      <p slot="content">Endurance is your body's ability to sustain physical activity for an extended period without getting fatigued. It's about pushing your limits and building up your cardiovascular fitness.</p>
+      <p slot="content">{i18n.TRAINING_DESCRIPTIONS.ENDURANCE}</p>
     </TrainingGrid>
     <TrainingGrid title={i18n.TRAINING_TITLES.STRENGTH}>
       <Strength slot="svg"/>
@@ -29,6 +30,10 @@ const i18n = getI18N({currentLocale})
     <TrainingGrid title={i18n.TRAINING_TITLES.HIPERTROPHY}>
       <Hipertrophy slot="svg"/>
       <p slot="content">Hypertrophy is the process of increasing the size of your muscle cells. It's about bulking up and gaining more muscle mass through targeted training and proper nutrition.</p>
+    </TrainingGrid>
+    <TrainingGrid title={i18n.TRAINING_TITLES.WEIGHT_LOSS}>
+      <Loss slot="svg"/>
+      <p slot="content">Weight Loss is the process of losing weight. It's about maintaining a healthy weight and losing excess body fat.</p>
     </TrainingGrid>
     <TrainingGrid title={i18n.TRAINING_TITLES.POWER}>
       <Power slot="svg"/>
