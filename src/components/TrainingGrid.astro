@@ -3,28 +3,33 @@ interface Props {
   title: string;
   text?: string;
 }
-
+const {currentLocale} = Astro;
 const {title, text} = Astro.props;
 ---
-<article>
-  <div>
-    <slot name="svg"/>
-    <h3>{title}</h3>
-  </div>
-  <div>
-    <slot name="content"/>
-  </div>
+<a href=`/${currentLocale}/blog/${title.toLowerCase().replaceAll(' ', '-')}`>
+  <article>
+    <div>
+      <slot name="svg"/>
+      <h3>{title}</h3>
+    </div>
+    <div>
+      <slot name="content"/>
+    </div>
 
-</article>
+  </article>
+</a>
 
 <style>
-
+  a {
+    grid-column: span 1 / span 1;
+    
+  }
   article{
     border: 1px solid #fff;
-    grid-column: span 1 / span 1;
     padding: 1.5rem;
     border-radius: 10px;
     position: relative;
+    height: 100%;
   }
   
   div:last-child {
@@ -45,7 +50,7 @@ const {title, text} = Astro.props;
     margin-left: 9px;
   }
   @media (min-width: 800px) {
-    article{
+    a{
     grid-column: span 5 ;
   }
   }

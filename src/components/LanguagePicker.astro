@@ -4,12 +4,27 @@ import { getLangFromUrl,useTranslatedPath } from '@/i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const translatePath = useTranslatedPath(lang);
+const url = Astro.url.pathname;
+const nurl = url.slice(3, url.length);
+console.log(nurl);
+console.log(url);
+console.log(lang);
 ---
 <ul>
   {Object.entries(languages).map(([lang, label]) => (
     <li>
-      <a href={translatePath('/blog', lang)}>{label}</a>
+      <a
+        href={translatePath(`${lang === 'es' ? nurl : url}`, lang)}
+        style={{ pointerEvents: lang === 'en' ? 'none' : 'auto' }}
+      >
+        {label}
+      </a>
     </li>
   ))}
-  <p>La url de astro `${Astro.url.pathname}`</p>
 </ul>
+
+<style>
+  a:focus{
+    cursor: none;
+  }
+</style>
