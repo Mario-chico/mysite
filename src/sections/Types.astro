@@ -13,16 +13,18 @@ import { getI18N } from "@/i18n";
 const {currentLocale} = Astro;
 
 const i18n = getI18N({currentLocale})
+
 ---
 
 <section>
   <h2>{i18n.TRAINING_TYPES}</h2>
   <div>
-
-    <TrainingGrid title={i18n.TRAINING_TITLES.ENDURANCE}>
-      <Endurance slot="svg"/>
-      <p slot="content">{i18n.TRAINING_DESCRIPTIONS.ENDURANCE}</p>
-    </TrainingGrid>
+    <a href=`/${currentLocale}/blog/resistencia`>
+      <TrainingGrid title={i18n.TRAINING_TITLES.ENDURANCE}>
+        <Endurance slot="svg"/>
+        <p slot="content">{i18n.TRAINING_DESCRIPTIONS.ENDURANCE}</p>
+      </TrainingGrid>
+    </a>
     <TrainingGrid title={i18n.TRAINING_TITLES.STRENGTH}>
       <Strength slot="svg"/>
       <p slot="content">Strength is the amount of force your muscles can exert. It's about lifting heavy weights and building up your muscle power to handle tougher tasks with ease.</p>
