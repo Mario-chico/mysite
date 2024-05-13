@@ -1,4 +1,5 @@
 ---
+import Image from "astro/components/Image.astro";
 import Layout from "./Layout.astro";
 const { frontmatter } = Astro.props;
 const {currentLocale} = Astro;
@@ -17,8 +18,10 @@ const bDate = new Intl.DateTimeFormat(currentLocale, {
 
     <header class="post-header">
       <time datetime={fecha}>{bDate}</time>
-      <h2>{frontmatter.title}</h2>
+      <h1>{frontmatter.title}</h1>
       <span>Escrito por {frontmatter.author}</span>
+      <p>{frontmatter.description}</p>
+      <Image src={frontmatter.image.url} alt={frontmatter.image.alt} width={1500} height={643}/>
     </header>
     
 
@@ -51,7 +54,6 @@ const bDate = new Intl.DateTimeFormat(currentLocale, {
     flex-direction: column;
     width: 100dvw;
     height: 100dvh;
-    justify-content: center;
     align-items: center;
   }
   a {
@@ -68,6 +70,12 @@ const bDate = new Intl.DateTimeFormat(currentLocale, {
     padding: 0.5em 1em;
     font-size: 1.15em;
     background-color: #f8fcfd;
+  }
+  img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+    min-height: 240px;
   }
   @media screen and (min-width: 1024px) {
     

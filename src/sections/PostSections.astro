@@ -20,10 +20,15 @@ const {currentLocale} = Astro
 
       {
         allBlogs.map((post) => {
+          const fecha = post.data.pubDate;
+          const bDate = new Intl.DateTimeFormat(currentLocale, {
+            dateStyle: 'long',
+            timeZone: 'UTC'
+          }).format(fecha)
           const [lang, ...slug] = post.slug.split('/');
           if(lang === currentLocale){
             
-            return <BlogPost url={`/${lang}/blog/${slug}`} title={post.data.title} date={post.data.pubDate} description={post.data.description} />
+            return <BlogPost url={`/${lang}/blog/${slug}`} title={post.data.title} date={bDate} description={post.data.description} image={post.data.image.url} alt={post.data.image.alt} />
           }
         })
       }
