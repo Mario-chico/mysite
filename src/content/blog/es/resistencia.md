@@ -13,6 +13,11 @@ image: {
 
 ## Para ser bien resistente
 
-Que puede parecer hacer reps a lo pendejo
+Que puede parecer hacer reps a lo pendejo 
 
-Pero no lo es, dejame te explico
+Entrenar la capacidad de recibir más daño y sentirte menos fatigado es una definición honesta para esta modalidad.
+
+Si al hablar de este tema lo primero que piensas es en correr por mucho tiempo, estas limitando el espectro y por ende tu capacidad de mejora.
+
+## 4 tipos de resistencia
+
