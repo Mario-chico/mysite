@@ -8,9 +8,8 @@ const {currentLocale} = Astro;
 const i18n = getI18N({currentLocale})
 ---
 
-<Layout title="Mario Chico | Developer Web">
+<Layout title={i18n.LAYOUT_TITLE}>
 	<main>
-		<p>{i18n.ABOUT_TITLE}</p>
 		<HeroAbout/>
 	</main>
 </Layout>

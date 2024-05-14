@@ -3,9 +3,14 @@ import Types from '@/sections/Types.astro';
 import Layout from '@/layouts/Layout.astro';
 import Hero from '../Hero.astro';
 import Why from '@/sections/Why.astro';
+import { getI18N } from "@/i18n";
+
+const {currentLocale} = Astro;
+
+const i18n = getI18N({currentLocale})
 ---
 
-<Layout title="Mario Chico | Desarrollador Web">
+<Layout title={i18n.LAYOUT_TITLE}>
 	<main>
 		<Hero />
 		<Why/>

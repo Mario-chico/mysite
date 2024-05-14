@@ -2,13 +2,17 @@
 import Layout from '@/layouts/Layout.astro';
 import PostSections from '@/sections/PostSections.astro';
 
-const pageTitle = "Blog primeramente en español para mi página web";
+import { getI18N } from "@/i18n";
+
+const {currentLocale} = Astro;
+
+const i18n = getI18N({currentLocale})
 
 
 
 
 ---
- <Layout title={pageTitle}>
+ <Layout title={i18n.LAYOUT_TITLE}>
  <PostSections />
 </Layout>
 
