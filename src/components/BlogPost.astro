@@ -10,7 +10,10 @@ const { url, title, description, date, image, alt } = Astro.props;
     <a href={url}>
       <header>
         <span>
-          {date}
+          <time datetime={date}>
+            {date}
+
+          </time>
         </span>
       </header>     
       <div>
