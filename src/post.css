@@ -1,5 +1,44 @@
+.rich-text-content {
+	padding-inline: 2rem;
+	padding-block: 2.5rem;
+	gap: 20px;
+	text-align: center;
+}
 .rich-text-content ul {
 	margin-left: 1.5rem;
 	margin-top: .5rem;
 	list-style-type: disc;
+	text-align: left;
   }
+
+	.rich-text-content blockquote {
+		font-weight: 100;
+		font-size: 1rem;
+		max-width: 600px;
+		line-height: 1.4;
+		position: relative;
+		margin: 0;
+		padding: .5rem;
+	}
+	
+	blockquote:before,
+	blockquote:after {
+		position: absolute;
+		color: #f1efe6;
+		font-size: 2rem;
+		width: 6rem;
+		height: 3rem;
+	}
+	
+	blockquote:before {
+		content: '“';
+		left: -2.8rem;
+		top: -0.3rem;
+	}
+	
+	blockquote:after {
+		content: '”';
+		right: -2.8rem;
+		bottom: -0.3rem;
+	}
+	
