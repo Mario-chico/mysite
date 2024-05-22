@@ -14,11 +14,18 @@ const t = useTranslations(lang);
     <p>Frase que aún no encuentro</p>
   </div>
   <hr>
-  <h2>Pienso que si obtenemos bienestar, podemos hacer bien a nuestra comunidad, naturaleza y el mundo</h2>
-  <p>Es por eso que estoy comprometido con aportar a esta misión, para que nuestro ecosistema siga prosperando, nos preocupemos menos de las cosas mundanas, lleguemos a rincones hermosos del mundo y que nuestro cuerpo no sea una limitante, que nuestras mentes sigan expandiendose y podamos ocuparnos de nuestro máximo desempeño como humanos</p>
+  <div class="first">
+    <h2>Pienso que si obtenemos bienestar, podemos hacer bien a nuestra comunidad, naturaleza y el mundo</h2>
+    <p>Es por eso que estoy comprometido con aportar a esta misión, para que nuestro ecosistema siga prosperando, nos preocupemos menos de las cosas mundanas, lleguemos a rincones hermosos del mundo y que nuestro cuerpo no sea una limitante, que nuestras mentes sigan expandiendose y podamos ocuparnos de nuestro máximo desempeño como humanos</p>
+  </div>
   <hr>
-  <h2>Obsesionado por el desempeño</h2>
-  <p>He sido estudiante, trabajador, atleta, voluntario y todo esto por querer se mejor o funcional, así como tu, he buscado el sentido de mi existencia y avanzar hacia ese proposito. Es por eso que me certifico y aprendo de cientificos, coachs y expertos de todo el mundo, para poder traer toda esa información y proporcionarla a la comunidad</p>
+  <div>
+    <div class="second">
+      <h2>Obsesionado por el desempeño</h2>
+      <p>He sido estudiante, trabajador, atleta, voluntario y todo esto por querer se mejor o funcional, así como tu, he buscado el sentido de mi existencia y avanzar hacia ese proposito. Es por eso que me certifico y aprendo de cientificos, coachs y expertos de todo el mundo, para poder traer toda esa información y proporcionarla a la comunidad</p>
+    </div>
+    <Image src={LightMario} alt="Yo en el about"></Image>
+  </div>
   <hr>
   <h2>Certificaciones actuales</h2>
   <ul>
@@ -47,8 +54,8 @@ const t = useTranslations(lang);
   p {
     max-width: 60ch;
     padding-inline: 2rem;
-    line-height: 2rem;
-    font-weight: 500;
+    line-height: 1.75rem;
+    font-weight: 300;
   }
   hr {
     margin-block: 14px;
@@ -56,5 +63,23 @@ const t = useTranslations(lang);
   }
   img {
     max-width: 100%;
+  }
+  @media screen and (min-width: 1024px) {
+    div{
+      display: flex;
+      gap: 10px;
+      padding-inline: 3rem;
+    }
+    h2{
+      max-width: 22ch;
+    }
+    .first h2{
+      max-width: 50ch
+    }
+    .second{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 </style>
