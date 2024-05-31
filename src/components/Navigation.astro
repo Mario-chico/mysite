@@ -24,10 +24,11 @@ const translatePath = useTranslatedPath(lang);
   
   .menu.show{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 0;
-    bottom: 0;
+    gap: 3rem;
+    inset: 0;
     background-color: var(--background-color);
     opacity: 1;
     z-index: -1;
@@ -36,16 +37,17 @@ const translatePath = useTranslatedPath(lang);
   a {
     display: block;
     text-align: center;
-    padding: 10px 0;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
   }
 
 
   @media (min-width: 600px) {
-    
+    a{
+      font-size: 1rem;
+    }
     
     a:hover,
     a:focus {

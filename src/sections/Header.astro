@@ -8,16 +8,8 @@ import LanguagePicker from '@/components/LanguagePicker.astro';
 <header id="nav-menu">
   <div class="container">
     <div class="nav-start">
-      <a class="logo" href="/">
-        <img src="https://media.licdn.com/dms/image/D5603AQGKUXkod03p2Q/profile-displayphoto-shrink_200_200/0/1666323977932?e=1717027200&v=beta&t=DxQ95cYg5-1cigoNUDSonghGfJjYXi-tF_7cddVRS4A" 
-             width="35" 
-             height="35" 
-             alt="Inc Logo"
-          />
-      </a>
-      
-      <Navigation />
       <LanguagePicker />
+      <Navigation />
     </div>
 
     <div class="nav-end">
@@ -40,7 +32,7 @@ import LanguagePicker from '@/components/LanguagePicker.astro';
   justify-content: space-between;
   height: inherit;
   padding: 0.7rem 1.8rem;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid var(--border-color);
 }
   .nav-start,
   .nav-end {
@@ -56,14 +48,9 @@ import LanguagePicker from '@/components/LanguagePicker.astro';
   .logo {
   margin-right: 1.5rem;
   }
-
-
 @media (min-width: 600px) {
-  
   .container { 
     padding: 1rem 2.9rem;
   }
 }
-
-
 </style>

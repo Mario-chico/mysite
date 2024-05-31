@@ -1,13 +1,13 @@
 export const languages = {
-  es: 'Español',
-  en: 'English',
+  es: '🇲🇽',
+  en: '🇺🇸',
 };
 
 export const defaultLang = 'es';
 
 export const ui = {
   es: {
-    'nav.home': 'Casa',
+    'nav.home': 'Inicio',
     'nav.about': 'Acerca de',
     'about.paragraph': "Soy la reata"
   },
