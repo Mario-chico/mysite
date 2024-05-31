@@ -2,21 +2,29 @@
 import Image from "astro/components/Image.astro";
 import Layout from "./Layout.astro";
 import '@/post.css'
+import { getLangFromUrl,useTranslatedPath } from '@/i18n/utils';
+
 const { frontmatter } = Astro.props;
 const {currentLocale} = Astro;
 
 let fecha = frontmatter.pubDate;
-
 const bDate = new Intl.DateTimeFormat(currentLocale, {
   dateStyle: 'long',
   timeZone: 'UTC'
 }).format(fecha)
+
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+const url = Astro.url.pathname;
+const nurl = url.slice(3, 9);
+console.log("blog ",url);
+console.log("blog ",nurl);
 ---
 
 <Layout title={frontmatter.title}>
   <main>
     <div class="container">
-      <a href="/about">Volver</a>
+      <a href={translatePath(`${ nurl}`, lang)}>Volver</a>
       <div class="post-container">
 
         <header class="post-header">

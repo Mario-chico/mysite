@@ -11,15 +11,19 @@ image: {
 ---
 
 
-## Para ser bien resistente
+## Por qué?
 
-Que puede parecer hacer reps a lo pendejo 
+Vivir esta bien cool. Para esto es necesario que muchas funciones se realicen.
+Entre estas, que el corazón bombee sangre a todo nuestro cuerpo, desde los pies hasta el cerebro.
+Además de esto asegurar que no lo hace muy rápido.
 
-Entrenar la capacidad de recibir más daño y sentirte menos fatigado es una definición honesta para esta modalidad.
+Entrenar en esta modalidad trae todos estos beneficios.
+
+## Qué es?
 
 Si al hablar de este tema lo primero que piensas es en correr por mucho tiempo, estas limitando el espectro y por ende tu capacidad de mejora.
 
-## 4 tipos de resistencia
+### 4 tipos de resistencia
 
 - Resistencia muscular
 
@@ -42,27 +46,14 @@ La respiración, postura y movimiento determinan que tan eficiente eres en estas
 
 Siendo consciente de estos tres factores llevan a incrementar dicha eficiencia en lo que hayas decido hacer y estan directamente ligadas a otros dos aspectos, que en su conjunto maximizan el desempeño.
 
-## Manejo de la fatiga y utilización de Energía
+## Cómo le hago?
 
-> Ahdiablo como arde esto
-> 
+Primero escoge uno de los 4 tipos de resistencia mencionados, el que más te guste.
 
-> Nmms ya me cansé
-> 
+A continuación, elige los movimientos acorde a tu interés.
 
-> Si sigo me vomito
-> 
+Realice una serie al fallo.
 
-Son algunas frases que he escuchado al hacer este tipo de entrenamiento
+Repite los mismos movimientos 2-3 veces más al 80%.
 
-Si vas empezando y te sientes así, es algo esperado, le estas poniendo una madriza a tu cuerpo.
-
-Si llevas algún tiempo y esto sigue pasando, es mejor que le prestes atención a estos dos conceptos para identificar mejor lo que te sucede y no pienses que el problema eres tu.
-
-## Energía
-
-Señales que indican un espacio de mejora en tu generación y almacenamiento de energía
-
-- Tienes sueño todo el día o a mitad del día tienes unas incontrolabes ganas de hacer la mimición
-- Comes 50g de carbohidratos y a los 30 minutos quieres estampar tu cara contra la almohada
-- Tardas mucho en arrancar un entrenamiento y antes ingeriste carbos
+Hazlo 2 o 3 veces a la semana, dependiendo de los set que hayas hecho y tu recuperación.
