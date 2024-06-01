@@ -3,17 +3,17 @@
   flex-direction: column;
 	gap: 1.25rem;
 	font-size: 1.25rem;
-	line-height: 2rem;
 }
 .rich-text-content p {
 	font-weight: 400;
+	line-height: 2rem;
 }
-.rich-text-content ul {
+.rich-text-content ul, ol {
 	margin-left: 1.5rem;
 	margin-top: .5rem;
-	list-style-type: disc;
 	text-align: left;
 	font-size: 1rem;
+	line-height: 1.9;
 }
 
 .rich-text-content blockquote {

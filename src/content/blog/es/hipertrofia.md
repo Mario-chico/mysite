@@ -6,7 +6,7 @@ author: "elchico_sw"
 tags: ["hipertrofia"]
 image: {
   url: 'https://astro.build/_astro/header_astro_4_8.s1t0_7PU.webp',
-  alt: 'Mucha Hipertrofia"'
+  alt: 'Mucha Hipertrofia'
 }
 ---
 ## Por qué?

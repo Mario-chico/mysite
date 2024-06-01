@@ -18,7 +18,7 @@ const i18n = getI18N({currentLocale})
   <hr>
   <div class="first">
     <h2>{i18n.HEROABOUT_TITLE}</h2>
-    <p>{i18n.HEROABOUT_TEXT}</p>
+    <p set:html={i18n.HEROABOUT_TEXT}></p>
   </div>
   <hr>
   <div>
@@ -71,12 +71,10 @@ const i18n = getI18N({currentLocale})
       gap: 10px;
       padding-inline: 3rem;
       align-items: center;
+      justify-content: space-around;
     }
     h2{
-      max-width: 22ch;
-    }
-    .first h2{
-      max-width: 50ch
+      max-width: 25ch;
     }
     .second{
       flex-direction: column;

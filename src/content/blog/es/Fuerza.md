@@ -45,10 +45,10 @@ No se enfoca en lo estetico. Eso no quiere decir que no se pueden obtener ganaci
 
 El factor principal para obtener beneficios es la consistencia en el programa. Confía en el proceso.
 
-Considera armar tu programa de la siguiente forma
+Considera armar tu programa de la siguiente forma:
 
 1. Escoge de 3-5 ejercicios por entrenamiento
 2. Haz de 3-5 sets por ejercicio
 3. Realiza de 3-5 repeticiones por set
 4. Descansa de 3-5 minutos entre cada set
-5. Repite esto de 3-5 veces por semana *
+5. Repite esto de 3-5 veces por semana*
