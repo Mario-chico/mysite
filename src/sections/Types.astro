@@ -8,6 +8,7 @@ import Power from "@/icons/power.astro";
 import Longevity from "@/icons/longevity.astro";
 import Breath from "@/icons/breathwork.astro";
 import Mental from "@/icons/mentalhealth.astro";
+import Mobility from "@/icons/mobility.astro";
 import { getI18N } from "@/i18n";
 
 const {currentLocale} = Astro;
@@ -47,8 +48,8 @@ const i18n = getI18N({currentLocale})
       <Breath slot="svg" />
       <p slot="content">Breath-work is the practice of controlling and manipulating your breathing patterns. It's about finding ways to improve your respiratory health, reduce stress, and enhance your overall performance.</p>
     </TrainingGrid>
-    <TrainingGrid title={i18n.TRAINING_TITLES.MENTALHEALTH}>
-      <Mental slot="svg" />
+    <TrainingGrid title={i18n.TRAINING_TITLES.MOBILITY}>
+      <Mobility slot="svg" />
       <p slot="content">Mental health training is about building resilience, managing stress, and improving your cognitive abilities. It's about developing mental strategies and practices that support your overall well-being and help you perform at your be</p>
     </TrainingGrid>
   </div>

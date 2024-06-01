@@ -18,7 +18,8 @@
     "POWER": "Potencia",
     "LONGEVITY": "Longevidad",
     "BREATHWORK": "Respiracion",
-    "MENTALHEALTH": "Salud mental"
+    "MENTALHEALTH": "Salud mental",
+    "MOBILITY": "Movilidad"
   },
   "TRAINING_DESCRIPTIONS": {
     "ENDURANCE": "Comprende los factores individuales que limitan tu capacidad de realizar ejercicio con buena postura por algún tiempo determinado y como usarlos a tu favor.",
@@ -28,7 +29,8 @@
     "POWER": "Entrenamiento de Potencia",
     "LONGEVITY": "Entrenamiento de Longevidad",
     "BREATHWORK": "Entrenamiento de Respiración",
-    "MENTALHEALTH": "Entrenamiento de Salud Mental"
+    "MENTALHEALTH": "Entrenamiento de Salud Mental",
+    "MOBILITY": "Todos los aspectos de la vida se ven mejorados si tu movilidad mejora"
   },
   "HEROABOUT_TITLE": "Pienso que si obtenemos bienestar, podemos hacer bien a nuestra comunidad, naturaleza y el mundo",
   "HEROABOUT_TITLE2": "Obsesionado por el desempeño",
