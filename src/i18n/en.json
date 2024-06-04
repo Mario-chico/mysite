@@ -18,7 +18,8 @@
     "POWER": "Power",
     "LONGEVITY": "Longevity",
     "BREATHWORK": "Breath-work",
-    "MENTALHEALTH": "Mental health"
+    "MENTALHEALTH": "Mental health",
+    "MOBILITY": "Mobility"
   },
   "TRAINING_DESCRIPTIONS": {
     "ENDURANCE": "Understand the factors that limit your physical performance for a certain period of time and how to use them in your favor.", 
@@ -28,7 +29,8 @@
     "POWER": "Power Training",
     "LONGEVITY": "Longevity Training",
     "BREATHWORK": "Breath-Work Training",
-    "MENTALHEALTH": "Mental Health Training"
+    "MENTALHEALTH": "Mental Health Training",
+    "MOBILITY": "Every area of your life is improve by mobility"
   },
   "HEROABOUT_TITLE": "I believe that if we achieve wellness, we can do good to our community, to nature and to the world.",
   "HEROABOUT_TITLE2": "I am passionate about performance",

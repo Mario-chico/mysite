@@ -5,7 +5,7 @@ description: "El arte de verte bien desnudx"
 author: "elchico_sw"
 tags: ["hipertrofia"]
 image: {
-  url: 'https://astro.build/_astro/header_astro_4_8.s1t0_7PU.webp',
+  url: 'https://res.cloudinary.com/dliqpogct/image/upload/v1717511744/mysite/pc7jx4dblr8w73ipjpcn.webp',
   alt: 'Mucha Hipertrofia'
 }
 ---
