@@ -12,13 +12,13 @@ image: {
 
 ## Por qué?
 
-Para vivir independientemente de forma fisica necesitas 3 cosas
+Para vivir independientemente de forma física necesitas 3 cosas
 
-- Activar neuronas para mover musculos
-- Contraer los musculos
-- Mover los huesos con los musculos
+- Activar neuronas para mover músculos.
+- Contraer los músculos.
+- Mover los huesos con los músculos.
 
-Mientras que disfrutamos nuestras edades más tempranas tendemos a dar esto por hecho y no prestar mucha atención, al llegar a los 40 años algo sucede que perdemos de un 2-4 por ciento de fuerza cada año (y de ), el doble que la perdida de músculo (que igual es muy importante preservar el músculo)  y potencia de un 8-10 por ciento.
+Mientras que disfrutamos nuestras edades más tempranas tendemos a dar esto por hecho y no prestar mucha atención, al llegar a los 40 años algo sucede que perdemos de un 2-4 por ciento de fuerza cada año, el doble que la perdida de músculo (que igual es muy importante preservar el músculo) y potencia de un 8-10 por ciento.
 
 En terminos de vejez, es especifico preservar fuerza y potencia muscular, asi no te caes o puedes para una caida.
 
