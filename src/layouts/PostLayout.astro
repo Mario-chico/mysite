@@ -30,7 +30,7 @@ console.log("blog ",nurl);
 
         <header class="post-header">
           <h1>{frontmatter.title}</h1>
-          <span> <time datetime={fecha}>{bDate}</time> | {frontmatter.author}</span>
+          <span> <time datetime={fecha}>{bDate}</time> | <a href="https://www.instagram.com/elchico_sw/">{frontmatter.author}</a></span>
           
           <p>{frontmatter.description}</p>
           <Image src={frontmatter.image.url} alt={frontmatter.image.alt} loading={"eager"} width={1500} height={643}/>

@@ -5,8 +5,8 @@ description: "El arte de verte bien desnudx"
 author: "elchico_sw"
 tags: ["hipertrofia"]
 image: {
-  url: 'https://res.cloudinary.com/dliqpogct/image/upload/v1717511744/mysite/pc7jx4dblr8w73ipjpcn.webp',
-  alt: 'Mucha Hipertrofia'
+  url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/hipertrophy',
+  alt: 'Brazo de un hombre musculoso.'
 }
 ---
 ## Por qué?
@@ -16,7 +16,7 @@ Esto te interesa si quieres:
 - Culo más grande
 - Tienes osteoporosis y es una necesidad de salud
 
-Preservar un sistema nervioso saludable con el paso de los tiempos es necesario para disfrutar de nuestros movimientos y sentirnos cómodos ejecutandolos, sin importar la edad que tengamos.
+Preservar un sistema nervioso saludable con el paso de los tiempos es necesario para disfrutar de nuestros movimientos y sentirnos cómodos ejecutándolos, sin importar la edad que tengamos.
 
 Conforme pasa el tiempo y llegamos a los 40, de 1-2 por ciento de la masa muscular se reduce cada año.
 

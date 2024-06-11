@@ -1,12 +1,12 @@
 ---
 title: "Longevidad"
 pubDate: 2024-05-06
-description: "Larga vida en la que te sientes increible y sea resiliente."
+description: "Larga vida en la que te sientes increíble y seas resiliente."
 author: "elchico_sw"
 tags: ["longevidad"]
 image: {
-  url: 'https://astro.build/_astro/header_astro_4_8.s1t0_7PU.webp',
-  alt: 'Mucha Longevidad'
+  url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/longevity',
+  alt: 'Mujer mayor sonriendo alegremente mientras sostiene una barra.'
 }
 ---
 ## Por qué?

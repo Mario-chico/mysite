@@ -5,8 +5,8 @@ description: "Que no te pese la vida"
 author: "elchico_sw"
 tags: ["Fuerza"]
 image: {
-  url: 'https://astro.build/_astro/header_astro_4_8.s1t0_7PU.webp',
-  alt: 'Mucha Fuerza'
+  url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/strength',
+  alt: 'Mujer atletica en pose de heroina.'
 }
 ---
 
@@ -26,7 +26,7 @@ Y no se empieza a trabajar desde esa edad (Si ya estas en los 40 y nunca entrena
 
 Realmente la perdida de fuerza no es por la edad, es porque falta entrenar
 
-Mantiene el sistema nerviso saludable y joven
+Mantiene el sistema nerviso saludable y joven.
 
 ## Qué es?
 
@@ -51,4 +51,4 @@ Considera armar tu programa de la siguiente forma:
 2. Haz de 3-5 sets por ejercicio
 3. Realiza de 3-5 repeticiones por set
 4. Descansa de 3-5 minutos entre cada set
-5. Repite esto de 3-5 veces por semana*
+5. Repite esto de 3-5 veces por semana

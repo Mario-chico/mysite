@@ -11,5 +11,8 @@ export default defineConfig({
       prefixDefaultLocale: false
     }
   },
-  integrations: [mdx()]
+  integrations: [mdx()],
+  image: {
+    domains: ["res.cloudinary.com"],
+  }
 });

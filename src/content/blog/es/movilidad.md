@@ -1,12 +1,12 @@
 ---
 title: "Movilidad"
 pubDate: 2024-05-06
-description: "Lo que mantiene a nuestro cerebro joven, saluable y con vitalidad."
+description: "Lo que mantiene a nuestro cerebro joven, saludable y con vitalidad."
 author: "elchico_sw"
 tags: ["movilidad"]
 image: {
-  url: 'https://astro.build/_astro/header_astro_4_8.s1t0_7PU.webp',
-  alt: 'Mucha Movilidad'
+  url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/mobility',
+  alt: 'Atleta masculino estirando caderas.'
 }
 ---
 
@@ -30,5 +30,8 @@ No solo es estirar y ya, es fortalecer
 
 ## Cómo le hago?
 
-Escucha a tu cuerpo y sus dolencias
+Escucha a tu cuerpo y sus dolencias.
+Realiza movimientos en los 3 planos (arriba-abajo, izquierda-derecha, rotación) de forma lenta y controlada.
+30 minutos al día.
+Mínimo 3 veces a la semana. 
 

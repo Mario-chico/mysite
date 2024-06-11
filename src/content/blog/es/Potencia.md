@@ -5,8 +5,8 @@ description: "Experimenta tus capacidades y que no te lo cuenten"
 author: "elchico_sw"
 tags: ["potencia"]
 image: {
-  url: 'https://astro.build/_astro/header_astro_4_8.s1t0_7PU.webp',
-  alt: 'Mucha potencia'
+  url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/power',
+  alt: 'Mujer levantando una barra pesada en un gimnasio.'
 }
 ---
 

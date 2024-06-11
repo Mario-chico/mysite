@@ -1,12 +1,12 @@
 ---
-title: "Resistencia macabra"
+title: "Resistencia"
 pubDate: 2024-05-06
 description: "Manejo de la fatiga y utilización de energía, de eso se tratra el juego de Resistencia"
 author: "elchico_sw"
 tags: ["resistencia", "competencia", "energía", "fatiga"]
 image: {
-  url: 'https://astro.build/_astro/header_astro_4_8.s1t0_7PU.webp',
-  alt: 'Mucha resistencia'
+  url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/endurance',
+  alt: 'Atleta masculino en posición de lagartijas con las rodillas en el suelo.'
 }
 ---
 

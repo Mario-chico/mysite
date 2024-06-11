@@ -5,8 +5,8 @@ description: "Y si lo dejas de hacer, dejas de ser"
 author: "elchico_sw"
 tags: ["respiracion"]
 image: {
-  url: 'https://astro.build/_astro/header_astro_4_8.s1t0_7PU.webp',
-  alt: 'Mucha respiración'
+  url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/breath',
+  alt: 'joven sentada con las piernas cruzadas en una pose de meditación contra un fondo rojo.'
 }
 ---
 
