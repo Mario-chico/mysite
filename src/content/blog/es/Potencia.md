@@ -25,7 +25,7 @@ No pienso que alguien quiera vivir en la miseria, a esta vida se viene a disfrut
 
 ## Qué es?
 
-Es crear fibras musculares rapidas.
+Es crear fibras musculares rápidas.
 
 No hay fatiga en este tipo de entrenamiento, ya que se prioriza la calidad del movimiento y no la carga o la frecuencia. Debido a esto no hay un exceso de sudoración o carga muscular. 
 
@@ -43,7 +43,7 @@ En vez de pensar por músculos se escogen movimientos para realizar (ejercicios 
 Usando la estructura 3-5 y si decides irte por el mínimo, escoge un movimiento de
 
 - Rotación
-- Jalon
+- Jalón
 - Empuje
 
 Ya que decidiste que ejercicios hacer, se escoge el orden.
@@ -51,17 +51,17 @@ Ya que decidiste que ejercicios hacer, se escoge el orden.
 - No se hace nada que genere fatiga antes de esto
 - Se realiza el movimiento más complejo o que tenga más carga neuromuscular (involucra diferentes planos, son varios pasos y la coordinación puede ser un problema)
 
-Despues va el volumen y la intensidad
+Después va el volumen y la intensidad
 
 - Va del 30-80% de tu repetición máxima
-- Sigues usando el metodo 3-5 (link a fuerza)
+- Sigues usando el método 3-5 (link a fuerza)
 - Explotas con cada repetición
-- Si el entrenamiento es muy largo y no va acorde a tu estilo de vida actual, considera hacer supersets, solo ten en cuenta que perderas al rededor de un 5% de las ganancias
+- Si el entrenamiento es muy largo y no va acorde a tu estilo de vida actual, considera hacer supersets, solo ten en cuenta que perderás al rededor de un 5% de las ganancias
 
 Y por último, la frecuencia
 
-La verdad es que lo puedes hacer varias veces al día todos los días, a excepción de velocidad máxima. Mientras tu volumen se mantega bajo, vas bien para hacerlo seguido
+La verdad es que lo puedes hacer varias veces al día todos los días, a excepción de velocidad máxima. Mientras tu volumen se mantenga bajo, vas bien para hacerlo seguido
 
-Progresion
+Progresión
 
 Generalmente de 3-5% cada semana, al rededor de la semana 5 haz un retroceso para recuperar

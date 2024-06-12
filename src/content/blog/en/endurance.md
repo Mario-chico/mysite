@@ -22,7 +22,7 @@ Training in this mode brings all these benefits.
 
 If when you talk about this topic the first thing you think about is running for a long time, you're limiting the spectrum and therefore your ability to improve.
 
-### 4 tipos de resistencia
+### 4 types of endurance
 
 - Muscular endurance
 

@@ -23,7 +23,7 @@ As time goes by and we reach 40, 1-2 percent of muscle mass is reduced each year
 
 This doesn't happen because of age, you can get to that age and not see reductions. It happens because there is a lack of training.
 
-Growing muscle, no matter what the goal is to keep the nervous system healthy and young.
+Growing muscle, no matter the goal, is to keep the nervous system healthy and young.
 
 ## What is it?
 

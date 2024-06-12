@@ -22,7 +22,7 @@ Conforme pasa el tiempo y llegamos a los 40, de 1-2 por ciento de la masa muscul
 
 Esto no pasa por la edad, puedes llegar a esa edad y no ver reducciones. Pasa porque hay falta de entrenamiento.
 
-Crecer músculos, sin importar el objetivo es mantener el sistema nervioso saludable y joven.
+Crecer músculos, sin importar el objetivo, es mantener el sistema nervioso saludable y joven.
 
 ## Qué es?
 
