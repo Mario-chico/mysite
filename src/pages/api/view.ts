@@ -1,6 +1,6 @@
 import type { APIRoute } from "astro";
-import { set } from "astro/zod";
 import {db, Views, sql, eq } from 'astro:db';
+export const prerender = false;
 
 export const GET: APIRoute = async ({ request }) => {
   const url = new URL(request.url);
@@ -13,7 +13,7 @@ export const GET: APIRoute = async ({ request }) => {
 
   let item;
   try {
-    const views = await db
+    await db
       .select({
         count: Views.count,
       })
@@ -38,11 +38,18 @@ export const GET: APIRoute = async ({ request }) => {
       })
       .then((res: any[]) => res[0]);
   }catch(err){
+    console.error("error papa ", err);
     item = {slug, count: 1};
   }
 
-  return new Response(JSON.stringify(item), {
+  return new Response(JSON.stringify({
+    ...item,
+    time: Date.now(),
+  }), 
+  {
     status: 200,
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json',
+      "cache-control": "no-store, max-age=0",
+     },
   });
 };

@@ -1,0 +1,21 @@
+---
+import Eye from "@/icons/eye.astro";
+import ViewCounter from "./ViewCounter.svelte";
+
+interface Props {
+  slug: string;
+}
+const {slug} = Astro.props;
+---
+<span>
+  <Eye/>
+  <ViewCounter client:only="svelte" slug={slug}/>
+</span>
+
+<style>
+  span {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+  }
+</style>

@@ -1,13 +1,16 @@
 ---
-import Image from "astro/components/Image.astro";
+import { Image } from "astro:assets";
 import Layout from "./Layout.astro";
+import PostViews from "@/components/PostViews.astro";
 import '@/post.css'
+
 import { getLangFromUrl, useTranslations, useTranslatedPath } from '@/i18n/utils';
-import ViewCounter from "@/components/ViewCounter.svelte";
+
 const slug = Astro.params.slug;
 const { frontmatter } = Astro.props;
 const {currentLocale} = Astro;
 console.log(slug);
+
 let fecha = frontmatter.pubDate;
 const bDate = new Intl.DateTimeFormat(currentLocale, {
   dateStyle: 'long',
@@ -19,8 +22,8 @@ const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 const url = Astro.url.pathname;
 const nurl = url.slice(3, 9);
-console.log("blog ",url);
-console.log("blog ",nurl);
+// console.log("blog ",url);
+// console.log("blog ",nurl);
 ---
 
 <Layout title={frontmatter.title}>
@@ -31,8 +34,8 @@ console.log("blog ",nurl);
 
         <header class="post-header">
           <h1>{frontmatter.title}</h1>
-          <ViewCounter client:only="svelte" slug={slug} />
-          <span> <time datetime={fecha}>{bDate}</time> | <a href="https://www.instagram.com/elchico_sw/">{frontmatter.author}</a></span>
+          
+          <span class="content-info"> <time datetime={fecha}>{bDate}</time> | <a href="https://www.instagram.com/elchico_sw/">{frontmatter.author}</a> | <PostViews slug={slug ? slug : ''}/></span>
           
           <p>{frontmatter.description}</p>
           <Image src={frontmatter.image.url} alt={frontmatter.image.alt} loading={"eager"} width={1500} height={643}/>
@@ -70,6 +73,17 @@ console.log("blog ",nurl);
   .post-container {
     border: 2px solid var(--border-color);
     border-radius: 10px;
+  }
+  .content-info {
+    min-width: 300px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 0.2rem;
+  }
+  .content-info a {
+    margin: 0;
   }
   header {
     text-align: center;

@@ -1,4 +1,4 @@
-import { column, count, defineDb, defineTable } from 'astro:db';
+import { column, defineDb, defineTable } from 'astro:db';
 
 const Views = defineTable({
   columns: {

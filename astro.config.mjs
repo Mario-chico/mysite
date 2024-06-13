@@ -16,5 +16,6 @@ export default defineConfig({
   integrations: [mdx(), db(), svelte()],
   image: {
     domains: ["res.cloudinary.com"]
-  }
+  },
+  output: 'hybrid',
 });
