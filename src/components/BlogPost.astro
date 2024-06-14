@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
-import AstroImage from "@/img/astro.webp"
-const { url, title, description, date, image, alt } = Astro.props;
+import ViewsList from "./ViewsList.astro";
+const { url, title, description, date, image, alt, slug } = Astro.props;
 ---
 
 
@@ -12,8 +12,8 @@ const { url, title, description, date, image, alt } = Astro.props;
         <span>
           <time datetime={date}>
             {date}
-
           </time>
+          <ViewsList slug={slug}/>
         </span>
       </header>     
       <div>
