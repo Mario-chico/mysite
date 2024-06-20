@@ -1,24 +1,31 @@
-const hamburgerBtn = document.getElementById("hamburger");
-const navMenu = document.querySelector(".menu");
-const body = document.getElementsByTagName("body")[0];
+// const hamburgerBtn = document.querySelector("#hamburger");
+// const navMenu = document.querySelector(".menu");
+// const body = document.getElementsByTagName("body")[0];
 
 function toggleHamburger() {
-  navMenu?.classList.toggle("show");
-  body?.classList.toggle("show");
-  hamburgerBtn?.setAttribute(
-      "aria-expanded",
-      hamburgerBtn.getAttribute("aria-expanded") === "false" ? "true" : "false"
-  );
-  hamburguerAnimation();
+  try {
+    console.log('hola');
+    document.querySelector(".menu")?.classList.toggle("show");
+    document.getElementsByTagName("body")[0]?.classList.toggle("show");
+    document.querySelector("#hamburger")?.setAttribute(
+        "aria-expanded",
+        document.querySelector("#hamburger")?.getAttribute("aria-expanded") === "false" ? "true" : "false"
+    );
+    hamburguerAnimation();
+  } catch (error) {
+    console.error(error);
+  }
 }
 
-const lineA = document.querySelector('.l1');
-const lineB = document.querySelector('.l2');
-const lineC = document.querySelector('.l3');
+// const lineA = document.querySelector('.l1');
+// const lineB = document.querySelector('.l2');
+// const lineC = document.querySelector('.l3');
 function hamburguerAnimation() {
-  lineA?.classList.toggle("a");
-  lineB?.classList.toggle("b");
-  lineC?.classList.toggle("c");
+  document.querySelector('.l1')?.classList.toggle("a");
+  document.querySelector('.l2')?.classList.toggle("b");
+  document.querySelector('.l3')?.classList.toggle("c");
 }
-
-hamburgerBtn?.addEventListener("click", toggleHamburger)
+document.addEventListener('astro:page-load', () => {
+  
+  document.querySelector("#hamburger")?.addEventListener("click", toggleHamburger);
+});

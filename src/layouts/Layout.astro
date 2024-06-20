@@ -19,7 +19,7 @@ const i18n = getI18N({currentLocale})
 ---
 
 <!doctype html>
-<html lang={currentLocale}>
+<html transition:persist lang={currentLocale}>
 	<head>
 		<meta charset='UTF-8' />
 		<meta name="description" content="Desarrollador Web especializado en crear experiencias digitales" />
@@ -27,22 +27,20 @@ const i18n = getI18N({currentLocale})
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
 		<ViewTransitions />
-		<script is:inline>
+		<script is:inline >
 			window.getThemePreference = () => {
 				const localItem = typeof localStorage !== 'undefined' && localStorage.getItem('theme') 
 				if(localItem) return localItem
 				return window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light"
 			}
-			const isDark = window.getThemePreference() === "dark";
-			document.addEventListener('astro:before-swap', () => {
-				
-			})
+			let isDark = window.getThemePreference() === "dark";
+			
 			document.documentElement.classList.toggle("dark", isDark);
 			console.log("En el layout");
 		</script>
-		<script async src="https://tally.so/widgets/embed.js"></script>
+		<script async is:inline src="https://tally.so/widgets/embed.js"></script>
 	</head>
-	<body transition:persist>
+	<body >
 		<div class="noise" > </div>
 		<Header />
 		<slot />

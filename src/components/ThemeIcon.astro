@@ -26,19 +26,9 @@ import {DARK_THEME, LIGHT_THEME} from '@/const/themes';
   .sun {
     color: black;
   }
-  
-  
-
-  /* :global(.dark) .sun {
-    fill: transparent;
-  }
-  :global(.dark) .moon {
-    transform: rotate(0);
-    opacity: 1;
-  } */
 </style>
 
-<script is:inline define:vars={{ darkTheme: DARK_THEME, lightTheme: LIGHT_THEME }}>
+<script is:inline  define:vars={{ darkTheme: DARK_THEME, lightTheme: LIGHT_THEME }}>
 	function handleToggleClick() {
 		const element = document.documentElement
 		element.classList.toggle(darkTheme)
@@ -66,9 +56,18 @@ import {DARK_THEME, LIGHT_THEME} from '@/const/themes';
 	}
 
 	const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)")
-	darkModePreference.addEventListener("change", handleThemePreferenceChange)
-	darkModePreference.addListener(handleThemePreferenceChange) // backward compatibility
-  
-	document.getElementById("themeToggle").addEventListener("click", handleToggleClick);
-	updateThemeMessage(window.getThemePreference());
+  document.addEventListener('astro:page-load', () => {
+    darkModePreference.addEventListener("change", handleThemePreferenceChange)
+    darkModePreference.addListener(handleThemePreferenceChange) // backward compatibility
+    
+    document.getElementById("themeToggle").addEventListener("click", handleToggleClick);
+    updateThemeMessage(window.getThemePreference());
+});
+</script>
+<script>
+  document.addEventListener('astro:after-swap', () => {
+    localStorage.theme === 'dark'
+    ? document.documentElement.classList.add("dark")
+    : document.documentElement.classList.remove("dark");
+  });
 </script>

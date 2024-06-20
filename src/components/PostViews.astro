@@ -9,7 +9,7 @@ const {slug} = Astro.props;
 ---
 <span>
   <Eye/>
-  <ViewCounter client:only="svelte" transition:persist-props slug={slug}/>
+  <ViewCounter client:only="svelte" slug={slug}/>
 </span>
 
 <style>

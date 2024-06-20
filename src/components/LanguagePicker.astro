@@ -32,12 +32,14 @@ const nurl = url.slice(3, url.length);
   }
 </style>
 <script>
-  let lang = document.documentElement.lang
-  if( lang === 'es' ){
-    let esF = document.querySelector('.es') as HTMLElement;
-    esF.style.pointerEvents = 'none';
-  }else{
-    let enF =document.querySelector('.en') as HTMLElement;
-    enF.style.pointerEvents = 'none';
-  }
+  document.addEventListener('astro:page-load', () => {
+    let lang = document.documentElement.lang
+    if( lang === 'es' ){
+      let esF = document.querySelector('.es') as HTMLElement;
+      esF.style.pointerEvents = 'none';
+    }else{
+      let enF =document.querySelector('.en') as HTMLElement;
+      enF.style.pointerEvents = 'none';
+    }
+});
 </script>
