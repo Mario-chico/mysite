@@ -68,7 +68,7 @@ import {DARK_THEME, LIGHT_THEME} from '@/const/themes';
 	const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)")
 	darkModePreference.addEventListener("change", handleThemePreferenceChange)
 	darkModePreference.addListener(handleThemePreferenceChange) // backward compatibility
-
+  
 	document.getElementById("themeToggle").addEventListener("click", handleToggleClick);
 	updateThemeMessage(window.getThemePreference());
 </script>

@@ -1,6 +1,7 @@
 ---
 import Footer from '@/sections/Footer.astro';
 import Header from '@/sections/Header.astro';
+import { ViewTransitions } from 'astro:transitions';
 // Supports weights 100-900
 import '@fontsource-variable/geologica';
 
@@ -20,11 +21,12 @@ const i18n = getI18N({currentLocale})
 <!doctype html>
 <html lang={currentLocale}>
 	<head>
-		<meta charset="UTF-8" />
+		<meta charset='UTF-8' />
 		<meta name="description" content="Desarrollador Web especializado en crear experiencias digitales" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
+		<ViewTransitions />
 		<script is:inline>
 			window.getThemePreference = () => {
 				const localItem = typeof localStorage !== 'undefined' && localStorage.getItem('theme') 
@@ -32,12 +34,15 @@ const i18n = getI18N({currentLocale})
 				return window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light"
 			}
 			const isDark = window.getThemePreference() === "dark";
+			document.addEventListener('astro:before-swap', () => {
+				
+			})
 			document.documentElement.classList.toggle("dark", isDark);
 			console.log("En el layout");
 		</script>
 		<script async src="https://tally.so/widgets/embed.js"></script>
 	</head>
-	<body>
+	<body transition:persist>
 		<div class="noise" > </div>
 		<Header />
 		<slot />

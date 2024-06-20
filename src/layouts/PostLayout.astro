@@ -38,7 +38,7 @@ const nurl = url.slice(3, 9);
           <span class="content-info"> <time datetime={fecha}>{bDate}</time> | <a href="https://www.instagram.com/elchico_sw/">{frontmatter.author}</a> | <PostViews slug={slug ? slug : ''}/></span>
           
           <p>{frontmatter.description}</p>
-          <Image src={frontmatter.image.url} alt={frontmatter.image.alt} loading={"eager"} width={1500} height={643}/>
+          <Image src={frontmatter.image.url} alt={frontmatter.image.alt} loading={"eager"} width={1500} height={643} transition:name="img"/>
         </header>
         <article >
           <!--<div class="tags">
