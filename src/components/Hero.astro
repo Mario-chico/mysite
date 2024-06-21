@@ -51,7 +51,6 @@ const i18n = getI18N({currentLocale})
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: var(--color-primary);
     padding: 1em;
   }
   h3 {
@@ -79,7 +78,19 @@ const i18n = getI18N({currentLocale})
   .box{
     margin-top: 39px;
   }
-
+  .button{
+    padding: 0.7rem;
+    border-radius: 8px;
+    
+    cursor: pointer;
+    font-weight: 800;
+    background-color: #fff;
+    background: linear-gradient(#1095c1 0 0) var(--j, 0%) / var(--j, 0%) no-repeat;
+    transition: .4s, background-position 0s;
+  }
+  .button:hover{
+    --j: 100%;
+  }
 
   .h-line {
     width: 100%;
