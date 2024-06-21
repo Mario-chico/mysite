@@ -4,7 +4,6 @@
 
 function toggleHamburger() {
   try {
-    console.log('hola');
     document.querySelector(".menu")?.classList.toggle("show");
     document.getElementsByTagName("body")[0]?.classList.toggle("show");
     document.querySelector("#hamburger")?.setAttribute(
