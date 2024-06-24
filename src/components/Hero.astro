@@ -21,7 +21,14 @@ const i18n = getI18N({currentLocale})
     <h1 class="me-title">{i18n.ME_TITLE}</h1>
     <p set:html={i18n.ME_PARAGRAPH}></p>
     <div class="box">
-      <button class="button" data-tally-open="npA9MZ" data-tally-layout="modal" data-tally-auto-close="1000">{i18n.ME_BTNTEXT}</button>
+      {
+        currentLocale === 'es' ?(
+        <button class="button" data-tally-open="npA9MZ" data-tally-layout="modal" data-tally-auto-close="1000">{i18n.ME_BTNTEXT}</button>
+        ):(
+        <button class="button" >eyo</button>
+        )
+
+      }
     </div>
   </div>
 </section>
@@ -81,15 +88,17 @@ const i18n = getI18N({currentLocale})
   .button{
     padding: 0.7rem;
     border-radius: 8px;
-    
+    border-color: var(--border-color);
     cursor: pointer;
     font-weight: 800;
     background-color: #fff;
-    background: linear-gradient(#1095c1 0 0) var(--j, 0%) / var(--j, 0%) no-repeat;
+    background: linear-gradient(var(--tex-color) 0 0) var(--j, 0%) / var(--j, 0%) no-repeat;
     transition: .4s, background-position 0s;
+    color: var(--tex-color);
   }
   .button:hover{
     --j: 100%;
+    color: var(--p2);
   }
 
   .h-line {
