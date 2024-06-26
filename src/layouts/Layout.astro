@@ -22,7 +22,7 @@ const i18n = getI18N({currentLocale})
 <html transition:persist lang={currentLocale}>
 	<head>
 		<meta charset='UTF-8' />
-		<meta name="description" content="Desarrollador Web especializado en crear experiencias digitales" />
+		<meta name="description" content="Entrenador personal. Coach personal" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
@@ -38,7 +38,7 @@ const i18n = getI18N({currentLocale})
 			document.documentElement.classList.toggle("dark", isDark);
 			console.log("En el layout");
 		</script>
-		<script async is:inline src="https://tally.so/widgets/embed.js"></script>
+		<script async data-astro-rerun is:inline src="https://tally.so/widgets/embed.js"></script>
 	</head>
 	<body >
 		<div class="noise" > </div>
