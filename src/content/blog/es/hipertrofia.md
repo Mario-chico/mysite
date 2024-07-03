@@ -16,34 +16,43 @@ Esto te interesa si quieres:
 - Culo más grande
 - Tienes osteoporosis y es una necesidad de salud
 
-Preservar un sistema nervioso saludable con el paso de los tiempos es necesario para disfrutar de nuestros movimientos y sentirnos cómodos ejecutándolos, sin importar la edad que tengamos.
+La verdad es que crecer el músculo es una buena idea, siempre teniendo en cuenta tus metas para no exceder de lo necesario.
 
-Conforme pasa el tiempo y llegamos a los 40, de 1-2 por ciento de la masa muscular se reduce cada año.
+Conforme pasa el tiempo y llegamos a los 40 años, de 1-2 por ciento de la masa muscular se reduce cada año. Esto lleva a reducir tu independencia y funcionalidad física.
 
-Esto no pasa por la edad, puedes llegar a esa edad y no ver reducciones. Pasa porque hay falta de entrenamiento.
-
-Crecer músculos, sin importar el objetivo, es mantener el sistema nervioso saludable y joven.
+De igual manera aporta a mantener un sistema nervioso saludable y joven. Si te gusta disfrutar de tus movimientos y sentir cómodidad al ejecutarlos, sin importar la edad que tengas, puedes encontrar muchos beneficios en la hipertrofia.
 
 ## Qué es?
 
 Hacer crecer el músculo o grupos de músculos.
 
-No tiene una finalidad funcional, es simplemente hacer que crezca y se tiende relacionar con lo estético.
+No tiene una finalidad funcional, es simplemente hacer que crezca y se tiende relacionar con lo estético, sin embargo es diferente hacer crecer el tamaño de los músculos a desaparecer la grasa para que se vea definido.
 
-Usualmente se piensa en esto como la parte estética, sin embargo es diferente hacer crecer el tamaño de los músculos a desaparecer la grasa para que se vea.
+La perdida de músculo no pasa por la edad, puedes llegar a esa edad y no ver reducciones. Pasa porque hay **falta de entrenamiento**.
 
 ## Cómo le hago?
 
-La verdad es que puedes hacer muchas cosas, y es probable que todas funcionen. Honestamente las 8 variables a modificar por si solas no hacen el cambio entre crecer y no crecer musculo
+La verdad es que puedes hacer muchas cosas y, es probable que todas funcionen. Honestamente las 8 variables a modificar[^listnote] por si solas no hacen el cambio entre crecer y no crecer músculo
 
-¿Qué si lo hace?
+**¿Qué si lo hace?**
 
 - Tiene que tener un estimulo mayor. La tensión neta debe ser grande.
-- Tienes que mandar esa señal de afuera (músculo) hacia el nucleo, que se encuentra dentro del musculo.
-- Activar la síntesis de proteínas, y tener los aminos y energía necesaria para que esto suceda.
+- Tienes que mandar esa señal de afuera (músculo) hacia el nucleo, que se encuentra dentro del músculo. (Conexion neuromuscular)
+- Activar la síntesis de proteínas y, tener los aminoacidos y energía necesaria para que esto suceda. (Llega a tus macros diariamente)
 
-Y es que no es hacer lo que te plazca a la verga, es que tienes muchas opciones y puedes ir variando de una a otra
+En otras palabras, tienes muchas opciones y puedes ir variando de una a otra.
 
 Por que los super sets funcionan? y por que los dropsets o muscle set o cargas pesadas o cargas ligeras o mayor rango de movimiento o no mucho rango?
 
-porque modifica las variables y cumple con los 3 pasos descritos anteriormente.
+Porque modifica las variables y cumple con los 3 pasos descritos anteriormente.
+
+  [^listnote]: Variables a modificar
+    
+    - Elección: Selección de ejercicios para trabajar músculos o movimientos específicos.
+    - Orden: La secuencia en la que se realizan los ejercicios, que puede afectar a la fatiga y el estímulo musculares.
+    - Volumen: Cantidad total de series y repeticiones, que influye en el crecimiento muscular.
+    - Intensidad: El porcentaje de la carga máxima utilizada (por ejemplo, porcentaje de una repetición máxima).
+    - Intervalos de descanso: La duración del descanso entre series, que afecta a la recuperación y a la sostenibilidad de la intensidad.
+    - Frecuencia: La frecuencia con la que se entrena un grupo muscular por semana.
+    - Duración: El tiempo dedicado a cada ejercicio o sesión.
+    - Velocidad: el tempo o la velocidad a la que se realizan los ejercicios, que influye en la potencia y la tensión.

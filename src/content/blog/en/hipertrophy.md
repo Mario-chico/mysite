@@ -35,7 +35,7 @@ Usually this is thought of as the aesthetic part, however it is different to gro
 
 ## How do I do it?
 
-The truth is that you can do a lot of things, and they are all likely to work. Honestly the 8 variables to modify alone don't make the change between growing muscle and not growing muscle.
+The truth is that you can do a lot of things, and they are all likely to work. Honestly the 8 variables to modify[^listnote] alone don't make the change between growing muscle and not growing muscle.
 
 What does?
 
@@ -48,3 +48,13 @@ And it's not that you can do whatever you want, it's that you have many options 
 Why super sets work? and why dropsets or muscle sets or heavy loads or light loads or greater range of motion or not much range?
 
 Because it modifies the variables and fulfills the 3 steps described above.
+
+[^listnote] Modified Variables:
+    - Choice: The selection of exercises to target specific muscles or movements.
+    - Order: The sequence in which exercises are performed, which can affect muscle fatigue and stimulus.
+    - Volume: Total amounts of sets and repetitions, influencing muscle growth.
+    - Intensity: The percentage of the maximum load used (e.g., percentage of one repetition maximum).
+    - Rest Intervals: The duration of rest between sets, affecting recovery and intensity sustainability.
+    - Frequency: How often a muscle group is trained per week.
+    - Duration: The time spent on each exercise or session.
+    - Speed: The tempo or speed at which exercises are performed, influencing power and tension.
