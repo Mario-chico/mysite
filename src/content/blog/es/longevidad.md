@@ -19,7 +19,7 @@ Si pierdes fuerza y funcionalidad en tu cuerpo se reducen tus ganas de viajar, t
 
 Mantener tu corazón funcional, más si eres hombre.
 
-Además de prolongar el tiempo de vida es vivir en bienestar.
+Además de prolongar el tiempo de vida, el proposito es vivir en bienestar.
 
 No es ser la persona más fuerte del mundo, romper records mundiales, ser la persona más marcada del gimnasio, es sobre mantener funcional tu vida y sentirte bien.
 
@@ -28,7 +28,7 @@ Además de mantener una buena salud de corazón, la fuerza es otro indicador de 
 Esto sucede porque al avanzar la vida hay
 
 - Perdida de balance.
-- Tropiezos aumentan.
+- Los tropiezos aumentan.
 - Perdida de fuerza para detener el impacto
 
 ## Cómo le hago?

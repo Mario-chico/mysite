@@ -40,7 +40,7 @@ const nurl = url.slice(3, 9);
           <p>{frontmatter.description}</p>
           <Image src={frontmatter.image.url} alt={frontmatter.image.alt} loading={"eager"} width={1500} height={643} transition:name="img"/>
         </header>
-        <article >
+        <article id="article">
           <!--<div class="tags">
             {
               frontmatter.tags.map((tag: any) => (
@@ -59,6 +59,14 @@ const nurl = url.slice(3, 9);
       </div>
   </div>
   </main>
+  <div class="bmc-btn-container">
+
+    <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/elchico.coach">💪🏽
+      <span>
+        Buy me a prote
+      </span> 
+    </a>
+  </div>
 </Layout>
 <style>
   .container {
@@ -92,7 +100,7 @@ const nurl = url.slice(3, 9);
     align-items: center;
     gap: 1rem;
   }
-  article {
+  #article {
     padding-inline: 2rem;
 	  padding-block: 2.5rem;
   }
@@ -118,6 +126,26 @@ const nurl = url.slice(3, 9);
     object-fit: cover;
     height: auto;
     min-height: 240px;
+  }
+  .bmc-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .bmc-button {
+    min-width: 210px;
+    height: 60px;
+    padding: 0px 24px;
+    text-decoration: none;
+    color: #000;
+    background-color: #ff8000;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
   @media screen and (min-width: 1024px) {
     
