@@ -26,6 +26,11 @@
 	padding: .5rem;
 }
 
+.rich-text-content button {
+	background-color: var(--accent-color);
+	border: none;
+}
+
 blockquote:before,
 blockquote:after {
 	position: absolute;

@@ -43,7 +43,7 @@
 </script>
 
 <article class="timer">
-  <h1>Timer</h1>
+  <h2>Cronómetro</h2>
   <div class="time">{formatTime(seconds)}</div>
   <div class="controls">
     <button on:click={startTimer} disabled={isRunning}>Start</button>

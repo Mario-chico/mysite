@@ -10,23 +10,23 @@
     if (isNaN(number) || number < 1 || !Number.isInteger(number)) {
       message = 'Please enter a positive integer.';
     } else if (number >= 1 && number <= 20) {
-      message = 'Gotta be more disciplined';
+      message = 'Indica un estado muy reactivo y potenciales problemas como ansiedad o sobreentrenamiento. Es posible que emocionalmente no seas reactiva, sin embargo tu sistema lo es.';
     } else if (number >= 21 && number <= 45) {
-      message = 'Good but room to improve';
+      message = 'Sugiere un nivel medio de tolerancia al CO^2^, mejoras en como respondes al estrés vienen con entrenamiento para controlar la respiración ';
     } else {
-      message = 'Elite one';
+      message = 'Indica un buen control del diafragma y una gestión eficaz del CO2, lo que refleja una mejor tolerancia al estrés y una mayor eficiencia aeróbica.';
     }
   }
 </script>
 
 <article class="number-input">
-  <h1>Number Input Component</h1>
+  <h2>Tiempo exhalando</h2>
   <input
     type="number"
     bind:value={userInput}
     min="1"
     step="1"
-    placeholder="Enter a positive integer"
+    placeholder="Tu número aparece aquí..."
   />
   <p>{message}</p>
 </article>
@@ -37,6 +37,7 @@
     max-width: 300px;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
   }
 
   input {
