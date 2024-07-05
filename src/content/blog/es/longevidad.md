@@ -21,7 +21,7 @@ Mantener tu corazón funcional, más si eres hombre.
 
 Además de prolongar el tiempo de vida, el proposito es vivir en bienestar.
 
-No es ser la persona más fuerte del mundo, romper records mundiales, ser la persona más marcada del gimnasio, es sobre mantener funcional tu vida y sentirte bien.
+No es ser la persona más fuerte del mundo, romper records mundiales, ser la persona más marcada del gimnasio, es sobre **mantener funcional tu vida y sentirte bien**.
 
 Además de mantener una buena salud de corazón, la fuerza es otro indicador de longevidad, en específico la fuerza en piernas. Y esto es porque usualmente eres físicamente más activa cuando se entrena, si se pierde fuerza en las piernas es un resultado de falta de movimiento. De igual manera es porque al caerse y no parar el impacto, te lastimas (Cadera, pelvis o piernas rotas).
 

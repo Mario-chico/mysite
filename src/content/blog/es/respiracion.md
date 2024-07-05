@@ -52,3 +52,12 @@ Estás prácticas se listaran y explorarán más a detalle en diversos blogs, de
 Que la inhalación sea lenta, no sobre respires. Además que sea profunda, significa que respires con el diafragma, no con el pecho.
 
 La exhalación es pasiva, déjala ser.
+
+La tolerancia al dioxido de carbono es un indicador de cuanto estamos respirando. Si sobrerespiramos tendremos problemas tales como
+
+- Alergias
+- Falta de aire (redundantemente)
+- Nariz tapada
+- Problemas de concentración
+
+Para saber tu tolerancia a este, visita el blog del [test](https://elchico.coach/es/blog/test) para conocer categoría, que significa y cómo mejorar ese resultado.

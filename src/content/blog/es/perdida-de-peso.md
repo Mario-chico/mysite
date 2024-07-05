@@ -44,7 +44,7 @@ Tenemos mejores métodos, entre ellos:
 
 - Escoge algo que te guste y si nada te gusta sal a dar caminatas largas por parques o reservas ecológicas de tu ciudad, o en la calle. Decide por algo que hacer.
 - Reflexiona sobre que es lo que te hace comer en exceso (si es el caso) e identifica los momentos que disparan esa acción.
-- Cambia alimentos altos en azucares por otros proteínas o fibras, que ayuden a saciar más.
+- Cambia alimentos altos en azucares por otros, como proteínas o fibras, que ayuden a saciar más el hambre.
 - Eleva tu frecuencia cardíaca a lo largo del día (10 segundos de jumping jacks cada 3 horas).
 - HAZLO TODOS LOS DÍAS.
 

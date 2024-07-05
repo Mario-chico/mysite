@@ -54,7 +54,7 @@ Ya que decidiste que ejercicios hacer, se escoge el orden.
 Después va el volumen y la intensidad
 
 - Va del 30-80% de tu repetición máxima
-- Sigues usando el método 3-5 (link a fuerza)
+- Sigues usando el método 3-5 que se explica en el blog de [Fuerza](https://elchico.coach/es/blog/fuerza)
 - Explotas con cada repetición
 - Si el entrenamiento es muy largo y no va acorde a tu estilo de vida actual, considera hacer supersets, solo ten en cuenta que perderás al rededor de un 5% de las ganancias
 

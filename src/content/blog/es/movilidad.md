@@ -22,7 +22,8 @@ Las limitaciones articulares y la movilidad restringida pueden provocar dolor cr
 
 Incrementar el rango de movimiento y flexibilidad del cuerpo en general.
 Esto trae consigo la reducción de dolor, resiliencia ante lesiones y un mejor desempeño atlético.
-No solo es estirar y ya, es fortalecer 
+
+No solo es estirar y ya, es fortalecer:
 - articulaciones
 - tejido conectivo
 - músculos

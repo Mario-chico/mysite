@@ -16,7 +16,7 @@ Esto te interesa si quieres:
 - Culo más grande
 - Tienes osteoporosis y es una necesidad de salud
 
-La verdad es que crecer el músculo es una buena idea, siempre teniendo en cuenta tus metas para no exceder de lo necesario.
+Crecer el músculo es una buena idea, siempre teniendo en cuenta tus metas para no exceder de lo necesario.
 
 Conforme pasa el tiempo y llegamos a los 40 años, de 1-2 por ciento de la masa muscular se reduce cada año. Esto lleva a reducir tu independencia y funcionalidad física.
 
@@ -28,11 +28,11 @@ Hacer crecer el músculo o grupos de músculos.
 
 No tiene una finalidad funcional, es simplemente hacer que crezca y se tiende relacionar con lo estético, sin embargo es diferente hacer crecer el tamaño de los músculos a desaparecer la grasa para que se vea definido.
 
-La perdida de músculo no pasa por la edad, puedes llegar a esa edad y no ver reducciones. Pasa porque hay **falta de entrenamiento**.
+La perdida de músculo no pasa por la edad, puedes llegar a los 40 y no ver reducciones. Pasa porque hay **falta de entrenamiento**.
 
 ## Cómo le hago?
 
-La verdad es que puedes hacer muchas cosas y, es probable que todas funcionen. Honestamente las 8 variables a modificar[^listnote] por si solas no hacen el cambio entre crecer y no crecer músculo
+Puedes hacer muchas cosas y, es probable que todas funcionen. Honestamente las 8 variables a modificar[^listnote] por si solas no hacen el cambio entre crecer y no crecer músculo
 
 **¿Qué si lo hace?**
 
