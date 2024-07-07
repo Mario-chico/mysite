@@ -57,8 +57,8 @@ Once you have decided which exercises to do, you choose the order.
 Then comes the volume and intensity
 
 - It goes from 30-80% of your repetition maximum.
-- You continue using method 3-5 (link to strength)
-- You explode with each repetition
+- You continue using method 3-5 explained in the [Strength](https://elchico.coach/en/blog/strength) blog
+- Explode with each repetition
 - If the training is too long and doesn't suit your current lifestyle, consider supersets, just be aware that you will lose about 5% of your gains.
 
 ### Frequency

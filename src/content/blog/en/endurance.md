@@ -6,7 +6,7 @@ author: "elchico_sw"
 tags: ["endurance", "competitions", "energy", "fatigue"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/endurance',
-  alt: 'Mucha resistencia'
+  alt: 'Male athlete in push-up position with knees on the floor.'
 }
 ---
 
@@ -38,8 +38,8 @@ Whether it's
 
 
 - Run for 10 seconds at a maximum speed
-- Do you do a lot of repetitions in 5-15 minutes
-- You run long distances of more than 30 minutes
+- Do lot of repetitions in 5-15 minutes
+- Run long distances of more than 30 minutes
 - You're testing your fitness with stable tests
 
 
@@ -53,8 +53,28 @@ First choose one of the 4 types of resistance mentioned, the one you like the mo
 
 Then choose the movements according to your interest.
 
-Make a series of the ruling.
+- Make a set until failure.
 
-Repeat the same moves 2-3 times over 80%.
+- Repeat the same moves 2-3 times over 80%.
 
-Do it 2 or 3 times a week, depending on the set you've made and your recovery.
+- Do it 2 or 3 times a week, depending on the set you've made and your recovery.
+
+### Progression
+
+Add 1 repetition each week of your periodization.
+
+**Example:**
+
+Week 1
+| Exercise | Reps |
+| ----------- | ----------- |
+| Muscle ups | 10 |
+| Bar dips | 10 |
+| Pull ups | 10 |
+
+Week 6
+| Exercise | Reps |
+| ----------- | ----------- |
+| Muscle ups | 16 |
+| Bar dips | 16 |
+| Pull ups | 16 | 

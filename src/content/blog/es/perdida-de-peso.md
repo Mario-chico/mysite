@@ -12,7 +12,7 @@ image: {
 
 ## Por qué?
 
-Hay demasiados beneficios a obtener, y el principal beneficio depende de tu situación y propósitos.
+Hay demasiados beneficios a obtener, y el principal depende de tu situación y propósitos.
 
 - Mejora en la salud mental y emocional.
 - Mejora en hormonas sexuales.
@@ -30,7 +30,7 @@ Y esto sucede con la respiración.
 
 Es por eso que hay muchos métodos y todos funcionan, no porque sean súper intensos o sudes muchos (La grasa no se pierde al sudar).
 
-Para que esto suceda debes restringir algo, calorías consumidas, tiempo de ocio para entrenar o caminar largas distancias, actividades previas o posterior al dormir para poder recuperar mejor.
+Para que esto suceda debes restringir algo, calorías consumidas, tiempo de ocio para entrenar o caminar largas distancias, actividades previas al dormir, para poder recuperar mejor.
 
 No tiene que ser pura lechuga y tomate y no tienes que restringir todo al mismo tiempo, no es un camino de sufrimiento.
 
@@ -47,5 +47,7 @@ Tenemos mejores métodos, entre ellos:
 - Cambia alimentos altos en azucares por otros, como proteínas o fibras, que ayuden a saciar más el hambre.
 - Eleva tu frecuencia cardíaca a lo largo del día (10 segundos de jumping jacks cada 3 horas).
 - HAZLO TODOS LOS DÍAS.
+
+NO TE OBSESIONES CON LAS CALORÍAS.
 
 Y en todo el momento, acuérdate de tratarte bien y amarte. Reconoce los logros obtenidos, celebralos. Al final del camino lo que buscas es bienestar, pero no lo encontramos al final, esta en todo el proceso.

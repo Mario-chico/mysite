@@ -11,7 +11,7 @@ image: {
 ---
 ## Why?
 
-There are too many benefits to obtain, and the main benefit depends on your situation and purposes.
+There are too many benefits to obtain, and the main depends on your situation and purposes.
 
 - Improved mental and emotional health.
 - Improved sex hormones.
@@ -29,7 +29,7 @@ And this happens with breathing.
 
 That's why there are many methods and they all work, not because they are super intense or you sweat a lot (Fat is not lost by sweating).
 
-For this to happen you must restrict something, calories consumed, leisure time to train or walk long distances, pre or post sleep activities to be able to recover better.
+For this to happen you must restrict something, calories consumed, leisure time to train or walk long distances, pre activities to be able to recover better.
 
 It doesn't have to be all lettuce and tomatoes and you don't have to restrict everything at the same time, it's not a path of suffering.
 
@@ -46,5 +46,7 @@ We have better methods, among them:
 - Change foods high in sugars for other protein or fiber, which help to satiate more.
 - Raise your heart rate throughout the day (10 seconds of jumping jacks every 3 hours).
 - DO IT EVERY DAY.
+
+DON'T OBSESS ABOUT CALORIES.
 
 And at all times, remember to treat yourself well and love yourself. Recognize your achievements, celebrate them. At the end of the road what you are looking for is wellness, but we do not find it at the end, it is in the whole process.

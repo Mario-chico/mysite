@@ -31,6 +31,7 @@ It's not just stretching and that's it, it's about strengthening
 ## How do I do it?
 
 Listen to your body and its ailments.
-Perform movements in the 3 planes (up-down, left-right, rotation) in a slow and controlled manner.
-30 minutes a day.
-Minimum 3 times a week. 
+
+- Perform movements in the 3 planes (up-down, left-right, rotation) in a slow and controlled manner.
+- 30 minutes a day.
+- Minimum 3 times a week. 

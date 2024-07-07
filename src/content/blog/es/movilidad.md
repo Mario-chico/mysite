@@ -32,7 +32,8 @@ No solo es estirar y ya, es fortalecer:
 ## Cómo le hago?
 
 Escucha a tu cuerpo y sus dolencias.
-Realiza movimientos en los 3 planos (arriba-abajo, izquierda-derecha, rotación) de forma lenta y controlada.
-30 minutos al día.
-Mínimo 3 veces a la semana. 
+
+- Realiza movimientos en los 3 planos (arriba-abajo, izquierda-derecha, rotación) de forma lenta y controlada.
+- 30 minutos al día.
+- Mínimo 3 veces a la semana. 
 

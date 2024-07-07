@@ -52,3 +52,5 @@ These practices will be listed and explored in more detail in various blogs, for
 Inhale slowly, do not over breathe. Also, deep breathing means breathing with the diaphragm, not the chest.
 
 The exhalation is passive, let it be.
+
+To know your tolerance to it, visit the [test](https://elchico.coach/en/blog/test) blog to know your category, what it means and how to improve that result.

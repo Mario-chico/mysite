@@ -52,8 +52,28 @@ Primero escoge uno de los 4 tipos de resistencia mencionados, el que más te gus
 
 A continuación, elige los movimientos acorde a tu interés.
 
-Realice una serie al fallo.
+- Realice una serie al fallo.
 
-Repite los mismos movimientos 2-3 veces más al 80%.
+- Repite los mismos movimientos 2-3 veces más al 80%.
 
-Hazlo 2 o 3 veces a la semana, dependiendo de los set que hayas hecho y tu recuperación.
+- Hazlo 2 o 3 veces a la semana, dependiendo de los set que hayas hecho y tu recuperación.
+
+### Progresión
+
+Agrega una repetición cada semana hasta que termine tu periodización.
+
+**Ejemplo:**
+
+Semana 1
+| Ejercicio | Reps |
+| ----------- | ----------- |
+| Muscle ups | 10 |
+| Bar dips | 10 |
+| Pull ups | 10 |
+
+Semana 6
+| Ejercicio | Reps |
+| ----------- | ----------- |
+| Muscle ups | 16 |
+| Bar dips | 16 |
+| Pull ups | 16 | 

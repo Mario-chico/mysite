@@ -58,10 +58,10 @@ Después va el volumen y la intensidad
 - Explotas con cada repetición
 - Si el entrenamiento es muy largo y no va acorde a tu estilo de vida actual, considera hacer supersets, solo ten en cuenta que perderás al rededor de un 5% de las ganancias
 
-Y por último, la frecuencia
+### Frecuencia
 
 La verdad es que lo puedes hacer varias veces al día todos los días, a excepción de velocidad máxima. Mientras tu volumen se mantenga bajo, vas bien para hacerlo seguido
 
-Progresión
+### Progresión
 
 Generalmente de 3-5% cada semana, al rededor de la semana 5 haz un retroceso para recuperar
