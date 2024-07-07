@@ -55,8 +55,6 @@
 <style>
   .timer {
     font-family: Arial, sans-serif;
-    max-width: 300px;
-    margin: 0 auto;
     padding: 20px;
     text-align: center;
   }
@@ -68,7 +66,7 @@
 
   .controls {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   button {

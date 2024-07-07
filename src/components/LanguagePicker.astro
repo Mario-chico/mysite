@@ -7,7 +7,7 @@ const translatePath = useTranslatedPath(lang);
 const url = Astro.url.pathname;
 const nurl = url.slice(3, url.length);
 // console.log(nurl);
-// console.log(url);
+console.log(url);
 // console.log(lang);
 ---
 <ul>
@@ -33,7 +33,7 @@ const nurl = url.slice(3, url.length);
 </style>
 <script>
   document.addEventListener('astro:page-load', () => {
-    let lang = document.documentElement.lang
+    let lang = document.documentElement.lang;
     if( lang === 'es' ){
       let esF = document.querySelector('.es') as HTMLElement;
       esF.style.pointerEvents = 'none';
