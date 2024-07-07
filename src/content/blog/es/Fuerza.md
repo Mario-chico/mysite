@@ -26,9 +26,9 @@ El doble que la perdida de músculo (que igual es muy importante preservar el m�
 
 En terminos de vejez, es especifico preservar fuerza y potencia muscular, ya que reduce la probabilidad de caidas y permite amortiguar o evitar la caida.
 
-Si ya estas disfrutando tus 40 o más y nunca entrenaste fuerza, siempre es un buen momento para empezar. Además que mantiene el sistema nerviso saludable y joven.
+Si ya estas disfrutando tus 40 o más y nunca entrenaste fuerza, siempre es un buen momento para empezar. Además que mantiene el sistema nervioso saludable y joven.
 
-Si estás disfrutando edades más tempranas encontraras enormes beneficios en aumentar tu fuerza, no solo en el desempeño atletico, sino tambien en la salud mental, vida diaria y en la cama.
+Si estás disfrutando edades más tempranas encontraras enormes beneficios en aumentar tu fuerza, no solo en el desempeño atlético, sino también en la salud mental, vida diaria y en la cama.
 
 ## Qué es?
 

@@ -32,7 +32,7 @@ La perdida de músculo no pasa por la edad, puedes llegar a los 40 y no ver redu
 
 ## Cómo le hago?
 
-Puedes hacer muchas cosas y, es probable que todas funcionen. Honestamente las 8 variables a modificar[^listnote] por si solas no hacen el cambio entre crecer y no crecer músculo
+Puedes hacer muchas cosas y, es probable que todas funcionen. Honestamente las 7 variables a modificar[^listnote] por si solas no hacen el cambio entre crecer y no crecer músculo
 
 **¿Qué si lo hace?**
 
@@ -52,7 +52,6 @@ Porque modifica las variables y cumple con los 3 pasos descritos anteriormente.
     - Orden: La secuencia en la que se realizan los ejercicios, que puede afectar a la fatiga y el estímulo musculares.
     - Volumen: Cantidad total de series y repeticiones, que influye en el crecimiento muscular.
     - Intensidad: El porcentaje de la carga máxima utilizada (por ejemplo, porcentaje de una repetición máxima).
-    - Intervalos de descanso: La duración del descanso entre series, que afecta a la recuperación y a la sostenibilidad de la intensidad.
     - Frecuencia: La frecuencia con la que se entrena un grupo muscular por semana.
-    - Duración: El tiempo dedicado a cada ejercicio o sesión.
-    - Velocidad: el tempo o la velocidad a la que se realizan los ejercicios, que influye en la potencia y la tensión.
+    - Descanso: Tiempo de descanso entre series, grupos de músculos y entrenamientos.
+    - Progresión: De que forma se progresa en las siguientes semanas.
