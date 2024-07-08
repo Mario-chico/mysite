@@ -1,8 +1,8 @@
 import { defineConfig, squooshImageService  } from 'astro/config';
 import mdx from "@astrojs/mdx";
 import db from "@astrojs/db";
-
 import svelte from "@astrojs/svelte";
+import vercel from '@astrojs/vercel/serverless';
 
 // https://astro.build/config
 export default defineConfig({
@@ -19,4 +19,7 @@ export default defineConfig({
     domains: ["res.cloudinary.com"]
   },
   output: 'hybrid',
+  adapter: vercel({
+    webAnalytics: { enabled: true }
+  }),
 });
