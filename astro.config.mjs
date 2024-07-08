@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, squooshImageService  } from 'astro/config';
 import mdx from "@astrojs/mdx";
 import db from "@astrojs/db";
 
@@ -15,6 +15,7 @@ export default defineConfig({
   },
   integrations: [mdx(), db(), svelte()],
   image: {
+    service: squooshImageService(),
     domains: ["res.cloudinary.com"]
   },
   output: 'hybrid',
