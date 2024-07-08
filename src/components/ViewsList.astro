@@ -6,12 +6,13 @@ interface Props {
 }
 
 const { slug } = Astro.props;
+let sl = slug.slice(3);
 const found = await db
     .select({
       count: Views.count,
     })
     .from(Views)
-    .where(eq(Views.slug, slug ));
+    .where(eq(Views.slug, sl ));
 const count = found[0]?.count || 0;
 ---
 

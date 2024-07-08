@@ -35,8 +35,6 @@ import {DARK_THEME, LIGHT_THEME} from '@/const/themes';
 
 		const isDark = element.classList.contains(darkTheme)
 		localStorage.setItem("theme", isDark ? darkTheme : lightTheme)
-
-    console.log("En el themeIcon");
 		updateThemeMessage(isDark)
 	}
 
