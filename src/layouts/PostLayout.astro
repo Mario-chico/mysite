@@ -9,7 +9,6 @@ import { getLangFromUrl, useTranslations, useTranslatedPath } from '@/i18n/utils
 const slug = Astro.params.slug;
 const { frontmatter } = Astro.props;
 const {currentLocale} = Astro;
-console.log(slug);
 
 let fecha = frontmatter.pubDate;
 const bDate = new Intl.DateTimeFormat(currentLocale, {
