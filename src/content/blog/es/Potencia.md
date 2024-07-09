@@ -1,6 +1,6 @@
 ---
 title: "Potencia"
-pubDate: 2024-05-06
+pubDate: 2024-07-02
 description: "Experimenta tus capacidades y que no te lo cuenten"
 author: "elchico_sw"
 tags: ["potencia"]

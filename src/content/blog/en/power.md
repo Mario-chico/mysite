@@ -1,6 +1,6 @@
 ---
 title: "Power"
-pubDate: 2024-05-06
+pubDate: 2024-07-02
 description: "Experience your capabilities and don't be told about them."
 author: "elchico_sw"
 tags: ["power"]

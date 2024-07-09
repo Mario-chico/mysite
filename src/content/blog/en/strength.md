@@ -1,9 +1,9 @@
 ---
-title: "Strenght"
-pubDate: 2024-05-06
+title: "Strength"
+pubDate: 2024-07-06
 description: "Don't let life weigh you down"
 author: "elchico_sw"
-tags: ["strenght"]
+tags: ["strength"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/strength',
   alt: 'Athletic woman in heroine pose.'

@@ -1,6 +1,6 @@
 ---
 title: "Endurance"
-pubDate: 2024-05-06
+pubDate: 2024-06-22
 description: "Fatigue management and energy utilization. It's all about it."
 author: "elchico_sw"
 tags: ["endurance", "competitions", "energy", "fatigue"]

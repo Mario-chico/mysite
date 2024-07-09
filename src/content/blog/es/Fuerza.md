@@ -1,12 +1,12 @@
 ---
 title: "Fuerza"
-pubDate: 2024-05-06
+pubDate: 2024-07-06
 description: "Que no te pese la vida"
 author: "elchico_sw"
 tags: ["Fuerza"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/strength',
-  alt: 'Mujer atletica en pose de heroina.'
+  alt: 'Mujer atletica en pose heroica.'
 }
 ---
 

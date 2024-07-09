@@ -1,6 +1,6 @@
 ---
 title: "Breath Work"
-pubDate: 2024-05-06
+pubDate: 2024-07-03
 description: "If you stop, you are done"
 author: "elchico_sw"
 tags: ["breath"]
@@ -52,5 +52,3 @@ These practices will be listed and explored in more detail in various blogs, for
 Inhale slowly, do not over breathe. Also, deep breathing means breathing with the diaphragm, not the chest.
 
 The exhalation is passive, let it be.
-
-To know your tolerance to it, visit the [test](https://elchico.coach/en/blog/test) blog to know your category, what it means and how to improve that result.

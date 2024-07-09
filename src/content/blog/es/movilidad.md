@@ -1,6 +1,6 @@
 ---
 title: "Movilidad"
-pubDate: 2024-05-06
+pubDate: 2024-07-09
 description: "Lo que mantiene a nuestro cerebro joven, saludable y con vitalidad."
 author: "elchico_sw"
 tags: ["movilidad"]

@@ -1,6 +1,6 @@
 ---
 title: "Hipertrofia"
-pubDate: 2024-05-06
+pubDate: 2024-07-07
 description: "El arte de verte bien desnudx"
 author: "elchico_sw"
 tags: ["hipertrofia"]

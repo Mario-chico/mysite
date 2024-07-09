@@ -1,6 +1,6 @@
 ---
 title: "Respiración"
-pubDate: 2024-05-06
+pubDate: 2024-07-03
 description: "Y si lo dejas de hacer, dejas de ser"
 author: "elchico_sw"
 tags: ["respiracion"]
@@ -59,5 +59,3 @@ La tolerancia al dioxido de carbono es un indicador de cuanto estamos respirando
 - Falta de aire (redundantemente)
 - Nariz tapada
 - Problemas de concentración
-
-Para saber tu tolerancia a este, visita el blog del [test](https://elchico.coach/es/blog/test) para conocer categoría, que significa y cómo mejorar ese resultado.

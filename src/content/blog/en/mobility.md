@@ -1,6 +1,6 @@
 ---
 title: "Mobility"
-pubDate: 2024-05-06
+pubDate: 2024-07-09
 description: "What keeps our brains young, healthy and vital."
 author: "elchico_sw"
 tags: ["mobility"]

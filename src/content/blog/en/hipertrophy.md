@@ -1,6 +1,6 @@
 ---
 title: "Hipertrophy"
-pubDate: 2024-05-06
+pubDate: 2024-07-07
 description: "The art of looking good naked"
 author: "elchico_sw"
 tags: ["hipertrophy"]

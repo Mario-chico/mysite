@@ -1,6 +1,6 @@
 ---
 title: "Perdida de peso"
-pubDate: 2024-05-06
+pubDate: 2024-06-28
 description: "Mejora tu salud y bienestar"
 author: "elchico_sw"
 tags: ["perdida de peso"]
