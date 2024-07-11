@@ -52,3 +52,5 @@ These practices will be listed and explored in more detail in various blogs, for
 Inhale slowly, do not over breathe. Also, deep breathing means breathing with the diaphragm, not the chest.
 
 The exhalation is passive, let it be.
+
+To find out your tolerance to carbon dioxide, visit the blog of the [test](https://elchico.coach/en/blog/test) to know the category, what it means and how to improve that result.

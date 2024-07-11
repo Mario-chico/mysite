@@ -59,3 +59,5 @@ La tolerancia al dioxido de carbono es un indicador de cuanto estamos respirando
 - Falta de aire (redundantemente)
 - Nariz tapada
 - Problemas de concentración
+
+Para saber tu tolerancia a este, visita el blog del [test](https://elchico.coach/es/blog/test) para conocer categoría, que significa y cómo mejorar ese resultado.
