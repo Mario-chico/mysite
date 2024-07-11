@@ -3,6 +3,7 @@
 
   const dispatch = createEventDispatcher();
 
+  export let i18n;
   export let seconds = 0;
   let timer;
   let isRunning = false;
@@ -43,12 +44,12 @@
 </script>
 
 <article class="timer">
-  <h2>Cronómetro</h2>
+  <h2>{i18n.TEST.TIMER.TITLE}</h2>
   <div class="time">{formatTime(seconds)}</div>
   <div class="controls">
-    <button on:click={startTimer} disabled={isRunning}>Start</button>
-    <button on:click={stopTimer} disabled={!isRunning}>Stop</button>
-    <button on:click={resetTimer}>Reset</button>
+    <button on:click={startTimer} disabled={isRunning}>{i18n.TEST.START}</button>
+    <button on:click={stopTimer} disabled={!isRunning}>{i18n.TEST.STOP}</button>
+    <button on:click={resetTimer}>{i18n.TEST.RESET}</button>
   </div>
 </article>
 

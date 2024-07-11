@@ -10,7 +10,10 @@ image: {
 }
 ---
 
-import ParentTimer from '@/components/ParentTimer.svelte';
+
+import Breathing from '@/components/BreathingWrapper.astro';
+
+ENGLIS SHIT
 
 Reduce tu estrés, conoce la salud de tus pulmones, mejora tu rendimiento deportivo y concentración
 
@@ -23,14 +26,14 @@ _Lee antes de hacer. Cronómetro disponible después de las instrucciones._
 3. Repite 2 veces más (total de 3 veces)
 4. Inhala profundamente (tu abdomen o barriga se infla y visualmente se nota el movimiento)
 5. Inicia el cronometro y exhala **leeeeeentamente** hasta que pase alguna de estas cosas
-    - Te quedaste sin aire
-    - Tienes la necesidad de tragar
-    - Entraste en pánico
-    - Pausaste la exhalación
+    1. Te quedaste sin aire
+    2. Tienes la necesidad de tragar
+    3. Entraste en pánico
+    4. Pausaste la exhalación
 6. Pausa el cronómetro y obtén tus resultados
 
-<ParentTimer client:load/>
 
+<Breathing />
 Aplicar la respiración de caja tiene beneficios más allá de mejorar la recuperación muscular.
 
 - Reduce el estrés a lo largo de las 24 horas

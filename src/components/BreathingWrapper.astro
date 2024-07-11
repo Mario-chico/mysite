@@ -1,0 +1,11 @@
+---
+import BoxBreathing from "./BoxBreathing.svelte";
+import ParentTimer from '@/components/ParentTimer.svelte';
+import { getI18N } from "@/i18n";
+
+const {currentLocale} = Astro;
+
+const i18n = getI18N({currentLocale})
+---
+<ParentTimer client:load i18n={i18n}/>
+<BoxBreathing client:load i18n={i18n} />

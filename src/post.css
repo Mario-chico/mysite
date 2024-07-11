@@ -29,7 +29,9 @@
 .rich-text-content button {
 	background-color: var(--accent-color);
 	border: none;
+	color: var(--tex-color);
 }
+
 
 blockquote:before,
 blockquote:after {

@@ -38,5 +38,42 @@
   "HEROABOUT_TEXT": "That is why I am committed to contribute to the <strong>welfare</strong> and <strong>performance</strong>, covering the basic aspects of the human and thus give way to the interest and care of our environment, loved ones, and our feelings. That our body is not a limitation to venture into the world and <strong>enjoy it at its maximum splendor</strong> and that our mind does not remain stagnant in suffering and continues to expand.",
   "HEROABOUT_TEXT2": "I have been a student, worker, athlete, volunteer and all of this for wanting to be better or functional, just like you, I have sought the meaning of my existence and move towards that purpose. That is why I certify myself and learn from experts around the world, so I can bring all that information and provide it to the community.",
   "HEROABOUT_TEXT3": "WSWCF Academy",
-  "HEROABOUT_PHRASE": "Believe you can and you're halfway there."
+  "HEROABOUT_PHRASE": "Believe you can and you're halfway there.",
+  "TEST": {
+    "STEPS": {
+      "INHALE": "Inhale",
+      "EXHALE": "Exhale",
+      "HOLD": "Hold"
+    },
+    "SET": {
+      "SQUARE_TIME": "Time per side (second):",
+      "TOTAL_TIME": "Total time (minutes):"
+    },
+    "TIMER": {
+      "TITLE": "Timer"
+    },
+    "RESULT": {
+      "LEVEL1":{
+        "MESSAGE": "Use 2-3 seconds on each side of the square, for a minimum of 3 minutes.",
+        "L1":"It indicates a very reactive state and potential problems such as anxiety or overtraining.",
+        "L2": "Emotionally you may not feel the reaction, however your system is."
+      },
+      "LEVEL2":{
+        "MESSAGE": "Use 3-6 seconds on each side of the square, for a minimum of 3 minutes.",
+        "L1":"Suggests a medium level of carbon dioxide tolerance.",
+        "L2":"Improvements in how you respond to stress come with breath control training."
+      },
+      "LEVEL3":{
+        "MESSAGE": "Use 7-12 seconds on each side of the square, for a minimum of 3 minutes.",
+        "L1":"Indicates good diaphragm control and effective carbon dioxide management.",
+        "L2":"Reflects improved stress tolerance and increased aerobic efficiency."
+      },
+      "TOTAL_EXHALE": "Exhale time"
+    },
+    "START": "Start",
+    "RESET": "Reset",
+    "STOP": "Stop",
+    "TITLE": "Practice your breathing",
+    "FINISH": "Finish"
+  }
 }

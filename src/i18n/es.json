@@ -38,5 +38,42 @@
   "HEROABOUT_TEXT": "Por eso estoy comprometido con aportar al <strong>bienestar</strong> y <strong>desempeño</strong>, cubriendo los aspectos básicos del humano y así dar paso al ínteres y cuidado de nuestra atmosfera, seres amados, y nuestros sentimientos.<br/> Que nuestro cuerpo no sea una limitante para aventurarnos por el mundo y <strong>disfrutarle en su máximo esplendor</strong> y nuestras mentes no se queden estancadas en sufrimientos y siga expandiéndose.",
   "HEROABOUT_TEXT2": "He sido estudiante, trabajador, atleta, voluntario y todo esto por querer se mejor o funcional. Así como tu, he buscado el sentido de mi existencia y avanzar hacia ese propósito. Es por eso que me certifico y aprendo de expertos en todo el mundo, para poder traer toda esa información y proporcionarla a la comunidad",
   "HEROABOUT_TEXT3": "WSWCF Academy",
-  "HEROABOUT_PHRASE": "Cree que puedes y ya estarás a medio camino."
+  "HEROABOUT_PHRASE": "Cree que puedes y ya estarás a medio camino.",
+  "TEST": {
+    "STEPS": {
+      "INHALE": "Inhala",
+      "EXHALE": "Exhala",
+      "HOLD": "Manten"
+    },
+    "SET": {
+      "SQUARE_TIME": "Duración x lado (segundos):",
+      "TOTAL_TIME": "Tiempo total (minutos):"
+    },
+    "TIMER": {
+      "TITLE": "Cronómetro"
+    },
+    "RESULT": {
+      "LEVEL1":{
+        "MESSAGE": "Usa 2-3 segundos en cada lado del cuadrado, por un mínimo de 3 minutos.",
+        "L1":"Indica un estado muy reactivo y potenciales problemas como ansiedad o sobreentrenamiento.",
+        "L2": "Es posible que emocionalmente no sientas la reacción, sin embargo tu sistema lo es."
+      },
+      "LEVEL2":{
+        "MESSAGE": "Usa de 3-6 segundos en cada lado del cuadrado, por un mínimo de 3 minutos.",
+        "L1":"Sugiere un nivel medio de tolerancia al dióxido de carbono",
+        "L2":"Mejoras en como respondes al estrés vienen con entrenamiento para controlar la respiración."
+      },
+      "LEVEL3":{
+        "MESSAGE": "Usa de 7-12 segundos en cada lado del cuadrado, por un mínimo de 3 minutos.",
+        "L1":"Indica un buen control del diafragma y una gestión eficaz del dióxido de carbono.",
+        "L2":"Refleja una mejor tolerancia al estrés y una mayor eficiencia aeróbica."
+      },
+      "TOTAL_EXHALE": "Tiempo exhalando"
+    },
+    "START": "Iniciar",
+    "RESET": "Reiniciar",
+    "STOP": "Parar",
+    "TITLE": "Practica tu respiración",
+    "FINISH": "Finalizado"
+  }
 }

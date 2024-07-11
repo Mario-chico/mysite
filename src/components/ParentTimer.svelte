@@ -1,4 +1,5 @@
 <script>
+  export let i18n;
   import Timer from './Timer.svelte';
   import NumberInput from './TestCarbon.svelte';
 
@@ -10,8 +11,8 @@
 </script>
 
 <article class="parent">
-  <Timer on:timerStopped={handleTimerStopped} />
-  <NumberInput bind:userInput={inputValue} />
+  <Timer on:timerStopped={handleTimerStopped} i18n={i18n} />
+  <NumberInput bind:userInput={inputValue} i18n={i18n} />
 </article >
 
 <style>
