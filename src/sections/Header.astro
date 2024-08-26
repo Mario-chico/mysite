@@ -2,6 +2,7 @@
 import Hamburger from '@/components/Hamburger.astro';
 import Navigation from '@/components/Navigation.astro';
 import ThemeIcon from '@/components/ThemeIcon.astro';
+import BMC from '@/icons/bmc.astro';
 
 import LanguagePicker from '@/components/LanguagePicker.astro';
 ---
@@ -13,8 +14,12 @@ import LanguagePicker from '@/components/LanguagePicker.astro';
     </div>
 
     <div class="nav-end">
-       <ThemeIcon />
-        <Hamburger />
+      <a href="https://buymeacoffee.com/elchico.coach" target="_blank">
+        <BMC />
+        <span class="sr-only">Buy me a coffe</span>
+      </a>
+      <ThemeIcon />
+      <Hamburger />
     </div>
   </div>
 </header>
