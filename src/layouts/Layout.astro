@@ -22,9 +22,14 @@ const i18n = getI18N({currentLocale})
 <html transition:persist lang={currentLocale}>
 	<head>
 		<meta charset='UTF-8' />
-		<meta name="description" content="Entrenador personal. Coach personal" />
+		<meta name="author" content="Mario Chico" />
+		<meta name="description" content="Entrenador de alto rendimiento y bienestar integral, dedicado a empoderar a las personas a superar sus límites físicos y mentales. Experto en combinar entrenamiento, terapias y tecnología para maximizar el potencial y alcanzar una vida equilibrada." />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content="Entrenador de alto rendimiento y bienestar integral, dedicado a empoderar a las personas a superar sus límites físicos y mentales. Experto en combinar entrenamiento, terapias y tecnología para maximizar el potencial y alcanzar una vida equilibrada."/>
+		<meta property="og:image" content="https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/frente"/>
+		<meta property="og:image:alt" content="Coach Mario mirando adelante con gesto de confianza en medio de la naturaleza"/>
 		<title>{title}</title>
 		<ViewTransitions />
 		<script is:inline >
@@ -83,6 +88,24 @@ const i18n = getI18N({currentLocale})
 		color: var(--tex-color);
 		background-color: var(--background-color);
 	}
+/* playfair-display-latin-wght-normal */
+@font-face {
+  font-family: 'Playfair Display Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/playfair-display:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* roboto-latin-400-normal */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/roboto@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/roboto@latest/latin-400-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
 	body.show{
 		overflow: hidden;
 	}
