@@ -12,11 +12,14 @@ p, ul, ol, blockquote {
 	display: flex;
   flex-direction: column;
 	gap: 1.25rem;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 }
 .rich-text-content p {
 	font-weight: 400;
 	line-height: 2rem;
+	text-align: justify;
+	text-justify: inter-word;
+	word-spacing: 3px;
 }
 .rich-text-content ul, ol {
 	margin-left: 1.5rem;
