@@ -66,4 +66,14 @@ blockquote:after {
 	right: -2.8rem;
 	bottom: -0.3rem;
 }
-	
+
+ol li::marker, ol li > p:first-child {
+	font-weight: 900;
+	font-size: 1.3rem;
+	color: var(--title-color);
+}
+
+ol li > p:last-of-type {
+	font-size: 1.1rem;
+	font-weight: 500;
+}
