@@ -6,7 +6,7 @@
       <label for="objetivos"><input type="checkbox" id="objetivos" name="objetivos"/> Establecer objetivos en la app</label>
     </li>
     <li>
-      <label for="test"><input type="checkbox" id="test" name="test"/> Realiza el <a href="/es/blog/test" target="_blank" rel="noopener noreferrer">test de dióxido de carbono</a></label>
+      <label for="test"><input type="checkbox" id="test" name="test"/>  <a href="/es/blog/test" target="_blank" rel="noopener noreferrer">Realiza el test de dióxido de carbono</a></label>
     </li>
     <li>
       <label for="dormir"><input type="checkbox" id="dormir" name="dormir"/> Establecer horarios de sueño consistentes<sup><a href="#id1">1</a></sup></label>
@@ -28,48 +28,56 @@
   }li::marker{
     font-size: inherit;
   }
-  label, label a{
+  label, label a {
     font-family: system-ui, sans-serif;
     font-weight: bold;
     line-height: 1.1;
     display: flex;
     gap: 1rem;
   }
+  label > a{
+    display: inline;
+  }
   label.disabled{
     color: gray;
     cursor: not-allowed;
   }
-input[type="checkbox"] {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  appearance: none;
-  margin: 0;
-  font:inherit;
-  color: currentColor;
-  width: 1em;
-  height: 1em;
-  border: 0.1em solid currentColor;
-  border-radius: 0.15em;
-  transform: translateY(0.075em);
-  cursor: pointer;
-}
-input[type="checkbox"]::before {
-  content: "";
-  width: 0.65em;
-  height: 0.65em;
-  transform: scale(0);
-  transition: 120ms transform ease-in-out;
-  box-shadow: inset 1em 1em red;
-  transform-origin: bottom left;
-  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%)
-}
-input[type="checkbox"]:checked::before {
-  transform: scale(1);
-}
-input[type="checkbox"]:focus {
-  border-color: green;
-}
+  label.disabled a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: gray;
+  }
+  input[type="checkbox"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: none;
+    margin: 0;
+    font:inherit;
+    color: currentColor;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(0.075em);
+    cursor: pointer;
+  }
+  input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em red;
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%)
+  }
+  input[type="checkbox"]:checked::before {
+    transform: scale(1);
+  }
+  input[type="checkbox"]:focus {
+    border-color: green;
+  }
 
 </style>
 
@@ -77,8 +85,8 @@ input[type="checkbox"]:focus {
   const label = document.getElementsByTagName("label");
   
   for (let i = 0; i < label.length; i++) {
-    const isChecked = label[i].children[0].checked;
     label[i].addEventListener("change", () => {
+      const isChecked = label[i].children[0].checked;
       localStorage.setItem(`${label[i].htmlFor}-checked`, isChecked.toString());
       label[i].classList.toggle('disabled');
       label[i].children[0].style.cursor = "not-allowed";
