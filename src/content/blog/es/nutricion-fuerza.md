@@ -2,7 +2,7 @@
 title: "Nutrición en Fuerza y Potencia"
 pubDate: 2024-09-14
 description: "Así es como maximizas los resultados."
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["nutrición", "fuerza", "potencia"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/mobility',

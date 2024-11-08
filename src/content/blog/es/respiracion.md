@@ -2,7 +2,7 @@
 title: "Respiración"
 pubDate: 2024-07-03
 description: "Y si lo dejas de hacer, dejas de ser"
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["respiracion"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/breath',

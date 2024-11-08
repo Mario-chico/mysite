@@ -2,7 +2,7 @@
 title: "Breath Work"
 pubDate: 2024-07-03
 description: "If you stop, you are done"
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["breath"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/breath',

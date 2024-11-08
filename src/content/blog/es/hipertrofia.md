@@ -2,7 +2,7 @@
 title: "Hipertrofia"
 pubDate: 2024-07-07
 description: "El arte de verte bien desnudx"
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["hipertrofia"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/hipertrophy',

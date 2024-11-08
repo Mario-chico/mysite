@@ -2,7 +2,7 @@
 title: "Endurance"
 pubDate: 2024-06-22
 description: "Fatigue management and energy utilization. It's all about it."
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["endurance", "competitions", "energy", "fatigue"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/endurance',

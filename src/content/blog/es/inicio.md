@@ -2,7 +2,7 @@
 title: "Guía de inicio y expectativas"
 pubDate: 2024-11-06
 description: "Empecemos por el inicio"
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["Coaching"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/strength',

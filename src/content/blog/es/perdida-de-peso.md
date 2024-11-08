@@ -2,7 +2,7 @@
 title: "Perdida de peso"
 pubDate: 2024-06-28
 description: "Mejora tu salud y bienestar"
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["perdida de peso"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/fatloss',

@@ -2,7 +2,7 @@
 title: "Potencia"
 pubDate: 2024-07-02
 description: "Experimenta tus capacidades y que no te lo cuenten"
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["potencia"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/power',
