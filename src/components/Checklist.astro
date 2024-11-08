@@ -1,22 +1,96 @@
 <div >
   <p>Actividades a realizar/considerar antes de la primera sesión de videollamada</p>
 
-<ol>
-  <li>
-    <label for="objetivos"><input type="checkbox" id="objetivos" name="objetivos"/> Establecer objetivos en la app</label>
-  </li>
-  <li>
-    <label for="test"><input type="checkbox" id="test" name="test"/> Realiza el <a href="/es/blog/test" target="_blank" rel="noopener noreferrer">test de dióxido de carbono</a></label>
-  </li>
-  <li>
-    <label for="dormir"><input type="checkbox" id="dormir" name="dormir"/> Establecer horarios de sueño consistentes<sup><a href="#id1">1</a></sup></label>
-  </li>
-  <li>
-    <label for="sol"><input type="checkbox" id="sol" name="sol"/> Recibir luz solar en los ojos al amanecer<sup><a href="#id2">2</a></sup></label>
-  </li>
-</ol>
+  <ol>
+    <li>
+      <label for="objetivos"><input type="checkbox" id="objetivos" name="objetivos"/> Establecer objetivos en la app</label>
+    </li>
+    <li>
+      <label for="test"><input type="checkbox" id="test" name="test"/> Realiza el <a href="/es/blog/test" target="_blank" rel="noopener noreferrer">test de dióxido de carbono</a></label>
+    </li>
+    <li>
+      <label for="dormir"><input type="checkbox" id="dormir" name="dormir"/> Establecer horarios de sueño consistentes<sup><a href="#id1">1</a></sup></label>
+    </li>
+    <li>
+      <label for="sol"><input type="checkbox" id="sol" name="sol"/> Recibir luz solar en los ojos al amanecer<sup><a href="#id2">2</a></sup></label>
+    </li>
+  </ol>
 </div>
 <div class="footnotes">
-<p id="id1">Tener horarios de sueños establecidos nos permite regular los relojes internos del cuerpo y anticipar estados, como el sueño, que impacta en la salud en general y las funciones cognitivas.</p>
-<p id="id2">Los primeros 30-60 minutos después de despertar. Tiene el poder de establecer nuestro ritmos circadianos, aumentar el cortisol y preparanos para tener un enfoque prolongado en las primeras horas del día.</p>
+  <p id="id1">Tener horarios de sueños establecidos nos permite regular los relojes internos del cuerpo y anticipar estados, como el sueño, que impacta en la salud en general y las funciones cognitivas.</p>
+  <p id="id2">Los primeros 30-60 minutos después de despertar. Tiene el poder de establecer nuestro ritmos circadianos, aumentar el cortisol y preparanos para tener un enfoque prolongado en las primeras horas del día.</p>
 </div>
+
+<style>
+  li{
+    margin-top: 1rem;
+    font-size: 2rem;
+  }li::marker{
+    font-size: inherit;
+  }
+  label, label a{
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    display: flex;
+    gap: 1rem;
+  }
+  label.disabled{
+    color: gray;
+    cursor: not-allowed;
+  }
+input[type="checkbox"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  appearance: none;
+  margin: 0;
+  font:inherit;
+  color: currentColor;
+  width: 1em;
+  height: 1em;
+  border: 0.1em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(0.075em);
+  cursor: pointer;
+}
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em red;
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%)
+}
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+input[type="checkbox"]:focus {
+  border-color: green;
+}
+
+</style>
+
+<script is:inline>
+  const label = document.getElementsByTagName("label");
+  
+  for (let i = 0; i < label.length; i++) {
+    const isChecked = label[i].children[0].checked;
+    label[i].addEventListener("change", () => {
+      localStorage.setItem(`${label[i].htmlFor}-checked`, isChecked.toString());
+      label[i].classList.toggle('disabled');
+      label[i].children[0].style.cursor = "not-allowed";
+      label[i].children[0].disabled = true;
+    });
+
+    if(localStorage.getItem(`${label[i].htmlFor}-checked`)){
+      label[i].classList.toggle('disabled');
+      label[i].children[0].style.cursor = "not-allowed";
+      label[i].children[0].disabled = true;
+    }else{
+      label[i].children[0].checked = false;
+    }
+  }
+</script>
