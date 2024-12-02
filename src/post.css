@@ -46,26 +46,7 @@ p, ul, ol, blockquote {
 }
 
 
-blockquote:before,
-blockquote:after {
-	position: absolute;
-	color: #f1efe6;
-	font-size: 2rem;
-	width: 6rem;
-	height: 3rem;
-}
 
-blockquote:before {
-	content: '“';
-	left: -2.8rem;
-	top: -0.3rem;
-}
-
-blockquote:after {
-	content: '”';
-	right: -2.8rem;
-	bottom: -0.3rem;
-}
 
 ol li::marker, ol li > p:first-child {
 	font-weight: 900;
