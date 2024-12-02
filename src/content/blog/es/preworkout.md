@@ -17,6 +17,7 @@ Lo que queremos con un pre-workout es que mantenga los niveles de energía ópti
 Para encontrar ese momento te toca **experimentar**
 
 ¿Exactamente cómo debe ser la comida a experimentar?
+
 Una combinación de comida sólida en
 
 - Carbohidratos
@@ -26,19 +27,19 @@ Una combinación de comida sólida en
 
 No queremos nada de polvos porque aún se tiene tiempo antes de entrenar y vamos a obtener esos micronutrientes🌿💚
 
-¿Por qué poca fibra y grasa?
+## ¿Por qué poca fibra y grasa?
 
-Porque estos pertenecen fuera de la ventana de entrenamiento, ya que más lenta la digestión y la absorción de lo que nos interesa, ==carbohidratos y proteína==
+Porque estos pertenecen fuera de la ventana de entrenamiento, ya que más lenta la digestión y la absorción de lo que nos interesa, <mark>carbohidratos y proteína</mark>
 
 > La grasa y fibra son geniales, sin duda alguna los necesitamos para tener una salud prospera y una vida longeva 
 >
 > simplemente no tienen ningún beneficio previo al entrenamiento, es por eso que lo dejamos fuera del pre.
 
-¿Cuánto de cada uno?
+## ¿Cuánto de cada uno?
 
-Buscamos una relación 1:1 de carbohidratos y proteína para los días de entrenamientos ==tranquis o moderados==
+Buscamos una relación 1:1 de carbohidratos y proteína para los días de entrenamientos <mark>tranquis o moderados</mark>
 
-Buscamos una relación 2:1 de carbohidratos y proteína para los días de entrenamientos ==intensos== o que duran más de dos horas. (Si en tus dos horas de entrenamiento descansas 40 min, hablas otros 50 min y solo entrenas 30 min, no es necesario hacer esto).
+Buscamos una relación 2:1 de carbohidratos y proteína para los días de entrenamientos <mark>intensos</mark> o que duran más de dos horas. (Si en tus dos horas de entrenamiento descansas 40 min, hablas otros 50 min y solo entrenas 30 min, no es necesario hacer esto).
 
 Para **mujeres** en la mayoría de los casos y en la mayor parte del tiempo se recomienda de 25-35 gramos de carbohidratos y proteína
 
