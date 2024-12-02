@@ -2,7 +2,7 @@
 title: "Power"
 pubDate: 2024-07-02
 description: "Experience your capabilities and don't be told about them."
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["power"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/power',

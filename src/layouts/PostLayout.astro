@@ -32,7 +32,7 @@ const nurl = url.slice(3, 9);
         <header class="post-header">
           <h1>{frontmatter.title}</h1>
           
-          <span class="content-info"> <time datetime={fecha}>{bDate}</time> | <a href="https://www.instagram.com/elchico_sw/">{frontmatter.author}</a> | <PostViews slug={slug ? slug : ''}/></span>
+          <span class="content-info"> <time datetime={fecha}>{bDate}</time> | <a href="https://www.instagram.com/elchico_coach/">{frontmatter.author}</a> | <PostViews slug={slug ? slug : ''}/></span>
           
           <p>{frontmatter.description}</p>
           <Image src={frontmatter.image.url} alt={frontmatter.image.alt} loading={"eager"} width={1500} height={643} transition:name="img"/>
@@ -125,6 +125,7 @@ const nurl = url.slice(3, 9);
     object-fit: cover;
     height: auto;
     min-height: 240px;
+    max-height: 565px;
   }
   .bmc-btn-container {
     display: flex;

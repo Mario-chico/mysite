@@ -16,11 +16,14 @@ p, ul, ol, blockquote {
 	display: flex;
   flex-direction: column;
 	gap: 1.25rem;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 }
 .rich-text-content p {
 	font-weight: 400;
 	line-height: 2rem;
+	
+	text-justify: inter-word;
+	word-spacing: 3px;
 }
 .rich-text-content ul, ol {
 	margin-left: 1.5rem;
@@ -47,24 +50,21 @@ p, ul, ol, blockquote {
 }
 
 
-blockquote:before,
-blockquote:after {
-	position: absolute;
-	color: #f1efe6;
-	font-size: 2rem;
-	width: 6rem;
-	height: 3rem;
+
+
+ol li::marker, ol li > p:first-child {
+	font-weight: 900;
+	font-size: 1.3rem;
+	color: var(--title-color);
 }
 
-blockquote:before {
-	content: '“';
-	left: -2.8rem;
-	top: -0.3rem;
+ol li > p:last-of-type {
+	font-size: 1.1rem;
+	font-weight: 500;
 }
 
-blockquote:after {
-	content: '”';
-	right: -2.8rem;
-	bottom: -0.3rem;
+@media screen and (min-width: 1024px) {
+	.rich-text-content p{
+		text-align: justify;
+	}
 }
-	

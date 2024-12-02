@@ -2,7 +2,7 @@
 title: "Mobility"
 pubDate: 2024-07-09
 description: "What keeps our brains young, healthy and vital."
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["mobility"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/mobility',

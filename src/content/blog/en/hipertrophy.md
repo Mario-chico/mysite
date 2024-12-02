@@ -2,7 +2,7 @@
 title: "Hipertrophy"
 pubDate: 2024-07-07
 description: "The art of looking good naked"
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["hipertrophy"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/hipertrophy',

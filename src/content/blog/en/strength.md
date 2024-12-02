@@ -2,7 +2,7 @@
 title: "Strength"
 pubDate: 2024-07-06
 description: "Don't let life weigh you down"
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["strength"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/strength',

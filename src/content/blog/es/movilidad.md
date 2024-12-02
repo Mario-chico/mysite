@@ -2,7 +2,7 @@
 title: "Movilidad"
 pubDate: 2024-07-09
 description: "Lo que mantiene a nuestro cerebro joven, saludable y con vitalidad."
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["movilidad"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/mobility',

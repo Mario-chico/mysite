@@ -2,7 +2,7 @@
 title: "Resistencia"
 pubDate: 2024-06-22
 description: "Manejo de la fatiga y utilización de energía, de eso se tratra el juego de Resistencia"
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["resistencia", "competencia", "energía", "fatiga"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/endurance',

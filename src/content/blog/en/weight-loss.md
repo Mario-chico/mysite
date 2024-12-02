@@ -2,7 +2,7 @@
 title: "Weight Loss"
 pubDate: 2024-06-28
 description: "Improve your health and well-being"
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["weight-loss"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/fatloss',

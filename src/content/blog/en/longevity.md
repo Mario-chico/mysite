@@ -2,7 +2,7 @@
 title: "Longevity"
 pubDate: 2024-07-08
 description: "Long life in which you feel amazing and be resilient."
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["longevidad"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/longevity',

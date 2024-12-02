@@ -2,7 +2,7 @@
 title: "Fuerza"
 pubDate: 2024-07-06
 description: "Que no te pese la vida"
-author: "elchico_sw"
+author: "elchico_coach"
 tags: ["Fuerza"]
 image: {
   url: 'https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/strength',
