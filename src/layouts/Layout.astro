@@ -66,17 +66,20 @@ const i18n = getI18N({currentLocale})
 		--burger-color: #000000e8;
 		--gradient-color: linear-gradient(90deg, rgb(31, 30, 29) 10%, rgb(124, 48, 179) 45%, rgb(21, 187, 77) 100%);
 		--border-color: #01014B;
+		--mark-color: #58965d;
 		color-scheme: dark light;
 	}
 	.dark {
-		--title-color: #e7ff50;
-		--tex-color: rgb(242, 242, 242);
-		--background-color: #393646;
+		--title-color: #F39C12;
+		--oteher-color: #f2f2f2;
+		--tex-color: #F5F6FA;
+		--background-color: #2F3640;
 		--p2: #01014B;
 		--accent-color:#3ec7bb;
 		--burger-color: #fbfbfe;
 		--border-color: #eeeef1c0;
 		--gradient-color: linear-gradient(90deg, rgb(231, 255, 80) 0%, rgb(213, 226, 122) 15%, rgb(242, 242, 242) 100%);
+		--mark-color: #6c8987;
 	} 
 	* {
 		margin: 0;
@@ -136,15 +139,18 @@ const i18n = getI18N({currentLocale})
 	strong {
     font-weight: 900;
   }
+	mark{
+		background-color: var(--mark-color);
+	}
 	.noise{
 		position:fixed;
 		width: 100%;
 		height: 100%;
 		z-index: -30;
-		background-color:#00000008;
 		background-image: url('/noise.svg');
 		background-repeat: repeat;
 		background-size: 200px;
+		opacity: 0.3;
 	}
 
 	.moon {
