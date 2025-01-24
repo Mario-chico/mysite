@@ -1,0 +1,74 @@
+{
+  "day": 3,
+  "week": 1,
+  "dia_de_semana": "Viernes",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Barbell or Machine Hip Thrust",
+      "sets": 3,
+      "reps": "12-15",
+      "tempo": "2011",
+      "rest": "2 minutos"
+    },
+    {
+      "order": "A2",
+      "exercise": "Pull Up Negativa con hold a 1/4",
+      "sets": "6",
+      "reps": "2",
+      "tempo": "*",
+      "rest": "2 minutos",
+      "note": "Baja en 3 segundos y sosten 2s a 1/4"
+    },
+    {
+      "order": "B1",
+      "exercise": "Seated DB Shoulder Press",
+      "sets": 3,
+      "reps": "12-15",
+      "tempo": "30X1",
+      "rest": "90 segundos"
+    },
+    {
+      "order": "B2",
+      "exercise": "Pull Up Negativa con hold a 1/4",
+      "sets": "6",
+      "reps": "2",
+      "tempo": "*",
+      "rest": "2 minutos",
+      "note": "Baja en 3 segundos y sosten 2s a 1/4"
+    },
+    {
+      "order": "C1",
+      "exercise": "Leg Extension",
+      "sets": 3,
+      "reps": "12-15",
+      "tempo": "30X0",
+      "rest": "90 segundos"
+    },
+    {
+      "order": "C2",
+      "exercise": "Pull Up Negativa con hold a 1/4",
+      "sets": "6",
+      "reps": "2",
+      "tempo": "*",
+      "rest": "2 minutos",
+      "note": "Baja en 3 segundos y sosten 2s a 1/4"
+    },
+    {
+      "order": "D1",
+      "exercise": "Seated DB External Rotation – elbow on knee",
+      "sets": 3,
+      "reps": "12-15 ea",
+      "tempo": "X",
+      "rest": "60 segundos"
+    },
+    {
+      "order": "D2",
+      "exercise": "DB Hammer Curl",
+      "sets": 3,
+      "reps": "12-15",
+      "tempo": "2010",
+      "rest": "60 segundos"
+    }
+  ]  
+}
