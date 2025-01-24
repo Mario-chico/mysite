@@ -1,0 +1,177 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@/layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('dani');
+
+  return pages.map(page => {
+    const id = page.id.split('/');
+    return { params: { id: id.join('/') || undefined }, props: page };
+  });
+
+  
+}
+
+const { id } = Astro.params;
+const page = Astro.props;
+
+---
+<Layout title={page.id}>
+  <main>
+    <p><a href="/training/dani">Volver</a></p>
+    <h1>Semana {page.data.week} Día {page.data.day}</h1>
+    <section>
+      <h2>Ejercicios: Total Body Lift</h2>
+      <p id="notas-generales"><a href="#notas"> Notas generales</a></p>
+      <div class="table-container">
+
+        <table class="responsive-table">
+          <thead>
+            <tr>
+              <th>Orden</th>
+              <th>Ejercicio</th>
+              <th>Sets</th>
+              <th>Reps</th>
+              <th>Tempo</th>
+              <th>Descanso</th>
+            </tr>
+          </thead>
+          <tbody>
+            {page.data.exercises.map(exercise => (
+              <tr>
+                <td data-label="Orden">{exercise.order}</td>
+                <td data-label="Ejercicio">{exercise.exercise}</td>
+                <td data-label="Sets">{exercise.sets}</td>
+                <td data-label="Reps">{exercise.reps}</td>
+                <td data-label="Tempo">{exercise.tempo}</td>
+                <td data-label="Descanso">{exercise.rest}</td>
+                {exercise.note && <td data-label="Notas">{exercise.note}</td>}
+              </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <aside>
+    <p>Definicion de términos</p>
+    <dl id="notas">
+      <dt>Tempo</dt>
+      <dd>Es una prescripción de cuanto tiempo (en segundos) debe de durar cada fase de una repetición. En toda repetición hay 4 partes. Ejemplo 4011, 32X0</dd>
+      <dt>Primer número:</dt>
+      <dd>Contracción Excéntrica (Cuando se lleva hacía abajo el peso y la resistencia se mueve hacia el suelo)</dd>
+      <dt>Segundo número:</dt>
+      <dd>Pausa en la posición entre las fases Excéntrica(bajar) y Concéntrica(Levantar) del movimiento</dd>
+      <dt>Tercer número:</dt>
+      <dd>Contracción concéntrica (Cuando se levanta el peso y se mueve alejándose del suelo)
+      </dd>
+      <dt>Cuarto número:</dt>
+      <dd>Pausa en la posición flexionada, antes del siguiente movimiento excéntrico (bajar el peso)</dd>
+    </dl>
+  </aside>
+  </section>
+</main>
+
+</Layout>
+
+<style>
+  main{
+    padding-top: 100px;
+    padding-inline: 20px;
+  }
+  .table-container {
+  overflow-x: auto;
+  padding: 1rem;
+  background-color: #0c0c32; /* Dark purple */
+  border: 1px solid #ff0000; /* Red border for styling */
+  border-radius: 8px;
+  max-width: 100%;
+  margin-block: 1rem;
+}
+
+/* Base styles for the table */
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  color: #ffffff; /* White text for readability */
+  font-size: 0.9rem;
+}
+
+.responsive-table thead {
+  background-color: #ff0000; /* Bright red for header */
+  color: #ffffff;
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ffffff; /* White borders */
+}
+aside {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.75rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;  
+}
+
+aside p {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Estilos para la lista de definiciones */
+#notas {
+  list-style: none;
+}
+
+#notas dt {
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+#notas dd {
+  margin-left: 1rem;
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .responsive-table thead {
+    display: none; /* Hide table headers */
+  }
+
+  .responsive-table tr {
+    display: block;
+    margin-bottom: 1rem;
+    background-color: #1a1a4d; /* Slightly lighter purple for contrast */
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .responsive-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    border: none; /* Remove borders on mobile */
+    border-bottom: 1px solid #444; /* Divider for rows */
+  }
+
+  .responsive-table td:last-child {
+    border-bottom: none; /* No border for the last row */
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label); /* Use the data-label attribute */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff0000; /* Highlighted red labels */
+    margin-right: 0.5rem;
+  }
+}
+
+</style>
