@@ -1,0 +1,66 @@
+{
+  "day": 1,
+  "week": 1,
+  "dia_de_semana": "Lunes",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Hack Squat",
+      "sets": 4,
+      "reps": "4-6",
+      "tempo": "30X0",
+      "rest": "2 minutos"
+    },
+    {
+      "order": "A2",
+      "exercise": "Pull Up Isometric Holds",
+      "sets": "4",
+      "reps": "*",
+      "tempo": "10s",
+      "rest": "2 minutos",
+      "note": "Brinca a pull up y barbilla sobre la barra"
+    },
+    {
+      "order": "B1",
+      "exercise": "Barbell Bench Press",
+      "sets": 4,
+      "reps": "4-6",
+      "tempo": "30X0",
+      "rest": "2 minutos"
+    },
+    {
+      "order": "B2",
+      "exercise": "Pull Up Isometric Holds",
+      "sets": "4",
+      "reps": "*",
+      "tempo": "10s",
+      "rest": "2 minutos",
+      "note": "Brinca a pull up y barbilla sobre la barra"
+    },
+    {
+      "order": "C1",
+      "exercise": "45 Degree Back Extension",
+      "sets": 3,
+      "reps": "8-10",
+      "tempo": "2011",
+      "rest": "90 segundos"
+    },
+    {
+      "order": "C2",
+      "exercise": "Pull Up Isometric Holds",
+      "sets": "4",
+      "reps": "*",
+      "tempo": "10s",
+      "rest": "2 minutos",
+      "note": "Brinca a pull up y barbilla sobre la barra"
+    },
+    {
+      "order": "D",
+      "exercise": "Bent Over 1-Arm DB Trap 3 Raise",
+      "sets": 3,
+      "reps": "8-10 x lado",
+      "tempo": "3010",
+      "rest": "60 segundos"
+    }    
+  ]
+}
