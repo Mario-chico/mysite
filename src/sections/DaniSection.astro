@@ -1,0 +1,26 @@
+---
+import { getCollection } from "astro:content";
+
+
+const daniTrianings = await getCollection("dani");
+const { username, week, id } = Astro.params;
+console.log('daniTrianings',daniTrianings[0].data.exercises[0]);
+console.log('daniTrianings',daniTrianings);
+const daniTrianingsWeek1 = daniTrianings.filter((wod) => wod.data.week === 1);
+---
+
+<section>
+  <ul>
+    <h2>Semana {daniTrianingsWeek1[0].data.week}</h2>
+    {
+      daniTrianingsWeek1.map((wod) =>{
+
+      return (
+        <li>
+          <a href={`/training/dani/${wod.id}`}>Día {wod.data.day} {wod.data.dia_de_semana}</a>
+        </li>
+       )
+      })
+    }
+  </ul>
+</section>
