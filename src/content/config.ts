@@ -14,6 +14,27 @@ const blogCollection = defineCollection({
   })
 });
 
+const exerciseSchema = z.object({
+    order: z.string(),
+    exercise: z.string(),
+    sets: z.union([z.number(), z.string()]),
+    reps: z.string(),
+    tempo: z.string(),
+    rest: z.string(),
+    note: z.string().optional(),
+  })
+
+const daniCollection = defineCollection({
+  type: 'data',
+ schema: z.object({
+   day: z.number(),
+   week: z.number(),
+   dia_de_semana: z.string(),
+   exercises: z.array(exerciseSchema),
+ })
+});
+
 export const collections = {
-  'blog': blogCollection
+  'blog': blogCollection,
+  'dani': daniCollection
 };
