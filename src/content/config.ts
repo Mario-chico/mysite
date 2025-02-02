@@ -19,22 +19,24 @@ const exerciseSchema = z.object({
     exercise: z.string(),
     sets: z.union([z.number(), z.string()]),
     reps: z.string(),
+    link: z.string().url().optional(),
     tempo: z.string(),
     rest: z.string(),
     note: z.string().optional(),
   })
 
-const daniCollection = defineCollection({
+const traineeCollection = defineCollection({
   type: 'data',
- schema: z.object({
-   day: z.number(),
-   week: z.number(),
-   dia_de_semana: z.string(),
-   exercises: z.array(exerciseSchema),
- })
+  schema: z.object({
+    day: z.number(),
+    week: z.number(),
+    dia_de_semana: z.string(),
+    exercises: z.array(exerciseSchema),
+  })
 });
 
 export const collections = {
   'blog': blogCollection,
-  'dani': daniCollection
+  'dani': traineeCollection,
+  'brayan': traineeCollection
 };
