@@ -1,0 +1,70 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@/layouts/Layout.astro';
+import Table from '@/components/Table.svelte';
+import NotasGenerales from '@/components/NotasGenerales.astro';
+import WarmTable from '@/components/WarmTable.svelte';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('brayan');
+  
+  return pages.map(page => {
+    const id = page.id.split('/');
+    return { params: { id: id.join('/') || undefined }, props: page };
+  });
+  
+}
+
+const warmpup = {
+  "exercises": [
+    {
+      "sets": "1-3",
+      "reps": "3 x lado",
+      "tempo": "8s x lado",
+      "rest": "N/A",
+      "exercise": [
+        {"A":"Cat Cow", "yt": "ESJ6Ghvgr6k"}, {"B":"Bird Dog", "yt": "vzU5xrs1gMQ"}, {"C":"FRC Shoulder CARs", "yt": "y53O8qK-TNs"}, {"D":"FR Hip CARs", "yt": "K3OhDm57ZZU"}, {"E":"Scapular Wall Slides", "yt": "fYNSZz-fPRw"}],
+      "note": "Ejecuta los ejercicios en orden alfabético, respetando los sets, reps y tempo "
+    }
+  ]
+}
+
+const page = Astro.props;
+
+const { id } = Astro.params;
+---
+<Layout title={page.id}>
+  <main>
+    <p><a href="/training/brayan">Volver</a></p>
+    <h1>Semana {page.data.week} Día {page.data.day}</h1>
+    <p id="notas-generales"><a href="#notas"> Notas generales</a></p>
+    <section>
+      <h2>Pre-calentamiento</h2>
+      <div class="table-container">
+        <WarmTable client:load exercises={warmpup.exercises} />
+      </div>
+      <h2>Ejercicios: Total Body Lift</h2>
+      <div class="table-container">
+        <Table client:load exercises={page.data.exercises} />
+      </div>
+      <NotasGenerales />
+    </section>
+  </main>
+</Layout>
+
+<style>
+  main{
+    padding-top: 100px;
+    padding-inline: 20px;
+  }
+  .table-container {
+    overflow-x: auto;
+    padding: 1rem;
+    background-color: #0c0c32; /* Dark purple */
+    border: 1px solid #ff0000; /* Red border for styling */
+    border-radius: 8px;
+    max-width: 100%;
+    margin-block: 1rem;
+  }
+
+</style>
