@@ -32,7 +32,7 @@
       <tr>
         <td data-label="Orden">{exercise.order}</td>
         <td data-label="Ejercicio">
-          {#if exercise.link}
+          {#if exercise.yt}
             <button 
               class="exercise-button" 
               on:click={() => openModal(exercise)}
@@ -83,10 +83,11 @@
   .exercise-button {
     background: none;
     border: none;
-    color: white;
+    color: #ffffff;
+    font-size: 0.9rem;
     text-decoration: underline;
     cursor: pointer;
-    font-size: 1rem;
+    font-family: 'Geologica Variable';
   }
 /* Responsive design for mobile */
 @media (max-width: 768px) {
@@ -108,6 +109,7 @@
     padding: 0.75rem;
     border: none; /* Remove borders on mobile */
     border-bottom: 1px solid #444; /* Divider for rows */
+    text-align: end;
   }
 
   .responsive-table td:last-child {
