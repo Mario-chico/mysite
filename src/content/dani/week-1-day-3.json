@@ -6,7 +6,8 @@
     {
       "order": "A1",
       "exercise": "Barbell or Machine Hip Thrust",
-      "sets": 3,
+      "link": "https://res.cloudinary.com/dliqpogct/video/upload/v1738353760/mysite/videos/caida.mp4",
+      "sets": "3",
       "reps": "12-15",
       "tempo": "2011",
       "rest": "2 minutos"
@@ -23,7 +24,7 @@
     {
       "order": "B1",
       "exercise": "Seated DB Shoulder Press",
-      "sets": 3,
+      "sets": "3",
       "reps": "12-15",
       "tempo": "30X1",
       "rest": "90 segundos"
@@ -40,7 +41,7 @@
     {
       "order": "C1",
       "exercise": "Leg Extension",
-      "sets": 3,
+      "sets": "3",
       "reps": "12-15",
       "tempo": "30X0",
       "rest": "90 segundos"
@@ -57,7 +58,7 @@
     {
       "order": "D1",
       "exercise": "Seated DB External Rotation – elbow on knee",
-      "sets": 3,
+      "sets": "3",
       "reps": "12-15 ea",
       "tempo": "X",
       "rest": "60 segundos"
@@ -65,7 +66,7 @@
     {
       "order": "D2",
       "exercise": "DB Hammer Curl",
-      "sets": 3,
+      "sets": "3",
       "reps": "12-15",
       "tempo": "2010",
       "rest": "60 segundos"

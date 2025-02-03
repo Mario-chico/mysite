@@ -1,0 +1,63 @@
+{
+  "day": 5,
+  "week": 1,
+  "dia_de_semana": "Viernes",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Barbell or Machine Hip Thrust",
+      "sets": "3",
+      "reps": "12-15",
+      "tempo": "2011",
+      "rest": "60 segundos"
+    },
+    {
+      "order": "A2",
+      "exercise": "DB Shoulder Press",
+      "sets": "3",
+      "reps": "12-15",
+      "tempo": "2010",
+      "rest": "60 segundos"
+    },
+    {
+      "order": "B1",
+      "exercise": "Chest Supported Row Machine",
+      "sets": "3",
+      "reps": "12-15",
+      "tempo": "2011",
+      "rest": "60 segundos"
+    },
+    {
+      "order": "B2",
+      "exercise": "Alternating DB Lunge",
+      "sets": "3",
+      "reps": "12-15 ea",
+      "tempo": "20X0",
+      "rest": "60 segundos"
+    },
+    {
+      "order": "C1",
+      "exercise": "Leg Extension",
+      "sets": "2",
+      "reps": "12-15",
+      "tempo": "2011",
+      "rest": "45 segundos"
+    },
+    {
+      "order": "C2",
+      "exercise": "V-Up",
+      "sets": "2",
+      "reps": "Max reps",
+      "tempo": "20X0",
+      "rest": "45 segundos"
+    },
+    {
+      "order": "D",
+      "exercise": "Kettlebell Swing",
+      "sets": "6",
+      "reps": "15",
+      "tempo": "X",
+      "rest": "30 sec"
+    }
+  ]
+}
