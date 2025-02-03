@@ -23,6 +23,7 @@ const exerciseSchema = z.object({
     tempo: z.string(),
     rest: z.string(),
     note: z.string().optional(),
+    yt: z.string().optional(),
   })
 
 const traineeCollection = defineCollection({
