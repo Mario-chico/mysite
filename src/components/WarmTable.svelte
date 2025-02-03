@@ -39,14 +39,14 @@
         {/if}
         {#if Array.isArray(exercise.exercise)}
           {#each exercise.exercise as ex}
-            <td data-label={Object.keys(ex)}>
+            <td data-label={Object.keys(ex)[0]}>
               <button 
                 class="exercise-button" 
                 on:click={() => openModal(ex)}
                 on:keydown={(e) => e.key === 'Enter' && openModal(ex)}
                 tabindex="0"
               >
-                {Object.values(ex)}
+                {Object.values(ex)[0]}
               </button>
             </td>
           {/each}
