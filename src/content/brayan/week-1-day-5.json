@@ -9,7 +9,8 @@
       "sets": "3",
       "reps": "12-15",
       "tempo": "2011",
-      "rest": "60 segundos"
+      "rest": "60 segundos",
+      "yt": "ZSPmIyX9RZs"
     },
     {
       "order": "A2",
@@ -17,7 +18,8 @@
       "sets": "3",
       "reps": "12-15",
       "tempo": "2010",
-      "rest": "60 segundos"
+      "rest": "60 segundos",
+      "yt": "HzIiNhHhhtA"
     },
     {
       "order": "B1",
@@ -25,7 +27,8 @@
       "sets": "3",
       "reps": "12-15",
       "tempo": "2011",
-      "rest": "60 segundos"
+      "rest": "60 segundos",
+      "yt": "_FrrYQxA6kc"
     },
     {
       "order": "B2",
@@ -33,7 +36,8 @@
       "sets": "3",
       "reps": "12-15 ea",
       "tempo": "20X0",
-      "rest": "60 segundos"
+      "rest": "60 segundos",
+      "yt": "t7DBjlOTwAk"
     },
     {
       "order": "C1",
@@ -41,15 +45,17 @@
       "sets": "2",
       "reps": "12-15",
       "tempo": "2011",
-      "rest": "45 segundos"
+      "rest": "45 segundos",
+      "yt": "m0FOpMEgero"
     },
     {
       "order": "C2",
-      "exercise": "V-Up",
+      "exercise": "Hollow Body Crunch",
       "sets": "2",
       "reps": "Max reps",
       "tempo": "20X0",
-      "rest": "45 segundos"
+      "rest": "45 segundos",
+      "yt": "zt6V5LPiJBE"
     },
     {
       "order": "D",
@@ -57,7 +63,8 @@
       "sets": "6",
       "reps": "15",
       "tempo": "X",
-      "rest": "30 sec"
+      "rest": "30 sec",
+      "yt": "RU88iqRVunk"
     }
   ]
 }
