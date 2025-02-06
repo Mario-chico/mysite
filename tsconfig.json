@@ -8,5 +8,6 @@
       ]
     }
   },
-  "exclude": ["node_modules", "build/**/*"]
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["node_modules", "build/**/*", "dist"]
 }
