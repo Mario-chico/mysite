@@ -1,0 +1,38 @@
+---
+import { getCollection } from "astro:content";
+
+interface Props {
+  collectionName: string;
+}
+
+const { collectionName } = Astro.props;
+const trainingsCollection = await getCollection(collectionName);
+
+// agrupar los entrenamientos por semana y crear una variable que pueda llamar en el html. Se agrupan en un objeto y la llave es el numero de semana
+const semanasEntrenamientos = trainingsCollection.reduce((acc: {[key: string]: any[]}, training) => {
+  const semanas = training.data.week
+  if(!acc[semanas]){
+    acc[semanas] = []
+  }
+  acc[semanas].push(training)
+  return acc
+}, {})
+---
+{
+  Object.keys(semanasEntrenamientos).map(semana => {
+    return (
+      <section>
+          <h2>Semana {semana}</h2>
+          <ul>
+            {
+              semanasEntrenamientos[semana].map(training => (
+                <li>
+                  <a href={`/training/${collectionName}/${training.id}`}>{`Día ${training.data.day} ${training.data.dia_de_semana}`}</a>
+                </li>
+              ))
+            }
+          </ul>
+      </section>
+    )
+  })
+}
