@@ -1,7 +1,7 @@
 ---
 import Footer from '@/sections/Footer.astro';
 import Header from '@/sections/Header.astro';
-import { ViewTransitions } from 'astro:transitions';
+import { ClientRouter } from 'astro:transitions';
 // Supports weights 100-900
 import '@fontsource-variable/geologica';
 
@@ -31,7 +31,7 @@ const i18n = getI18N({currentLocale})
 		<meta property="og:image" content="https://res.cloudinary.com/dliqpogct/image/upload/f_auto,q_auto/v1/mysite/frente"/>
 		<meta property="og:image:alt" content="Coach Mario mirando adelante con gesto de confianza en medio de la naturaleza"/>
 		<title>{title}</title>
-		<ViewTransitions />
+		<ClientRouter />
 		<script is:inline >
 			window.getThemePreference = () => {
 				const localItem = typeof localStorage !== 'undefined' && localStorage.getItem('theme') 
