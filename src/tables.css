@@ -1,0 +1,62 @@
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  color: var(--table-instructions-color); /* White text for readability */
+  font-size: 0.9rem;
+}
+
+.responsive-table thead {
+  background-color: var(--table-header-color); /* Bright red for header */
+  color: var(--table-instructions-color);
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--table-instructions-color); /* White borders */
+}
+.exercise-button {
+  background: none;
+  border: none;
+  color: var(--table-instructions-color);
+  font-size: 0.9rem;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: 'Geologica Variable';
+}
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .responsive-table thead {
+    display: none; /* Hide table headers */
+  }
+
+  .responsive-table tr {
+    display: block;
+    margin-bottom: 1rem;
+    background-color: var(--table-tr-background-color); /* Slightly lighter purple for contrast */
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .responsive-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    border: none; /* Remove borders on mobile */
+    border-bottom: 1px solid #444; /* Divider for rows */
+    text-align: end;
+  }
+
+  .responsive-table td:last-child {
+    border-bottom: none; /* No border for the last row */
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label); /* Use the data-label attribute */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--table-header-color); /* Highlighted red labels */
+    margin-right: 0.5rem;
+  }
+}
