@@ -1,0 +1,75 @@
+{
+  "day": 1,
+  "week": 2,
+  "dia_de_semana": "Lunes",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Leg Press",
+      "sets": "3",
+      "reps": "15-20",
+      "tempo": "3010",
+      "rest": "60 segundos",
+      "note": "Usa 190lbs en el primer working set y aumenta de ser necesario",
+      "yt": "yZmx_Ac3880"
+    },
+    {
+      "order": "A2",
+      "exercise": "Push Ups Inclinadas",
+      "sets": "4",
+      "reps": "Máximo de repeticiones",
+      "tempo": "3011",
+      "rest": "60 segundos",
+      "note": "Llega al fallo en 20 reps, disminuye la altura de ser necesario",
+      "yt": "BRwG8JtFek0"
+    },
+    {
+      "order": "B1",
+      "exercise": "Dumbbell RDL",
+      "sets": "3",
+      "reps": "15-20",
+      "tempo": "2020",
+      "rest": "60 segundos",
+      "note": "Sigue usando 30lbs. Llega a las 20 reps",
+      "yt": "cYKYGwcg0U8"
+    },
+    {
+      "order": "B2",
+      "exercise": "1 Arm DB Row",
+      "sets": "3",
+      "reps": "15-20 x lado",
+      "tempo": "2011",
+      "rest": "60 segundos",
+      "note": "Sigue usando 30lbs. Llega a las 20 reps",
+      "yt": "DMo3HJoawrU"
+    },
+    {
+      "order": "C1",
+      "exercise": "Lying Leg Curl",
+      "sets": "2",
+      "reps": "15-20",
+      "tempo": "2011",
+      "rest": "45 segundos",
+      "note": "Usa más de 40lbs en el primer working set",
+      "yt": "n5WDXD_mpVY"
+    },
+    {
+      "order": "C2",
+      "exercise": "Front Plank",
+      "sets": "2",
+      "reps": "Máximo tiempo",
+      "tempo": "N/A",
+      "rest": "45 segundos",
+      "note": "Apunta a 50 segundos en ambos sets",
+      "yt": "0b1R6F9Lf-o"
+    },
+    {
+      "order": "D",
+      "exercise": "HIIT Finisher: Elíptica",
+      "sets": "10",
+      "reps": "10 segundos",
+      "tempo": "MAX",
+      "rest": "50 segundos tranquilo"
+    }    
+  ]
+}
