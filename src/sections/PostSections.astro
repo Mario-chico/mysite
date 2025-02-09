@@ -25,11 +25,12 @@ const {currentLocale} = Astro
             dateStyle: 'long',
             timeZone: 'UTC'
           }).format(fecha)
-          const [lang, ...slug] = post.slug.split('/');
+          const [lang, ...slug] = post.id.split('/');
           if(slug.join('/') !== 'inicio'){
             if(lang === currentLocale){
-              
-              return <BlogPost url={`/${lang}/blog/${slug}`} title={post.data.title} date={bDate} description={post.data.description} image={post.data.image.url} alt={post.data.image.alt} slug={post.slug} />
+              if(!slug[0].startsWith('_')){
+                return <BlogPost url={`/${lang}/blog/${slug}`} title={post.data.title} date={bDate} description={post.data.description} image={post.data.image.url} alt={post.data.image.alt} slug={post.id} />
+              }
             }
           }
         })
