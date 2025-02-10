@@ -17,7 +17,6 @@ const semanasEntrenamientos = trainingsCollection.reduce((acc: {[key: string]: a
   acc[semanas].push(training)
   return acc
 }, {})
-console.log(semanasEntrenamientos);
 ---
 {
   Object.keys(semanasEntrenamientos).map(semana => {
