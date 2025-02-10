@@ -1,0 +1,38 @@
+---
+import Info from "@/icons/info.astro"
+---
+<div class="note">
+  <p>
+    <Info />
+    <strong>Recuerda</strong>
+  </p>
+  <div class="note-p">
+    <p>Calienta el primer y segundo ejercicio. Haz 3 sets de calentamiento, primero sin o con poco peso, el segundo con el 50% de peso y el tercero con el 90% del peso a usar en el set de trabajo.</p>
+  </div>
+</div>
+
+<style>
+ .note {
+  background-color: var(--table-tr-background-color);
+  border-left: 4px solid var(--table-header-color);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.note > p{
+  display: flex;
+  align-items: center;
+  color: var(--table-header-color);
+  gap: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.note-p p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  color: var(--table-instructions-color);
+}
+</style>

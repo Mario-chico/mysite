@@ -2,6 +2,7 @@
 import Table from '@/components/Table.svelte';
 import NotasGenerales from '@/components/NotasGenerales.astro';
 import WarmTable from '@/components/WarmTable.svelte';
+import Reminder from '@/sections/Reminder.astro';
 interface Props {
   
   exercises: any[];
@@ -28,6 +29,7 @@ const {exercises } = Astro.props;
   <div class="table-container">
     <WarmTable client:load exercises={warmup.exercises} />
   </div>
+  <Reminder />
   <h2>Ejercicios: Total Body Lift</h2>
   <div class="table-container">
     <Table client:load exercises={exercises} />
