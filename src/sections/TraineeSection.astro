@@ -17,6 +17,7 @@ const semanasEntrenamientos = trainingsCollection.reduce((acc: {[key: string]: a
   acc[semanas].push(training)
   return acc
 }, {})
+console.log(semanasEntrenamientos);
 ---
 {
   Object.keys(semanasEntrenamientos).map(semana => {
@@ -25,7 +26,7 @@ const semanasEntrenamientos = trainingsCollection.reduce((acc: {[key: string]: a
           <h2>Semana {semana}</h2>
           <ul>
             {
-              semanasEntrenamientos[semana].map(training => (
+              semanasEntrenamientos[semana].sort((a, b) => a.data.day - b.data.day).map(training => (
                 <li>
                   <a href={`/training/${collectionName}/${training.id}`}>{`Día ${training.data.day} ${training.data.dia_de_semana}`}</a>
                 </li>
