@@ -1,0 +1,78 @@
+{
+  "day": 2,
+  "week": 3,
+  "dia_de_semana": "Miércoles",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Barbell Bulgarian Split Squat",
+      "sets": 3,
+      "reps": "8-10 x lado",
+      "tempo": "30X0",
+      "rest": "2 minutos",
+      "yt": "jNihW0WDIL4"
+    },
+    {
+      "order": "A2",
+      "exercise": "Pull Up Agarre amplio",
+      "sets": "5",
+      "reps": "10",
+      "tempo": "1030",
+      "rest": "2 minutos",
+      "note": "Usa una liga que permita 10 reps en el 1er set"
+    },
+    {
+      "order": "B1",
+      "exercise": "Hamstring Curls w Rings",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "30X0",
+      "rest": "90 segundos",
+      "yt": "LULmBlzm3bc"
+    },
+    {
+      "order": "B2",
+      "exercise": "Pull Up Agarre amplio",
+      "sets": "5",
+      "reps": "10",
+      "tempo": "1030",
+      "rest": "2 minutos",
+      "note": "Manten la misma liga"
+    },
+    {
+      "order": "C1",
+      "exercise": "AB Wheel Rollout",
+      "sets": 3,
+      "reps": "Max reps",
+      "tempo": "3010",
+      "rest": "90 segundos"
+    },
+    {
+      "order": "C2",
+      "exercise": "Pull Up Agarre amplio",
+      "sets": "5",
+      "reps": "10",
+      "tempo": "1030",
+      "rest": "2 minutos",
+      "note": "Manten la misma liga"
+    },
+    {
+      "order": "D1",
+      "exercise": "Prone Incline 2-Arm DB Rear Delt Raise",
+      "sets": 3,
+      "reps": "12-15",
+      "tempo": "3010",
+      "rest": "60 segundos",
+      "yt": "XIJTt_Czqmc"
+    },
+    {
+      "order": "D2",
+      "exercise": "EZ Bar Reverse Curl",
+      "sets": 3,
+      "reps": "8-10",
+      "tempo": "30X0",
+      "rest": "60 segundos",
+      "yt": "wMsQbYYKHpg"
+    }
+]
+}
