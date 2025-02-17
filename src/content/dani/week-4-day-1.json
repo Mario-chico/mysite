@@ -1,0 +1,70 @@
+{
+  "day": 1,
+  "week": 4,
+  "dia_de_semana": "Lunes",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Hack Squat",
+      "sets": "3",
+      "reps": "4-6",
+      "tempo": "30X0",
+      "rest": "2 minutos",
+      "yt": "rYgNArpwE7E"
+    },
+    {
+      "order": "A2",
+      "exercise": "Superación de Isometricos",
+      "sets": "8",
+      "reps": "2",
+      "tempo": "Máxima duración",
+      "rest": "2 minutos",
+      "note": "Jala lo más que puedas y aguanta el mayor tiempo posible"
+    },
+    {
+      "order": "B1",
+      "exercise": "Barbell Bench Press",
+      "sets": "3",
+      "reps": "4-6",
+      "tempo": "30X0",
+      "rest": "2 minutos",
+      "yt": "ejI1Nlsul9k"
+    },
+    {
+      "order": "B2",
+      "exercise": "Superación de Isometricos",
+      "sets": "8",
+      "reps": "2",
+      "tempo": "Máxima duración",
+      "rest": "2 minutos",
+      "note": "Jala lo más que puedas y aguanta el mayor tiempo posible"
+    },
+    {
+      "order": "C1",
+      "exercise": "45 Degree Back Extension",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "2011",
+      "rest": "90 segundos",
+      "yt": "5_ejbGfdAQE"
+    },
+    {
+      "order": "C2",
+      "exercise": "Superación de Isometricos",
+      "sets": "8",
+      "reps": "2",
+      "tempo": "Máxima duración",
+      "rest": "90 segundos",
+      "note": "Jala lo más que puedas y aguanta el mayor tiempo posible"
+    },
+    {
+      "order": "D",
+      "exercise": "Bent Over 1-Arm DB Trap 3 Raise",
+      "sets": "3",
+      "reps": "8-10 x lado",
+      "tempo": "3010",
+      "rest": "60 segundos",
+      "yt": "H8c6o3nlhjs"
+    }    
+  ]
+}
