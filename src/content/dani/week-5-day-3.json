@@ -1,0 +1,83 @@
+{
+  "day": 3,
+  "week": 5,
+  "dia_de_semana": "Viernes",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Barbell Glute Bridge",
+      "sets": "3",
+      "reps": "10-12",
+      "tempo": "40X0",
+      "rest": "2 minutos",
+      "note": "Hombros y pies en el suelo",
+      "yt": "DQv1IMQDbE4"
+    },
+    {
+      "order": "A2",
+      "exercise": "Superación de Isometricos",
+      "sets": "10",
+      "reps": "2",
+      "tempo": "Máxima duración",
+      "rest": "90 segundos",
+      "note": "Jala lo más que puedas y aguanta el mayor tiempo posible"
+    },
+    {
+      "order": "B1",
+      "exercise": "DB Arnold Press",
+      "sets": "3",
+      "reps": "10-12",
+      "tempo": "30X1",
+      "rest": "90 segundos",
+      "yt": "90PYXT3kH7Q"
+    },
+    {
+      "order": "B2",
+      "exercise": "Superación de Isometricos",
+      "sets": "10",
+      "reps": "2",
+      "tempo": "Máxima duración",
+      "rest": "90 segundos",
+      "note": "Jala lo más que puedas y aguanta el mayor tiempo posible"
+    },
+    {
+      "order": "C1",
+      "exercise": "Low Pulley Split Squat",
+      "sets": "3",
+      "reps": "10-12 x lado",
+      "tempo": "30X0",
+      "rest": "90 segundos",
+      "note": "Si no estas en gym, haz split sqaut normal",
+      "yt": "Xi1JdehlIa4"
+    },
+    {
+      "order": "C2",
+      "exercise": "Superación de Isometricos",
+      "sets": "10",
+      "reps": "2",
+      "tempo": "Máxima duración",
+      "rest": "90 segundos",
+      "note": "Jala lo más que puedas y aguanta el mayor tiempo posible"
+    },
+    {
+      "order": "D1",
+      "exercise": "Low Pulley External Shoulder Rotation",
+      "sets": "3",
+      "reps": "10-12 x lado",
+      "tempo": "X",
+      "rest": "60 segundos",
+      "note": "Lo puedes cambiar por una liga",
+      "yt": "2JPavqAilkg"
+    },
+    {
+      "order": "D2",
+      "exercise": "1-Arm DB Hammer Preacher Curl",
+      "sets": "3",
+      "reps": "10-12",
+      "tempo": "30X0",
+      "rest": "60 segundos",
+      "note": "Puedes hacerlo sin la inclinación",
+      "yt": "DmSt1KzTCQ4"
+    }
+  ]
+}

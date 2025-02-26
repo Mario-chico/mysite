@@ -1,0 +1,79 @@
+{
+  "day": 2,
+  "week": 5,
+  "dia_de_semana": "Miércoles",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Barbell or DB Step Up",
+      "sets": "3",
+      "reps": "5-7",
+      "tempo": "20X0",
+      "rest": "2 minutos",
+      "yt": "WqS_mJnjmnU"
+    },
+    {
+      "order": "A2",
+      "exercise": "Negativas con hold a 1/4",
+      "sets": "10",
+      "reps": "2",
+      "tempo": "*",
+      "rest": "2 minutos",
+      "note": "Baja en 3 segundos y sosten 2s a 1/4"
+    },
+    {
+      "order": "B1",
+      "exercise": "Hamstring Curls w Rings",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "30X0",
+      "rest": "90 segundos",
+      "yt": "LULmBlzm3bc"
+    },
+    {
+      "order": "B2",
+      "exercise": "Negativas con hold a 1/4",
+      "sets": "10",
+      "reps": "2",
+      "tempo": "*",
+      "rest": "2 minutos",
+      "note": "Baja en 3 segundos y sosten 2s a 1/4"
+    },
+    {
+      "order": "C1",
+      "exercise": "Plank DB Drag Throughs",
+      "sets": "3",
+      "reps": "5-12 x lado",
+      "tempo": "ISO",
+      "rest": "90 segundos",
+      "yt": "dEJ0FTm-CEk"
+    },
+    {
+      "order": "C2",
+      "exercise": "Negativas con hold a 1/4",
+      "sets": "10",
+      "reps": "2",
+      "tempo": "*",
+      "rest": "2 minutos",
+      "note": "Baja en 3 segundos y sosten 2s a 1/4"
+    },
+    {
+      "order": "D1",
+      "exercise": "Inverted Rows",
+      "sets": "3",
+      "reps": "10-12",
+      "tempo": "3011",
+      "rest": "60 segundos",
+      "yt": "9fItzuh9Iok"
+    },
+    {
+      "order": "D2",
+      "exercise": "Incline Dumbbell Zottman Curl",
+      "sets": "3",
+      "reps": "6-8",
+      "tempo": "30X0",
+      "rest": "60 segundos",
+      "yt": "u4Hf6SNTl18"
+    }
+  ]
+}
