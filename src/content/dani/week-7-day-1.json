@@ -1,0 +1,70 @@
+{
+  "day": 1,
+  "week": 7,
+  "dia_de_semana": "Lunes",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Back Squat",
+      "sets": "4",
+      "reps": "3-5",
+      "tempo": "30X0",
+      "rest": "2 minutos"
+    },
+    {
+      "order": "A2",
+      "exercise": "Negativas con hold a 1/4",
+      "sets": "6",
+      "reps": "3",
+      "tempo": "*",
+      "rest": "2 minutos",
+      "note": "Baja en 3 segundos y sosten 3s a 1/4"
+    },
+    {
+      "order": "B1",
+      "exercise": "Incline Barbell Bench Press",
+      "sets": "3",
+      "reps": "3-5",
+      "tempo": "30X0",
+      "rest": "2 minutos",
+      "note": "Agarre cerrado",
+      "yt": "Zfi0KcIJi6c"
+    },
+    {
+      "order": "B2",
+      "exercise": "Negativas con hold a 1/4",
+      "sets": "6",
+      "reps": "3",
+      "tempo": "*",
+      "rest": "2 minutos",
+      "note": "Baja en 3 segundos y sosten 3s a 1/4"
+    },
+    {
+      "order": "C1",
+      "exercise": "High Bar Good Morning",
+      "sets": "3",
+      "reps": "6-8",
+      "tempo": "2011",
+      "rest": "90 segundos",
+      "yt": "dEJ0FTm-CEk"
+    },
+    {
+      "order": "C2",
+      "exercise": "Negativas con hold a 1/4",
+      "sets": "6",
+      "reps": "3",
+      "tempo": "*",
+      "rest": "90 segundos",
+      "note": "Baja en 3 segundos y sosten 3s a 1/4"
+    },
+    {
+      "order": "D",
+      "exercise": "Bent Over 1-Arm DB Trap 3 Raise",
+      "sets": "3",
+      "reps": "6-8 x lado",
+      "tempo": "2011",
+      "rest": "60 segundos",
+      "yt": "HWGBoL0_zwY"
+    }    
+  ]
+}
