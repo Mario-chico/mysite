@@ -1,0 +1,80 @@
+{
+  "day": 2,
+  "week": 8,
+  "dia_de_semana": "Miércoles",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "DB Cossack Squat",
+      "sets": "3",
+      "reps": "5-7",
+      "tempo": "20X0",
+      "rest": "2 minutos",
+      "yt": "dhDjKmTX8tU"
+    },
+    {
+      "order": "A2",
+      "exercise": "Superación de Isometricos",
+      "sets": "8",
+      "reps": "3",
+      "tempo": "Máxima duración",
+      "rest": "90 segundos",
+      "note": "Jala lo más que puedas y aguanta el mayor tiempo posible"
+    },
+    {
+      "order": "B1",
+      "exercise": "DB Romanian Deadlift",
+      "sets": "3",
+      "reps": "5-7",
+      "tempo": "30X0",
+      "rest": "90 segundos",
+      "yt": "cYKYGwcg0U8",
+      "note": "Escoge las mancuernas pesadas"
+    },
+    {
+      "order": "B2",
+      "exercise": "Superación de Isometricos",
+      "sets": "8",
+      "reps": "3",
+      "tempo": "Máxima duración",
+      "rest": "90 segundos",
+      "note": "Jala lo más que puedas y aguanta el mayor tiempo posible"
+    },
+    {
+      "order": "C1",
+      "exercise": "Toes to Bar",
+      "sets": "3",
+      "reps": "12",
+      "tempo": "2010",
+      "rest": "90 segundos"
+    },
+    {
+      "order": "C2",
+      "exercise": "Superación de Isometricos",
+      "sets": "8",
+      "reps": "3",
+      "tempo": "Máxima duración",
+      "rest": "90 segundos",
+      "note": "Jala lo más que puedas y aguanta el mayor tiempo posible"
+    },
+    {
+      "order": "D1",
+      "exercise": "Seated DB External Rotation – elbow on knee",
+      "sets": "3",
+      "reps": "12-15 ea",
+      "tempo": "X",
+      "rest": "60 segundos",
+      "yt": "mbdDt0c9bZY"
+    },
+    {
+      "order": "D2",
+      "exercise": "Alternating DB Curl",
+      "sets": "3",
+      "reps": "5-7",
+      "tempo": "30X0",
+      "rest": "60 segundos",
+      "yt": "iixND1P2lik",
+      "note": "Escoge las mancuernas pesadas"
+    }
+  ]
+}
