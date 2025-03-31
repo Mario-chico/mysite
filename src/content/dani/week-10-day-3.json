@@ -1,0 +1,74 @@
+{
+  "day": 3,
+  "week": 10,
+  "dia_de_semana": "Viernes",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Barbell Good Morning",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "40X0",
+      "rest": "2 minutos"
+    },
+    {
+      "order": "A2",
+      "exercise": "Negativas con hold a 1/4",
+      "sets": "10",
+      "reps": "3",
+      "tempo": "*",
+      "rest": "2 minutos",
+      "note": "Baja en 3 segundos y sosten 3s a 1/4"
+    },
+    {
+      "order": "B1",
+      "exercise": "Barbell Shoulder Press",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "30X1",
+      "rest": "90 segundos"
+    },
+    {
+      "order": "B2",
+      "exercise": "Negativas con hold a 1/4",
+      "sets": "10",
+      "reps": "3",
+      "tempo": "*",
+      "rest": "90 segundos",
+      "note": "Baja en 3 segundos y sosten 3s a 1/4"
+    },
+    {
+      "order": "C1",
+      "exercise": "Barbell Split Squat",
+      "sets": "3",
+      "reps": "8-10 x lado",
+      "tempo": "30X0",
+      "rest": "90 segundos"
+    },
+    {
+      "order": "C2",
+      "exercise": "Negativas con hold a 1/4",
+      "sets": "10",
+      "reps": "3",
+      "tempo": "*",
+      "rest": "90 segundos",
+      "note": "Baja en 3 segundos y sosten 3s a 1/4"
+    },
+    {
+      "order": "D1",
+      "exercise": "Low Pulley External Shoulder Rotation",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "X",
+      "rest": "60 segundos"
+    },
+    {
+      "order": "D2",
+      "exercise": "Prone Incline EZ Bar Reverse Curl",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "2010",
+      "rest": "60 segundos"
+    }
+  ]
+}

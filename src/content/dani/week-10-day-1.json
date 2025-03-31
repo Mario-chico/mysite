@@ -1,0 +1,70 @@
+{
+  "day": 1,
+  "week": 10,
+  "dia_de_semana": "Lunes",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Heels Elevated Back Squat",
+      "sets": "4",
+      "reps": "2-4",
+      "tempo": "30X0",
+      "rest": "2 minutos",
+      "note": "Pon discos pequeños en el suelo y pon los talones, para tener una ligera inclinación. Ve pesado"
+    },
+    {
+      "order": "A2",
+      "exercise": "Pull Up Isometric Holds",
+      "sets": "5",
+      "reps": "*",
+      "tempo": "20s",
+      "rest": "2 minutos",
+      "note": "Brinca a pull up y barbilla sobre la barra"
+    },
+    {
+      "order": "B1",
+      "exercise": "Dips",
+      "sets": "4",
+      "reps": "2-4",
+      "tempo": "30X0",
+      "rest": "90 segundos",
+      "note": "3s de bajada, explota al subir, son pocas reps, el hombro rompe los 45 grados"
+    },
+    {
+      "order": "B2",
+      "exercise": "Pull Up Isometric Holds",
+      "sets": "5",
+      "reps": "*",
+      "tempo": "20s",
+      "rest": "90 segundos",
+      "note": "Brinca a pull up y barbilla sobre la barra"
+    },
+    {
+      "order": "C1",
+      "exercise": "Hamstring Curls w Rings",
+      "sets": "3",
+      "reps": "6-8",
+      "tempo": "2011",
+      "rest": "90 segundos",
+      "yt": "LULmBlzm3bc"
+    },
+    {
+      "order": "C2",
+      "exercise": "Pull Up Isometric Holds",
+      "sets": "5",
+      "reps": "*",
+      "tempo": "20s",
+      "rest": "90 segundos",
+      "note": "Brinca a pull up y barbilla sobre la barra"
+    },
+    {
+      "order": "D",
+      "exercise": "Prone Incline 2-Arm DB Rear Delt Raise",
+      "sets": "3",
+      "reps": "12-15",
+      "tempo": "3010",
+      "rest": "60 segundos",
+      "yt": "XIJTt_Czqmc"
+    }
+  ]
+}

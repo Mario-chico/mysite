@@ -1,0 +1,75 @@
+{
+  "day": 2,
+  "week": 10,
+  "dia_de_semana": "Miércoles",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "DB Cossack Squat",
+      "sets": "3",
+      "reps": "5-7",
+      "tempo": "20X0",
+      "rest": "2 minutos",
+      "yt": "dhDjKmTX8tU"
+    },
+    {
+      "order": "A2",
+      "exercise": "Lat Pulldowns",
+      "sets": "5",
+      "reps": "12",
+      "tempo": "2010",
+      "rest": "2 minutos",
+      "yt": "EUIri47Epcg"
+    },
+    {
+      "order": "B1",
+      "exercise": "Seated Leg Curl",
+      "sets": "3",
+      "reps": "5-7",
+      "tempo": "30X0",
+      "rest": "90 segundos"
+    },
+    {
+      "order": "B2",
+      "exercise": "Lat Pulldowns",
+      "sets": "5",
+      "reps": "12",
+      "tempo": "2010",
+      "rest": "90 segundos"
+    },
+    {
+      "order": "C1",
+      "exercise": "Decline Sit Up",
+      "sets": "3",
+      "reps": "6-8",
+      "tempo": "30X0",
+      "rest": "90 segundos",
+      "yt": "N7hf1_vcX5w"
+    },
+    {
+      "order": "C2",
+      "exercise": "Lat Pulldowns",
+      "sets": "5",
+      "reps": "12",
+      "tempo": "2010",
+      "rest": "60 segundos"
+    },
+    {
+      "order": "D1",
+      "exercise": "Bent Over Reverse Fly Rear Delt Raise",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "2011",
+      "rest": "60 segundos",
+      "yt": "kfu25QOoaWk"
+    },
+    {
+      "order": "D2",
+      "exercise": "Curl de Bicep alternado",
+      "sets": "3",
+      "reps": "5-7 x lado",
+      "tempo": "2011",
+      "rest": "60 segundos"
+    }
+  ]
+}
