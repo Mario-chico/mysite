@@ -1,0 +1,78 @@
+{
+  "day": 2,
+  "week": 12,
+  "dia_de_semana": "Miércoles",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "DB Cossack Squat",
+      "sets": "3",
+      "reps": "5-7",
+      "tempo": "20X0",
+      "rest": "90 segundos",
+      "yt": "dhDjKmTX8tU"
+    },
+    {
+      "order": "A2",
+      "exercise": "Negativas con hold a 1/4",
+      "sets": "6",
+      "reps": "3",
+      "tempo": "*",
+      "rest": "2 minutos",
+      "note": "Baja en 3 segundos y sosten 4s a 1/4"
+    },
+    {
+      "order": "B1",
+      "exercise": "Hamstring Curls w Rings",
+      "sets": "3",
+      "reps": "6-8",
+      "tempo": "2011",
+      "rest": "90 segundos",
+      "yt": "LULmBlzm3bc"
+    },
+    {
+      "order": "B2",
+      "exercise": "Negativas con hold a 1/4",
+      "sets": "6",
+      "reps": "3",
+      "tempo": "*",
+      "rest": "2 minutos",
+      "note": "Baja en 3 segundos y sosten 4s a 1/4"
+    },
+    {
+      "order": "C1",
+      "exercise": "Decline Sit Up",
+      "sets": "3",
+      "reps": "6-8",
+      "tempo": "30X0",
+      "rest": "90 segundos",
+      "yt": "N7hf1_vcX5w"
+    },
+    {
+      "order": "C2",
+      "exercise": "Negativas con hold a 1/4",
+      "sets": "6",
+      "reps": "3",
+      "tempo": "*",
+      "rest": "2 minutos",
+      "note": "Baja en 3 segundos y sosten 4s a 1/4"
+    },
+    {
+      "order": "D1",
+      "exercise": "Bent Over Reverse Fly Rear Delt Raise",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "2011",
+      "rest": "60 segundos",
+      "yt": "kfu25QOoaWk"
+    },
+    {
+      "order": "D2",
+      "exercise": "Curl de Bicep alternado",
+      "sets": "3",
+      "reps": "5-7 x lado",
+      "tempo": "30X0",
+      "rest": "60 segundos"
+    }
+  ]
+}

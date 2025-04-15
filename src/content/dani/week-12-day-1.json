@@ -1,0 +1,70 @@
+{
+  "day": 1,
+  "week": 12,
+  "dia_de_semana": "Lunes",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Heels Elevated Back Squat",
+      "sets": "4",
+      "reps": "2-4",
+      "tempo": "30X0",
+      "rest": "90 segundos",
+      "note": "Pon discos pequeños en el suelo y pon los talones, para tener una ligera inclinación. Ve pesado"
+    },
+    {
+      "order": "A2",
+      "exercise": "Wide Pull Up",
+      "sets": "6",
+      "reps": "12",
+      "tempo": "2010",
+      "rest": "90 segundos",
+      "note": "Usa una liga que te permita hacer al menos 10 seguidas"
+    },
+    {
+      "order": "B1",
+      "exercise": "Dips",
+      "sets": "4",
+      "reps": "2-4",
+      "tempo": "30X0",
+      "rest": "90 segundos",
+      "note": "3s de bajada, explota al subir, son pocas reps, el hombro rompe los 45 grados"
+    },
+    {
+      "order": "B2",
+      "exercise": "Wide Pull Up",
+      "sets": "6",
+      "reps": "12",
+      "tempo": "2010",
+      "rest": "90 segundos",
+      "note": "Usa una liga que te permita hacer al menos 10 seguidas"
+    },
+    {
+      "order": "C1",
+      "exercise": "Hamstring Curls w Rings",
+      "sets": "3",
+      "reps": "6-8",
+      "tempo": "2011",
+      "rest": "90 segundos",
+      "yt": "LULmBlzm3bc"
+    },
+    {
+      "order": "C2",
+      "exercise": "Wide Pull Up",
+      "sets": "6",
+      "reps": "12",
+      "tempo": "2010",
+      "rest": "90 segundos",
+      "note": "Usa una liga que te permita hacer al menos 10 seguidas"
+    },
+    {
+      "order": "D",
+      "exercise": "Prone Incline 2-Arm DB Rear Delt Raise",
+      "sets": "3",
+      "reps": "12-15",
+      "tempo": "3010",
+      "rest": "60 segundos",
+      "yt": "XIJTt_Czqmc"
+    }
+  ]
+}

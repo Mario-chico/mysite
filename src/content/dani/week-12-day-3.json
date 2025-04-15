@@ -1,0 +1,74 @@
+{
+  "day": 3,
+  "week": 12,
+  "dia_de_semana": "Viernes",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Barbell Good Morning",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "40X0",
+      "rest": "2 minutos"
+    },
+    {
+      "order": "A2",
+      "exercise": "Superación de Isometricos",
+      "sets": "6",
+      "reps": "3",
+      "tempo": "Máxima duración",
+      "rest": "90 segundos",
+      "note": "Jala lo más que puedas y aguanta el mayor tiempo posible"
+    },
+    {
+      "order": "B1",
+      "exercise": "Barbell Shoulder Press",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "30X1",
+      "rest": "90 segundos"
+    },
+    {
+      "order": "B2",
+      "exercise": "Superación de Isometricos",
+      "sets": "6",
+      "reps": "3",
+      "tempo": "Máxima duración",
+      "rest": "90 segundos",
+      "note": "Jala lo más que puedas y aguanta el mayor tiempo posible"
+    },
+    {
+      "order": "C1",
+      "exercise": "Hack Squat",
+      "sets": "3",
+      "reps": "12",
+      "tempo": "30X0",
+      "rest": "90 segundos"
+    },
+    {
+      "order": "C2",
+      "exercise": "Superación de Isometricos",
+      "sets": "6",
+      "reps": "3",
+      "tempo": "Máxima duración",
+      "rest": "90 segundos",
+      "note": "Jala lo más que puedas y aguanta el mayor tiempo posible"
+    },
+    {
+      "order": "D1",
+      "exercise": "Low Pulley External Shoulder Rotation",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "X",
+      "rest": "60 segundos"
+    },
+    {
+      "order": "D2",
+      "exercise": "Prone Incline EZ Bar Reverse Curl",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "2010",
+      "rest": "60 segundos"
+    }
+  ]
+}
