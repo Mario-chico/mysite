@@ -1,0 +1,83 @@
+{
+  "day": 2,
+  "week": 2,
+  "dia_de_semana": "Martes",
+  "exercises": [
+    {
+      "order": "A",
+      "exercise": "Bear Breathing",
+      "sets": "3",
+      "reps": "5",
+      "tempo": "5050",
+      "rest": "30 segundos",
+      "yt": "3Gsx2Ju2FLw"
+    },
+    {
+      "order": "B",
+      "exercise": "Elíptica",
+      "sets": "5",
+      "reps": "10 segundos",
+      "tempo": "al 70%",
+      "rest": "50 segundos",
+      "note": "Da el 70% de tu esfuerzo máximo"
+    },
+    {
+      "order": "C",
+      "exercise": "Seal Jacks",
+      "sets": "5",
+      "reps": "10 segundos",
+      "tempo": "al 70%",
+      "rest": "50 segundos",
+      "yt": "F_Ut_OYIE64",
+      "note":"Da el 70% de tu esfuerzo máximo"
+    },
+    {
+      "order": "D",
+      "exercise": "Frog Squat + Squat Jumps",
+      "sets": "5",
+      "reps": "10 segundos",
+      "tempo": "al 70%",
+      "rest": "50 segundos",
+      "yt": "jZHv-CtpQoY",
+      "note": "Camina despacio en el descanso"
+    },
+    {
+      "order": "E",
+      "exercise": "Barbell Box Squat",
+      "sets": "3",
+      "reps": "3",
+      "tempo": "3010",
+      "rest": "90 segundos",
+      "yt": "7iw2gLZKZ0w",
+      "note": "usa el 80% de tu 1RM"
+    },
+    {
+      "order": "F",
+      "exercise": "Assited Dip Machine",
+      "sets": "1",
+      "reps": "MAX",
+      "tempo": "N/A",
+      "rest": "30 segundos",
+      "yt": "7AwoZWJ3-eo",
+      "note": "usa un peso con el que puedas hacer mínimo 10 reps"
+    },
+    {
+      "order": "G",
+      "exercise": "Escaladora",
+      "sets": "1",
+      "reps": "3 minutos",
+      "tempo": "N/A",
+      "rest": "N/A",
+      "note": "Respira por la nariz todo el tiempo, es el enfriamiento"
+    },
+    {
+      "order": "H",
+      "exercise": "Bear Breathing",
+      "sets": "3",
+      "reps": "5",
+      "tempo": "5050",
+      "rest": "30 segundos",
+      "yt": "3Gsx2Ju2FLw"
+    }
+  ]
+}

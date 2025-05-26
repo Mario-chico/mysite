@@ -1,0 +1,73 @@
+{
+  "day": 3,
+  "week": 3,
+  "dia_de_semana": "Miércoles",
+  "exercises": [
+    {
+      "order": "A1",
+      "exercise": "Hack Squat",
+      "sets": "3",
+      "reps": "8-10",
+      "tempo": "3010",
+      "rest": "60 segundos",
+      "note": "apunta a 10 reps con 180 en el primer set, aumenta peso si llegas a 10 reps",
+      "yt": "rYgNArpwE7E"
+    },
+    {
+      "order": "A2",
+      "exercise": "Neutral Grip DB Bench Press",
+      "sets": "3",
+      "reps": "15-20",
+      "tempo": "2010",
+      "rest": "60 segundos",
+      "note": "Manten 45lbs en todos los sets",
+      "yt": "Lj57a6xk7l0"
+    },
+    {
+      "order": "B1",
+      "exercise": "DB Goblet Squat",
+      "sets": "3",
+      "reps": "25-30",
+      "tempo": "2010",
+      "rest": "60 segundos",
+      "note": "Manten 25lbs, apunta a las 25 reps en el primer set",
+      "yt": "M0zQn0ZCkAU"
+    },
+    {
+      "order": "B2",
+      "exercise": "Decline Inverted Row",
+      "sets": "3",
+      "reps": "15-20",
+      "tempo": "2010",
+      "rest": "60 segundos",
+      "note": "Aumenta la declinación y llega a 20 reps en el primer set",
+      "yt": "KOaCM1HMwU0"
+    },
+    {
+      "order": "C1",
+      "exercise": "45 Degree Back Raise",
+      "sets": "2",
+      "reps": "12-15",
+      "tempo": "30X0",
+      "rest": "45 segundos",
+      "yt": "5_ejbGfdAQE"
+    },
+    {
+      "order": "C2",
+      "exercise": "Heavy Farmer's Carry",
+      "sets": "2",
+      "reps": "45 segundos",
+      "tempo": "N/A",
+      "rest": "45 segundos",
+      "yt": "8OtwXwrJizk"
+    },
+    {
+      "order": "D",
+      "exercise": "HIIT Finisher - Máx esfuerzo en Elíptica",
+      "sets": "5",
+      "reps": "20 sec",
+      "tempo": "MAX",
+      "rest": "1:40 tranquilo"
+    }
+  ]
+}

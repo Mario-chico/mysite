@@ -1,0 +1,25 @@
+{
+  "day": 6,
+  "week": 3,
+  "dia_de_semana": "Sábado",
+  "exercises": [
+    {
+      "order": "A",
+      "exercise": "Machine Row",
+      "sets": "6",
+      "reps": "30 segundos",
+      "tempo": "MAX",
+      "rest": "2:30 min activo"
+    },
+    {
+      "order": "B",
+      "exercise": "Steady State Cardio",
+      "sets": "N/A",
+      "reps": "N/A",
+      "tempo": "Respira por la nariz",
+      "rest": "N/A",
+      "yt": "l3SuTllp8nw",
+      "note":"Completa los 30 minutos sin respirar por la boca"
+    }
+  ]
+}
