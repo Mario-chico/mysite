@@ -14,12 +14,11 @@
     },
     {
       "order": "B",
-      "exercise": "Elíptica",
+      "exercise": "Maquina de Remo",
       "sets": "5",
       "reps": "10 segundos",
       "tempo": "al 70%",
-      "rest": "50 segundos",
-      "note": "Da el 70% de tu esfuerzo máximo"
+      "rest": "50 segundos"
     },
     {
       "order": "C",
@@ -28,56 +27,42 @@
       "reps": "10 segundos",
       "tempo": "al 70%",
       "rest": "50 segundos",
-      "yt": "F_Ut_OYIE64",
-      "note":"Da el 70% de tu esfuerzo máximo"
+      "yt": "F_Ut_OYIE64"
     },
     {
       "order": "D",
-      "exercise": "Frog Squat + Squat Jumps",
+      "exercise": "Caminadora",
       "sets": "5",
       "reps": "10 segundos",
       "tempo": "al 70%",
       "rest": "50 segundos",
-      "yt": "jZHv-CtpQoY",
       "note": "Camina despacio en el descanso"
     },
     {
       "order": "E",
-      "exercise": "Barbell Box Squat",
-      "sets": "3",
-      "reps": "3",
-      "tempo": "3010",
-      "rest": "90 segundos",
-      "yt": "7iw2gLZKZ0w",
-      "note": "usa el 80% de tu 1RM"
-    },
-    {
-      "order": "F",
-      "exercise": "Assited Dip Machine",
+      "exercise": "Push Ups",
       "sets": "1",
       "reps": "MAX",
       "tempo": "N/A",
-      "rest": "30 segundos",
-      "yt": "7AwoZWJ3-eo",
-      "note": "usa un peso con el que puedas hacer mínimo 10 reps"
+      "rest": "30 segundos"
     },
     {
-      "order": "G",
-      "exercise": "Escaladora",
+      "order": "F",
+      "exercise": "Elíptica",
       "sets": "1",
       "reps": "3 minutos",
       "tempo": "N/A",
       "rest": "N/A",
-      "note": "Respira por la nariz todo el tiempo, es el enfriamiento"
+      "note": "No vayas muy fuerte, respira por la nariz, es el enfriamiento"
     },
     {
-      "order": "H",
-      "exercise": "Bear Breathing",
-      "sets": "3",
-      "reps": "5",
-      "tempo": "5050",
-      "rest": "30 segundos",
-      "yt": "3Gsx2Ju2FLw"
+      "order": "g",
+      "exercise": "Box Breathing",
+      "sets": "1",
+      "reps": "5 minutos",
+      "tempo": "4444",
+      "rest": "N/A",
+      "yt": "aPYmZOhJF5Q"
     }
   ]
 }
