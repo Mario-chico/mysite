@@ -1,0 +1,68 @@
+{
+  "day": 2,
+  "week": 4,
+  "dia_de_semana": "Martes",
+  "exercises": [
+    {
+      "order": "A",
+      "exercise": "Bear Breathing",
+      "sets": "3",
+      "reps": "5",
+      "tempo": "5050",
+      "rest": "30 segundos",
+      "yt": "3Gsx2Ju2FLw"
+    },
+    {
+      "order": "B",
+      "exercise": "Maquina de Remo",
+      "sets": "5",
+      "reps": "10 segundos",
+      "tempo": "al 70%",
+      "rest": "50 segundos"
+    },
+    {
+      "order": "C",
+      "exercise": "Seal Jacks",
+      "sets": "5",
+      "reps": "10 segundos",
+      "tempo": "al 70%",
+      "rest": "50 segundos",
+      "yt": "F_Ut_OYIE64"
+    },
+    {
+      "order": "D",
+      "exercise": "Caminadora",
+      "sets": "5",
+      "reps": "10 segundos",
+      "tempo": "al 70%",
+      "rest": "50 segundos",
+      "note": "Camina despacio en el descanso"
+    },
+    {
+      "order": "E",
+      "exercise": "Push Ups",
+      "sets": "1",
+      "reps": "MAX",
+      "tempo": "N/A",
+      "rest": "30 segundos"
+    },
+    {
+      "order": "F",
+      "exercise": "Elíptica",
+      "sets": "1",
+      "reps": "3 minutos",
+      "tempo": "N/A",
+      "rest": "N/A",
+      "note": "No vayas muy fuerte, respira por la nariz, es el enfriamiento"
+    },
+    {
+      "order": "g",
+      "exercise": "Box Breathing",
+      "sets": "1",
+      "reps": "5 minutos",
+      "tempo": "4444",
+      "rest": "N/A",
+      "yt": "aPYmZOhJF5Q"
+    }
+  ]
+}
