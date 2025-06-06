@@ -1,0 +1,82 @@
+---
+import FMV from "@/components/FMV.astro"
+import Layout from "@/layouts/Layout.astro"
+---
+
+<Layout title="First Morning Void">
+  <section>
+
+    <h1>Hola Mario</h1>
+    <p>Vamos a registrar tu First Morning Void de hoy {new Date().toLocaleDateString()} </p>
+    
+    <form id="fmvForm">
+      <label for="kgAntes">Peso en kg antes de orinar</label>
+      <input type="number" name="kgAntes" id="kgAntes" step="0.01" required>
+      <label for="kgDespues">Peso en kg despues de orinar</label>
+      <input type="number" name="kgDespues" id="kgDespues" step="0.01" required>
+      <button type="submit">Guardar</button>
+    </form>
+    
+    <h2>Datos de FMV</h2>
+  </section>
+  <FMV />
+  
+</Layout>
+  <script>
+    const formElement = document.getElementById('fmvForm')
+    const kgA = (document.getElementById('kgAntes') as HTMLInputElement).value
+    const kgD = (document.getElementById('kgDespues') as HTMLInputElement).value
+    
+    if(formElement){
+      formElement.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const kgAntes = parseFloat(kgA);
+        const kgDespues = parseFloat(kgD);
+        try{
+          const response = await fetch('/api/registro-fmv', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ kgAntes, kgDespues })
+          });
+          const result = await response.json();
+          return result
+        }catch(error){
+          console.error('Error al guardar en la base de datos:', error);
+        }
+      })
+    }
+</script>
+
+<style>
+  section{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-inline: 2rem;
+  }
+  form {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--accent-color);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: var(--title-color);
+    transition: all 0.5s ease-in-out;
+  }
+
+</style>
