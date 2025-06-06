@@ -1,0 +1,152 @@
+<section>
+  <div class="chart-container">
+    <canvas id="fmvChart"></canvas>
+  </div>
+</section>
+
+<script >
+  // Este script se ejecutará en el navegador, y tendrá acceso a las importaciones
+  // que hiciste en el frontmatter de Astro.
+  // La directiva `define:vars` es excelente para pasar props de Astro al script del cliente.
+
+  import { ArcElement, BarElement, CategoryScale, Chart, Legend, LinearScale, LineController, LineElement, PointElement, TimeScale, Title, Tooltip } from "chart.js";
+  import 'chartjs-adapter-date-fns'
+  Chart.register( CategoryScale,
+    LinearScale,
+    TimeScale,
+    PointElement,
+    LineElement,
+    BarElement,
+    ArcElement,
+    Title,
+    Tooltip,
+    Legend,
+  LineController);
+  let fmvChartCanvas = document.getElementById('fmvChart') as HTMLCanvasElement | null;
+  
+  if (fmvChartCanvas instanceof HTMLCanvasElement) {
+    const ctx = fmvChartCanvas.getContext('2d');
+    // 1. Función para obtener los datos de la API
+    async function fetchFmvData() {
+      try {
+        const response = await fetch('/api/obtener-registros');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        return data;
+      } catch (error) {
+        console.error("Error fetching FMV data:", error);
+        return [];
+      }
+    }
+
+    // 2. Función para renderizar el gráfico
+    async function renderFmvChart() {
+      const records = await fetchFmvData();
+      // Preparar los datos para Chart.js
+      // Usamos el tipo 'time' para el eje X, que es mejor con el adaptador de fechas
+      const chartData = records.map((record: { fecha: string; fmvPorcentaje: Float16Array; }) => ({
+        x: record.fecha, // La fecha ISO como string
+        y: record.fmvPorcentaje
+      }));
+
+      
+      // Crear el nuevo gráfico
+      if(ctx){
+        const chart = new Chart(ctx, {
+          type: 'line',
+          data: {
+            datasets: [{
+              label: 'FMV (%)',
+              data: chartData,
+              borderColor: 'rgb(75, 192, 192)',
+              tension: 0.1,
+              fill: false
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: {
+                display: true,
+                text: 'Tendencia de FMV', // Aquí usamos la variable pasada con define:vars
+                font: {
+                  size: 18
+                }
+              }
+            },
+            scales: {
+              x: {
+                type: 'time', // <-- Usamos 'time' con el adaptador
+                time: {
+                  unit: 'day', // Mostrar etiquetas por día
+                  tooltipFormat: 'yyyy-MM-dd',
+                  displayFormats: {
+                    day: 'MMM d'
+                  }
+                },
+                title: {
+                  display: true,
+                  text: 'Fecha'
+                }
+              },
+              y: {
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: 'FMV (%)'
+                },
+                ticks: {
+                  callback: function(value) {
+                    return value + '%';
+                  }
+                },
+                max: 1.9,
+                afterBuildTicks: function(scale) {
+                  // Añadir el umbral de 0.75%
+                  const hasThreshold = scale.ticks.some(tick => tick.value === 0.75);
+                  if (!hasThreshold) {
+                    scale.ticks.push({ value: 0.75, label: '0.75% (Umbral)' });
+                    scale.ticks.sort((a, b) => a.value - b.value); // Re-ordenar ticks si se añade
+                  }
+                }
+              }
+            }
+          }
+        });
+        chart.data.datasets[0].data = chartData;
+        chart.update();
+      }else{
+        console.error('El canvas no es un HTMLCanvasElement');
+      }
+    }
+
+    // Ejecutar la función para renderizar el gráfico una vez que el DOM esté listo
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', renderFmvChart);
+    } else {
+      renderFmvChart();
+    }
+    // Para re-renderizar el gráfico después de una actualización de datos (ej. al guardar un nuevo registro)
+    // Podrías emitir un evento personalizado desde tu formulario y escucharlo aquí,
+    // o hacer una llamada directa si el formulario y el gráfico están en el mismo componente de framework.
+    // Una forma sencilla es llamar a renderFmvChart() cuando sabes que los datos han cambiado.
+  }
+</script>
+
+<style>
+  .chart-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  canvas {
+    height: 300px;
+  }
+</style>
