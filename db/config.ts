@@ -9,7 +9,17 @@ const Views = defineTable({
   },
 });
 
+const Fmvs = defineTable({
+  columns: {
+    id: column.number({primaryKey: true}),
+    fecha: column.text(),
+    pesoAntesKg: column.number(),
+    pesoDespuesKg: column.number(),
+    fmvPorcentaje: column.number(),  
+  },
+});
+
 // https://astro.build/db/config
 export default defineDb({
-  tables: {Views},
+  tables: {Views, Fmvs},
 });
