@@ -41,5 +41,6 @@ const traineeCollection = defineCollection({
 export const collections = {
   'blog': blogCollection,
   'dani': traineeCollection,
-  'brayan': traineeCollection
+  'brayan': traineeCollection,
+  'handstand': traineeCollection
 };

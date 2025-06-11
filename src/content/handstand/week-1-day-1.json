@@ -1,0 +1,47 @@
+{
+  "day": 1,
+  "week": 1,
+  "dia_de_semana": "Lunes",
+  "exercises": [
+    {
+      "order": "A",
+      "exercise": "Calentamiento de muñecas",
+      "sets": 1,
+      "reps": "N/A",
+      "tempo": "N/A",
+      "rest": "N/A"
+    },
+    {
+      "order": "B",
+      "exercise": "Cartwheel Bail",
+      "sets": "10-15",
+      "reps": "1",
+      "tempo": "N/A",
+      "rest": "A criterio"
+    },
+    {
+      "order": "C",
+      "exercise": "Split Leg Balance",
+      "sets": 5,
+      "reps": "1",
+      "tempo": "N/A",
+      "rest": "A criterio"
+    },
+    {
+      "order": "D",
+      "exercise": "Wall Split Leg Hold",
+      "sets": "5",
+      "reps": "30s",
+      "tempo": "N/A",
+      "rest": "A criterio"
+    },
+    {
+      "order": "E",
+      "exercise": "Heel Pulls",
+      "sets": 5,
+      "reps": "1",
+      "tempo": "N/A",
+      "rest": "A criterio"
+    }
+  ]
+}
