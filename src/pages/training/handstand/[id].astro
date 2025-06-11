@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import TraineeLayout from '@/layouts/TraineeLayout.astro';
+import Training from '@/components/Training.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('handstand');
+  
+  return pages.map(page => {
+    const id = page.id.split('/');
+    return { params: { id: id.join('/') || undefined }, props: page };
+  });
+}
+
+const page = Astro.props;
+---
+<TraineeLayout title={page.id} phrase=`Semana ${page.data.week} Día ${page.data.day}`>
+  <Training exercises={page.data.exercises} />
+</TraineeLayout>
