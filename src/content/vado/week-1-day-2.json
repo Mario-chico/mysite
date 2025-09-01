@@ -1,0 +1,56 @@
+{
+  "day": 2,
+  "week": 1,
+  "dia_de_semana": "Martes",
+  "exercises": [
+    {
+      "order": "A",
+      "exercise": "Leg Extension",
+      "sets": "4",
+      "reps": "20",
+      "tempo": "2010",
+      "rest": "60 segundos"
+    },
+    {
+      "order": "B",
+      "exercise": "Back Squat",
+      "sets": "5",
+      "reps": "12",
+      "tempo": "30X0",
+      "rest": "3 min",
+      "note": "50kg"
+    },
+    {
+      "order": "C",
+      "exercise": "Bulgarian DB Split Squat",
+      "sets": "3",
+      "reps": "12",
+      "tempo": "30X0",
+      "rest": "90 segundos"
+    },
+    {
+      "order": "D",
+      "exercise": "DB 1-Leg Calf Raise",
+      "sets": "3  ",
+      "reps": "12",
+      "tempo": "13X0",
+      "rest": "60 segundos"
+    },
+    {
+      "order": "E",
+      "exercise": "Lying Leg Curl",
+      "sets": "1",
+      "reps": "20",
+      "tempo": "2010",
+      "rest": "N/A"
+    },
+    {
+      "order": "F",
+      "exercise": "V-Ups",
+      "sets": "1",
+      "reps": "30",
+      "tempo": "2010",
+      "rest": "N/A"
+    }
+  ]
+}
