@@ -42,5 +42,6 @@ export const collections = {
   'blog': blogCollection,
   'dani': traineeCollection,
   'brayan': traineeCollection,
-  'handstand': traineeCollection
+  'handstand': traineeCollection,
+  'vado': traineeCollection
 };
