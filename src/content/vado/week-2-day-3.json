@@ -1,0 +1,103 @@
+{
+  "day": 3,
+  "week": 2,
+  "dia_de_semana": "Jueves",
+  "exercises": [
+    {
+      "order": "A",
+      "exercise": "Pulley X-Pulley Lateral Raise (liga a altura de la muñeca)",
+      "sets": "3",
+      "reps": "20",
+      "tempo": "2010",
+      "rest": "45 sec",
+      "note": "Ligas negras - apunta a 20"
+    },
+    {
+      "order": "B",
+      "exercise": "2-Arm DB Shoulder Press",
+      "sets": "3",
+      "reps": "12",
+      "tempo": "30X0",
+      "rest": "2 min",
+      "note": "20lb"
+    },
+    {
+      "order": "C",
+      "exercise": "High Pulley X-Pulley Rear Delt Raise",
+      "sets": "3",
+      "reps": "12",
+      "tempo": "2011",
+      "rest": "60 sec",
+      "note": "Ligas rojas"
+    },
+    {
+      "order": "D",
+      "exercise": "EZ Preacher Curl",
+      "sets": "3",
+      "reps": "20",
+      "tempo": "2010",
+      "rest": "45 sec",
+      "note": "2.5kg x lado"
+    },
+    {
+      "order": "E",
+      "exercise": "Standing Barbell Curl",
+      "sets": "3",
+      "reps": "6-12",
+      "tempo": "30X0",
+      "rest": "2 min",
+      "note": "Z bar 5kg x lado"
+    },
+    {
+      "order": "F",
+      "exercise": "Incline DB Hammer Curl",
+      "sets": "3",
+      "reps": "12",
+      "tempo": "30X0",
+      "rest": "60 sec",
+      "note": "10lb - rompe las 8 reps"
+    },
+    {
+      "order": "G",
+      "exercise": "Triceps Pressdown w/ Rope",
+      "sets": "3",
+      "reps": "20",
+      "tempo": "2010",
+      "rest": "45 sec"
+    },
+    {
+      "order": "H",
+      "exercise": "Dips",
+      "sets": "3",
+      "reps": "12",
+      "tempo": "30X0",
+      "rest": "2 min",
+      "note": "Liga negra"
+    },
+    {
+      "order": "I",
+      "exercise": "Seated EZ Bar French Press (Overhead triceps ext)",
+      "sets": "3",
+      "reps": "12 x lado",
+      "tempo": "31X0",
+      "rest": "60 sec",
+      "note": "2.5kg x lado"
+    },
+    {
+      "order": "J",
+      "exercise": "DB Pec Fly",
+      "sets": "1",
+      "reps": "30",
+      "tempo": "2010",
+      "rest": "N/A"
+    },
+    {
+      "order": "K",
+      "exercise": "Chest Supported 2-Arm DB Row",
+      "sets": "1",
+      "reps": "30",
+      "tempo": "2010",
+      "rest": "N/A"
+    }
+  ]
+}
