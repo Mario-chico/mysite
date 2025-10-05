@@ -1,0 +1,58 @@
+{
+  "day": 4,
+  "week": 3,
+  "dia_de_semana": "Viernes",
+  "exercises": [
+    {
+      "order": "A",
+      "exercise": "Hip Thrust",
+      "sets": "4",
+      "reps": "20",
+      "tempo": "2010",
+      "rest": "60 segundos",
+      "note": "2.5kg x lado"
+    },
+    {
+      "order": "B",
+      "exercise": "RDL",
+      "sets": "5",
+      "reps": "12",
+      "tempo": "30X0",
+      "rest": "2 min",
+      "note": "5kg x lado"
+    },
+    {
+      "order": "C",
+      "exercise": "Leg Curl",
+      "sets": "3",
+      "reps": "12 x lado",
+      "tempo": "30X0",
+      "rest": "60 segundos",
+      "note": "Liga azul x pierna"
+    },
+    {
+      "order": "D",
+      "exercise": "Garhammer Raises",
+      "sets": "3",
+      "reps": "12",
+      "tempo": "2010",
+      "rest": "60 segundos"
+    },
+    {
+      "order": "H",
+      "exercise": "Calf Raise",
+      "sets": "1",
+      "reps": "30",
+      "tempo": "1310",
+      "rest": "N/A"
+    },
+    {
+      "order": "I",
+      "exercise": "Back Squat",
+      "sets": "1",
+      "reps": "30",
+      "tempo": "2010",
+      "rest": "N/A"
+    }
+  ]
+}

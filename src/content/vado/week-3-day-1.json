@@ -1,0 +1,97 @@
+{
+  "day": 1,
+  "week": 3,
+  "dia_de_semana": "Lunes",
+  "exercises": [
+    {
+      "order": "A",
+      "exercise": "High to Low Pulley Pec Fly",
+      "sets": "3",
+      "reps": "8",
+      "tempo": "2016",
+      "rest": "90 segundos",
+      "note": "liga negra"
+    },
+    {
+      "order": "B",
+      "exercise": "Barbell Bench Press",
+      "sets": "4",
+      "reps": "6",
+      "tempo": "30X0",
+      "rest": "2 min",
+      "note": "50kg - 15kg x lado"
+    },
+    {
+      "order": "C",
+      "exercise": "DB Pec Fly",
+      "sets": "3",
+      "reps": "6-8",
+      "tempo": "30X0",
+      "rest": "2 min",
+      "note": "20lb"
+    },
+    {
+      "order": "D",
+      "exercise": "Floor Chest Press",
+      "sets": "3",
+      "reps": "30",
+      "tempo": "2010",
+      "rest": "60 segundos",
+      "note": "20lb"
+    },
+    {
+      "order": "E",
+      "exercise": "Rows to Torso",
+      "sets": "3",
+      "reps": "20",
+      "tempo": "2010",
+      "rest": "60 segundos",
+      "note": "Ligas negras"
+    },
+    {
+      "order": "F",
+      "exercise": "Neutral Grip Chin Up",
+      "sets": "4",
+      "reps": "12",
+      "tempo": "30X0",
+      "rest": "3 min",
+      "note": "liga negra"
+    },
+    {
+      "order": "G",
+      "exercise": "1 Arm DB Row",
+      "sets": "3",
+      "reps": "12",
+      "tempo": "30X0",
+      "rest": "60 segundos",
+      "note": "20lb"
+    },
+    {
+      "order": "H",
+      "exercise": "Tricep Pressdown",
+      "sets": "1",
+      "reps": "30",
+      "tempo": "2010",
+      "rest": "N/A",
+      "note": "Ligas negras"
+    },
+    {
+      "order": "I",
+      "exercise": "Curl Bicep",
+      "sets": "1",
+      "reps": "30",
+      "tempo": "2010",
+      "rest": "N/A",
+      "note": "15lb"
+    },
+    {
+      "order": "I",
+      "exercise": "DB Lateral Raise",
+      "sets": "1",
+      "reps": "30",
+      "tempo": "2010",
+      "rest": "N/A",
+      "note": "15lb"
+    }
+  ]
+}
